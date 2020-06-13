@@ -27,9 +27,8 @@ const Product = ({ nLang }) => {
                     <div className="col-lg-12 sec_pad32">
                         <div className="row ">
                             <div className="col-lg-5 sec_pad33">
-                                {/* <img className="img_size_square3c" src='/img/home7/log1.png' /> */}
                                 <ProgressiveImage src='/img/home7/log1.png' placeholder='/img/home7/log1pre.png'>
-                                    {src => <img className="img_size_square_ab" src={src} alt="" />}
+                                    {src => <img className="img_size_square3c" src={src} alt="" />}
                                 </ProgressiveImage>
                             </div>
                             <div className="col-lg-7 pl_70r">

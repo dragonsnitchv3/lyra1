@@ -15,7 +15,6 @@ class Portfolio2griditem extends Component{
                 
                 <div className="portfolio_img">
                 <Fade bottom duration={Pduration}>
-                    <img src={"/img/portfolio/" + pImg} alt=""/>
                     <ProgressiveImage src={"/img/portfolio/" + pImg} placeholder={"/img/portfolio/" + pImgpre}>
                         {src => <img className="img_size_square_ab" src={src} alt="" />}
                     </ProgressiveImage>                   

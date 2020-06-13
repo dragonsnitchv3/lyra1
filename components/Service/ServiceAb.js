@@ -49,9 +49,6 @@ const Service = ({ nLang }) => {
                                 </ProgressiveImage>
                         </div>
 
-                        
-
-                        
                         <div className="center_vert1 col-lg-6 about_pg2  ">
                             <h>{content.d0035}</h>
                             <p>{content.d0036}</p>
@@ -63,7 +60,9 @@ const Service = ({ nLang }) => {
                     <Reveal>
                     <div className="row align-items-center mb_15">
                         <div className="col-lg-6 pr_70r pb_90r">
-                                <img className="img_size_square_ab" src='/img/wd2.jpg' alt=""/>
+                                <ProgressiveImage src="/img/wd2.jpg" placeholder="/img/mainpre.jpg">
+                                    {src => <img className="img_size_square_ab" src={src} alt="" />}
+                                </ProgressiveImage>
                         </div>
                         <div className="col-lg-6 about_pg2 pl_70r">
                             <h>{content.d0037}</h>
@@ -92,7 +91,9 @@ const Service = ({ nLang }) => {
                             </div>
 
                             <div className="col-lg-6 verticle_line pl_70r">
-                                    <img className="img_size_square_ab " src='/img/office.jpg' alt=""/>
+                                    <ProgressiveImage src="/img/office.jpg" placeholder="/img/mainpre.jpg">
+                                        {src => <img className="img_size_square_ab" src={src} alt="" />}
+                                    </ProgressiveImage>
                             </div>
                             
                             

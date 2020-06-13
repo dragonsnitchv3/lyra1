@@ -14,7 +14,7 @@ class TrackingProductItem extends Component {
         (content = textData.english):
         (content = textData.chinese)
         return(
-            <Reveal  left cascade>
+
             <div className={`tracking_pr_item ${itemClass}`}>
                 <div className={`row align-items-center ${rowclass}`}>
                     <div className="col-lg-6 tracking_bg">
@@ -33,7 +33,7 @@ class TrackingProductItem extends Component {
                     </div>
                 </div>
             </div>
-            </Reveal>
+
         )
     }
 }
