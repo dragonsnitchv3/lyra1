@@ -66,7 +66,7 @@ const Process = ({ nLang }) => {
                                 </div>
 
                                 <div className="col-lg-6 pl_70r">
-                                        <img className="img_size_square_ab " src='/img/process/3.jpg' alt=""/>
+                                        
                                         <ProgressiveImage src="/img/process/3.jpg" placeholder="/img/process/3pre.jpg">
                                             {src => <img className="img_size_square_ab" src={src} alt="" />}
                                         </ProgressiveImage>
