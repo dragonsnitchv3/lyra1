@@ -6,7 +6,7 @@ import ProgressiveImage from 'react-progressive-image';
 
 class Portfolio2griditem extends Component{
     render(){
-        var {pImg, Ptitle, Pdescription, PtOne, tTwo, colClass, Phref, Pduration,pImgpre } = this.props;
+        var {pImg, Ptitle, Pdescription, PtOne, tTwo, colClass, Phref, Pduration, pImgpre } = this.props;
         return(
             
             <div className={`wrapper_padding portfolio_item mb_40r ${colClass} `}>
@@ -14,11 +14,11 @@ class Portfolio2griditem extends Component{
                 <Link href={Phref}>
                 
                 <div className="portfolio_img">
-                <Fade bottom duration={Pduration}>
+                
                     <ProgressiveImage src={"/img/portfolio/" + pImg} placeholder={"/img/portfolio/" + pImgpre}>
                         {src => <img className="img_size_square_ab" src={src} alt="" />}
                     </ProgressiveImage>                   
-                </Fade>
+                
                     <div className="hover_content">
                         
                         <div className="portfolio-description leaf">
