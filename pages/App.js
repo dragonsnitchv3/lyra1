@@ -1,7 +1,6 @@
 import React from 'react';
-// import OnepageMenu from '../components/OnepageMenu';
 import AppBanner from '../components/Banner/AppBanner';
-import OnepageMenu from '../components/OnePageMenu';
+import OnepageMenu from '../components/OnepageMenu';
 import AgencyAction from '../components/AgencyAction';
 import Footer from '../components/Footer/Footer';
 import AllOne from "../components/AllOne";
