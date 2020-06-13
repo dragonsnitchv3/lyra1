@@ -9,6 +9,7 @@ import '../static/assets/main.css';
 import '../static/assets/responsive.css';
 import '../static/assets/coreui-icons-master/css/free.css'
 import '../static/assets/coreui-icons-master/css/brand.css'
+import '../static/assets/coreui-icons-master/css/all.css'
 import 'malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css';
 
  
