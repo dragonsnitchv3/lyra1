@@ -6,7 +6,8 @@ import KF from '../Icon/KeyFunctions'
 import WYWG2 from '../Icon/WYWG2'
 import IWDT from '../Icon/IWDT'
 import TechStacks from '../../Service/TechStacks';
-import Link from 'next/link'
+import Link from 'next/link';
+import ProgressiveImage from 'react-progressive-image';
 
 
 
@@ -26,7 +27,10 @@ const Product = ({ nLang }) => {
                     <div className="col-lg-12 sec_pad32">
                         <div className="row ">
                             <div className="col-lg-5 sec_pad33">
-                                <img className="img_size_square3c" src='/img/home7/log1.png' />
+                                {/* <img className="img_size_square3c" src='/img/home7/log1.png' /> */}
+                                <ProgressiveImage src='/img/home7/log1.png' placeholder='/img/home7/log1pre.png'>
+                                    {src => <img className="img_size_square_ab" src={src} alt="" />}
+                                </ProgressiveImage>
                             </div>
                             <div className="col-lg-7 pl_70r">
                                 <div className="prodm_pg2 txt_gap3">

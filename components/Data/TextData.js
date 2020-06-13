@@ -79,6 +79,7 @@ const textData = {
                 iclass: 'icon_five',
                 Phref: "/Services/WebDevelopment",
                 Pimg: "wswa2.jpg",
+                Pimgpre: "wswa2pre.jpg",
                 PtOne: "Web System"
             },
             {
@@ -91,6 +92,7 @@ const textData = {
                 iclass: 'icon_one',
                 Phref: "/Services/MLM",
                 Pimg: "mlm.jpg",
+                Pimgpre: "mlmpre.jpg",
                 PtOne: "Web System"
             },
             {
@@ -103,6 +105,7 @@ const textData = {
                 iclass: 'icon_two',
                 Phref: "/Services/Ecommerce",
                 Pimg: "ecom.jpg",
+                Pimgpre: "ecompre.jpg",
                 PtOne: "Web System"
             },
             {
@@ -115,6 +118,7 @@ const textData = {
                 iclass: 'icon_three',
                 Phref: "/Services/WarehouseManagementSystem",
                 Pimg: "logistics.jpg",
+                Pimgpre: "logisticspre.jpg",
                 PtOne: "Web System"
             },
             {
@@ -127,6 +131,7 @@ const textData = {
                 iclass: 'icon_four',
                 Phref: "/Services/BookingSystem",
                 Pimg: "obs.jpg",
+                Pimgpre: "obspre.jpg",
                 PtOne: "Web System"
             },
             {
@@ -139,6 +144,7 @@ const textData = {
                 iclass: 'icon_five',
                 Phref: "/Services/WebPortal",
                 Pimg: "wp2.jpg",
+                Pimgpre: "wp2pre.jpg",
                 tOne: "Web System",
                 PtOne: "Web System"
             },
@@ -2974,6 +2980,7 @@ const textData = {
                 iclass: 'icon_five',
                 Phref: "/cn/Services/WebDevelopment",
                 Pimg: "wswa2.jpg",
+                Pimgpre: "wswa2pre.jpg",
                 PtOne: "网络系统"
             },
             {
@@ -2986,6 +2993,7 @@ const textData = {
                 iclass: 'icon_one',
                 Phref: "/cn/Services/MLM",
                 Pimg: "mlm.jpg",
+                Pimgpre: "mlmpre.jpg",
                 PtOne: "网络系统"
             },
             {
@@ -2998,6 +3006,7 @@ const textData = {
                 iclass: 'icon_two',
                 Phref: "/cn/Services/Ecommerce",
                 Pimg: "ecom.jpg",
+                Pimgpre: "ecompre.jpg",
                 PtOne: "网络系统"
             },
             {
@@ -3010,6 +3019,7 @@ const textData = {
                 iclass: 'icon_three',
                 Phref: "/cn/Services/WarehouseManagementSystem",
                 Pimg: "logistics.jpg",
+                Pimgpre: "logisticspre.jpg",
                 PtOne: "网络系统"
             },
             {
@@ -3022,6 +3032,7 @@ const textData = {
                 iclass: 'icon_four',
                 Phref: "/cn/Services/BookingSystem",
                 Pimg: "obs.jpg",
+                Pimgpre: "obspre.jpg",
                 PtOne: "网络系统"
             },
             {
@@ -3034,6 +3045,7 @@ const textData = {
                 iclass: 'icon_five',
                 Phref: "/cn/Services/WebPortal",
                 Pimg: "wp2.jpg",
+                Pimgpre: "wp2pre.jpg",
                 PtOne: "网络系统"
             }
             

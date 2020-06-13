@@ -4,6 +4,7 @@ import {connect} from 'react-redux';
 import Particles from 'react-particles-js';
 import ServiceItem from '../Service/HostingServiceitem2'
 import Reveal from 'react-reveal';
+import ProgressiveImage from 'react-progressive-image';
 
 
 const Process = ({ nLang }) => {
@@ -66,6 +67,9 @@ const Process = ({ nLang }) => {
 
                                 <div className="col-lg-6 pl_70r">
                                         <img className="img_size_square_ab " src='/img/process/3.jpg' alt=""/>
+                                        <ProgressiveImage src="/img/process/3.jpg" placeholder="/img/process/3pre.jpg">
+                                            {src => <img className="img_size_square_ab" src={src} alt="" />}
+                                        </ProgressiveImage>
                                 </div>
                                 
                         </div>

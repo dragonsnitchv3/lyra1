@@ -8,7 +8,8 @@ import WYWG2 from './Icon/WYWG2'
 import IWDT from './Icon/IWDT'
 import TrackingProductItem from '../Features/TrackingProductItem';
 import TechStacks from '../Service/TechStacks'
-import Link from 'next/link'
+import Link from 'next/link';
+import ProgressiveImage from 'react-progressive-image';
 
 
 
@@ -28,7 +29,10 @@ const Product = ({ nLang }) => {
                     <div className="sec_pad32 col-lg-12 ">
                         <div className="row">
                             <div className="col-lg-5 sec_pad33">
-                                <img className="img_size_square3" src='/img/home7/mlm1.png' />
+                                {/* <img className="img_size_square3" src='/img/home7/mlm1.png' /> */}
+                                <ProgressiveImage src='/img/home7/mlm1.png' placeholder='/img/home7/mlm1pre.png'>
+                                    {src => <img className="img_size_square_ab" src={src} alt="" />}
+                                </ProgressiveImage>
                             </div>
                             <div className="col-lg-7 pl_70r ">
                                 <div className="prodm_pg txt_gap3 ">
@@ -114,10 +118,10 @@ const Product = ({ nLang }) => {
                             <Reveal effect="fadeInUp" duration={1300}><h2>{content.d0468}</h2></Reveal>
                     </div>     
                     <div className="wrapper_padding3">
-                        <TrackingProductItem itemClass="tracking_pr_two" image="wd1.jpg" TrackingTitle={content.d0469} Trackingd={content.d0470} Trackingd2={content.d0470a} Trackingbtn={content.d0142} nLang={nLang}/>
-                        <TrackingProductItem itemClass="tracking_pr_two" rowclass="flex-row-reverse" image="wd3.jpg" TrackingTitle={content.d0471}  Trackingd={content.d0472} Trackingd2 ={content.d0473} Trackingbtn={content.d0142} nLang={nLang}/>
-                        <TrackingProductItem itemClass="tracking_pr_two" image="wd4.jpg" TrackingTitle={content.d0474}  Trackingd={content.d0475} Trackingd2={content.d0476} Trackingbtn={content.d0142} nLang={nLang}/>
-                        <TrackingProductItem itemClass="tracking_pr_two" rowclass="flex-row-reverse" image="wd2.jpg" TrackingTitle={content.d0477}  Trackingd={content.d0478} Trackingd2={content.d0479} Trackingbtn={content.d0142} nLang={nLang}/>
+                        <TrackingProductItem itemClass="tracking_pr_two" image="wd1.jpg" imagepre="wd1pre.jpg"  TrackingTitle={content.d0469} Trackingd={content.d0470} Trackingd2={content.d0470a} Trackingbtn={content.d0142} nLang={nLang}/>
+                        <TrackingProductItem itemClass="tracking_pr_two" rowclass="flex-row-reverse" image="wd3.jpg" imagepre="wd3pre.jpg"  TrackingTitle={content.d0471}  Trackingd={content.d0472} Trackingd2 ={content.d0473} Trackingbtn={content.d0142} nLang={nLang}/>
+                        <TrackingProductItem itemClass="tracking_pr_two" image="wd4.jpg" imagepre="wd4pre.jpg" TrackingTitle={content.d0474}  Trackingd={content.d0475} Trackingd2={content.d0476} Trackingbtn={content.d0142} nLang={nLang}/>
+                        <TrackingProductItem itemClass="tracking_pr_two" rowclass="flex-row-reverse" image="wd2.jpg" imagepre="wd2pre.jpg" TrackingTitle={content.d0477}  Trackingd={content.d0478} Trackingd2={content.d0479} Trackingbtn={content.d0142} nLang={nLang}/>
                     </div>
                 </section>
                 </Reveal>
