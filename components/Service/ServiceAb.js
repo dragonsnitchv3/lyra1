@@ -3,6 +3,7 @@ import textData from '../Data/TextData';
 import {connect} from 'react-redux';
 import Particles from 'react-particles-js';
 import Reveal from 'react-reveal';
+import ProgressiveImage from 'react-progressive-image';
 
 
 const Service = ({ nLang }) => {
@@ -41,8 +42,16 @@ const Service = ({ nLang }) => {
                     <Reveal>
                     <div className="row mb_15 flex-row-reverse mb_90 align-items-center">
                         <div className="center_vert1 col-lg-6  pb_90r">
-                                <img className="img_size_square_ab" src='/img/main.jpg' alt=""/>
+                                {/* <img className="img_size_square_ab" src='/img/main.jpg' alt=""/> */}
+
+                                <ProgressiveImage src="/img/main.jpg" placeholder="/img/mainpre.jpg">
+                                    {src => <img className="img_size_square_ab" src={src} alt="" />}
+                                </ProgressiveImage>
                         </div>
+
+                        
+
+                        
                         <div className="center_vert1 col-lg-6 about_pg2  ">
                             <h>{content.d0035}</h>
                             <p>{content.d0036}</p>
