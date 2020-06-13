@@ -8,8 +8,11 @@
  */
 @font-face {
   font-family: 'CoreUI-Icons-Brand';
-  src: url("../fonts/CoreUI-Icons-Brand.eot?64h6xh");
-  src: url("../fonts/CoreUI-Icons-Brand.eot?64h6xh#iefix") format("embedded-opentype"), url("../fonts/CoreUI-Icons-Brand.ttf?64h6xh") format("truetype"), url("../fonts/CoreUI-Icons-Brand.woff?64h6xh") format("woff"), url("../fonts/CoreUI-Icons-Brand.svg?64h6xh#CoreUI-Icons-Brand") format("svg");
+  src: url("../fonts/CoreUI-Icons-Brand.eot");
+  src: url("../fonts/CoreUI-Icons-Brand.eot#iefix") format("embedded-opentype"),
+   url("../fonts/CoreUI-Icons-Brand.ttf") format("truetype"),
+    url("../fonts/CoreUI-Icons-Brand.woff") format("woff"),
+     url("../fonts/CoreUI-Icons-Brand.svg#CoreUI-Icons-Brand") format("svg");
   font-weight: normal;
   font-style: normal;
 }
