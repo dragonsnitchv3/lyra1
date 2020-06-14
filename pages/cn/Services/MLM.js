@@ -31,7 +31,7 @@ class MLM extends React.Component {
             <div className="body_wrapper">
                 <DynamicComponentWithNoSSR />
                 <Helmet>
-                    <title>{content.d0009}{content.d0443}</title>
+                    <title>{content.d0138}/{content.d0138a}{content.d0138b}{content.d0443}</title>
                     <meta name="description" content={content.d0141} />
                     <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 </Helmet>
