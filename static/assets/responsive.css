@@ -1167,6 +1167,10 @@
 
 @media (max-width:991px){
 
+    .disp_mob {
+        display: none
+    }
+
     .sec_pad35r {
         padding-top: 60px;
         padding-bottom: 60px;

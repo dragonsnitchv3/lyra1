@@ -5,6 +5,7 @@ import Product2griditem from './Portfolios/Product2griditem';
 import Reveal from 'react-reveal';
 import Fade from 'react-reveal/Fade';
 import ServiceItem from './Service/HostingServiceitem'
+import ServiceItemb from './Service/HostingServiceitemb'
 import Particles from 'react-particles-js';
 import TechIcon from './Features/TechIcon'
 import WYWG from './Service/Icon/WYWG';
@@ -40,7 +41,7 @@ const AllOne = ({nLang}) => {
                         })
                     } */}
 
-                    <div className="container ">
+                    <div className="container disp_mob">
                         <div className="row">
                             <div className="col-lg-6 col-md-12 d-flex align-items-center">
                                 <div className="home_panel1 txt_gap1 pr_15r">
@@ -55,6 +56,33 @@ const AllOne = ({nLang}) => {
                                         content.d0056.map((item) => {
                                             return(
                                                 <ServiceItem Phref={item.Phref} Pduration={item.Pduration}  Hicon={item.Hicon} Phref={item.Phref} Ptitle={item.Ptitle} Pdescription={item.Pdescription} PtOne={item.PtOne}/>
+                                            )
+                                        })
+                                    }
+                                </div>
+                            </div>
+                            
+                                    <Link href={content.d0386} data-wow-delay="0.7s"><a className="disp_dks ctr_textm2 hosting_btn  wow fadeInUp">{content.d0142}</a></Link>
+                                
+                            
+                        </div>
+                    </div>
+
+                    <div className="container disp_dks">
+                        <div className="row">
+                            <div className="col-lg-6 col-12 d-flex align-items-center">
+                                <div className="home_panel1 txt_gap1 pr_15r">
+                                    <h2 className="wow fadeInUp " data-wow-delay="0.3s">{content.d0596}</h2>
+                                    <p className="wow fadeInUp" data-wow-delay="0.5s">{content.d0016}</p>
+                                    <Link href={content.d0386} data-wow-delay="0.7s"><a className="disp_mob ctr_text hosting_btn wow fadeInUp">{content.d0014}</a></Link>
+                                </div>
+                            </div>
+                            <div className="col-lg-6 col-12">
+                                <div className="row">
+                                    {
+                                        content.d0056.map((item) => {
+                                            return(
+                                                <ServiceItemb Phref={item.Phref} Pduration={item.Pduration}  Hicon={item.Hicon} Phref={item.Phref} Ptitle={item.Ptitle} Pdescription={item.Pdescription} PtOne={item.PtOne}/>
                                             )
                                         })
                                     }

@@ -5,7 +5,7 @@ class HRServiceItems extends Component{
     render(){
         var{Ptitle, Pdescription, Hicon, Phref} = this.props;
         return(
-            <div className="col-lg-6 col-6 mb_15">
+            <div className="col-lg-6 col-md-6 col-sm-6 mb_15">
                 <Link href={Phref}>
                     <div className="hosting_service_item lf_text lf_text2">
                         <div className="mb_15">
