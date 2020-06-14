@@ -11,7 +11,7 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
         <meta charset="utf-8" />
-        <link rel="shortcut icon" href="/ly1.png" />
+        <link rel="shortcut icon" href="/img/ly1.png" />
         </Head>
         <body>
           <Main />
