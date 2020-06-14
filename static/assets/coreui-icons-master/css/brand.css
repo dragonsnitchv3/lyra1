@@ -17,7 +17,7 @@
   font-style: normal;
 }
 
-[class^="cib-"], [class*=" cib-"] {
+.cib-cc-visa {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'CoreUI-Icons-Brand' !important;
   speak: none;

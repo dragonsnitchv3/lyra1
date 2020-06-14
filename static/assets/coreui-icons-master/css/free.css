@@ -17,7 +17,7 @@
   font-style: normal;
 }
 
-[class^="cil-"], [class*=" cil-"] {
+.cil-devices .cil-sitemap .cil-cart .cil-window-restore {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'CoreUI-Icons-Free' !important;
   speak: none;
