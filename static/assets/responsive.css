@@ -5210,6 +5210,14 @@
         border-radius: 10px;
         object-fit: cover;
       }
+
+      .img_size_square_ab3 {
+        width: 80%;
+        height: 250px;
+        border-radius: 10px;
+        object-fit: cover;
+      }
+
       .seo_btn_one {
         color: rgb(255, 255, 255);
         background: #BA002E;
