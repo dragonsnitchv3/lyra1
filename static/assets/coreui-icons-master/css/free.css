@@ -1,4 +1,4 @@
-@charset "UTF-8";
+
 /*!
  * CoreUI Icons Free Open Source Icons
  * @version v2.0.0-beta.4
@@ -17,9 +17,9 @@
   font-style: normal;
 }
 
-.cil-devices, .cil-sitemap, .cil-cart, .cil-window-restore {
+[class^="cil-"], [class*=" cil-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'CoreUI-Icons-Free' !important;
+  font-family: 'CoreUI-Icons-Free';
   speak: none;
   font-style: normal;
   font-weight: normal;

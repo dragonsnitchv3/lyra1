@@ -1,4 +1,4 @@
-@charset "UTF-8";
+
 /*!
  * CoreUI Icons - Brand Icons
  * @version v2.0.0-beta.4
@@ -17,9 +17,9 @@
   font-style: normal;
 }
 
-.cib-cc-visa {
+[class^="cib-"], [class*=" cib-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'CoreUI-Icons-Brand' !important;
+  font-family: 'CoreUI-Icons-Brand';
   speak: none;
   font-style: normal;
   font-weight: normal;
