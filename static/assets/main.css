@@ -12611,7 +12611,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   border: 0px;
   border-radius: 0px;
   /* background: transparent; */
-  
+  background-image: linear-gradient( rgba(0, 0, 0, 0.952), rgba(0, 0, 0, 0.815) ), url("/img/hosting/hosting_action_bg.png");
   background-size: cover;
   /* border-bottom: 0.5px solid #e4e0ee; */
 }
