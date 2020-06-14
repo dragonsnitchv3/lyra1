@@ -15,7 +15,7 @@ class HRServiceItems extends Component{
                                         <i className={`${Hicon}`}></i>
                                     </div>
                                 </div>
-                                <div className="col-8 pl_50 lf_text lf_text2">
+                                <div className="col-8 pl_50 lf_text lf_text2 align-items-bottom">
                                     <Link href={Phref}><h4 className="h_head">{Ptitle}</h4></Link>
                                     <p>{Pdescription}</p>
                                 </div>

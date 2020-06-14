@@ -2191,6 +2191,11 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   color: #fff;
 }
 
+.w_menu .nav-item .nav-link:hover {
+  color: #fff;
+}
+
+
 .w_menu .nav-item .nav-link:before {
   background: #fff;
 }
@@ -2814,23 +2819,23 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .navbar_fixed .header_area .menu_poss .w_menu .nav-item .nav-link:hover {
-  color: #5e53fb;
+  color: #ffffff;
 }
 
 .navbar_fixed .header_area .menu_poss .w_menu .nav-item .nav-link:hover:before {
-  background: #5e53fb;
+  background: #ffffff;
 }
 
 .navbar_fixed .header_area .menu_poss .w_menu .nav-item .nav-link.active {
-  color: #5e53fb;
+  color: #ffffff;
 }
 
 .navbar_fixed .header_area .menu_poss .w_menu .nav-item .nav-link.active:before {
-  background: #5e53fb;
+  background: #ffffff;
 }
 
 .navbar_fixed .header_area .menu_poss .w_menu.search_cart .search a.nav-link:before {
-  background: #5e53fb;
+  background: #ffffff;
 }
 
 .navbar_fixed .header_area .menu_two .menu_toggle .hamburger-cross span,.navbar_fixed .header_area .menu_two .menu_toggle .hamburger span {
@@ -19165,9 +19170,9 @@ height: 120px;
 .hosting_service_item3 h1 {
   color: #ffffff;
   margin-bottom: 0;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 23px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
 }
 
 .hosting_service_item4 {
