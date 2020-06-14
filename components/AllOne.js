@@ -49,7 +49,7 @@ const AllOne = ({nLang}) => {
                                     <Link href={content.d0386} data-wow-delay="0.7s"><a className="disp_mob ctr_text hosting_btn wow fadeInUp">{content.d0014}</a></Link>
                                 </div>
                             </div>
-                            <div className="col-lg-6 col-md-12">
+                            <div className="col-lg-6 col-12">
                                 <div className="row">
                                     {
                                         content.d0056.map((item) => {

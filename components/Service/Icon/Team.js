@@ -8,7 +8,7 @@ const Product = ({ nLang, PIcon, PName }) => {
                 <div className="icon ctr_text2">
                     <i className={PIcon}></i>
                 </div>
-                <h1 className="h_head2">{PName}</h1>
+                <h1 className="h_head">{PName}</h1>
             </div>
         </div>
     )

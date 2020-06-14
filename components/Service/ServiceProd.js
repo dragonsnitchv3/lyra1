@@ -10,6 +10,7 @@ import TrackingProductItem from '../Features/TrackingProductItem';
 import TechStacks from '../Service/TechStacks'
 import Link from 'next/link';
 import ProgressiveImage from 'react-progressive-image';
+import ServiceItem from '../Service/HostingServiceitem'
 
 
 
@@ -92,7 +93,7 @@ const Product = ({ nLang }) => {
                         <div className="row mt_70rt">
                             <div className="col-lg-1"></div>
 
-                            <Team PIcon="icon-user" PName={content.d0514}/>
+                            <Team PIcon="icon-user" PName={content.d0514} />
                             <Team PIcon="icon-user" PName={content.d0515}/>
                             <Team PIcon="icon-user" PName={content.d0516}/>
                             <Team PIcon="icon-user" PName={content.d0517}/>
@@ -110,7 +111,7 @@ const Product = ({ nLang }) => {
                 </div>
                 </Reveal>
 
-                <Reveal>
+
                 {/* <FaqSection dataNo={content.d0414} C1T={content.d0072} C2T={content.d0090} C3T={content.d0106} nLang={nLang}/> */}
                 <section className="bk_col5b sec_pad32">
                     <div className="wrapper_padding3 prod_desc2 lf_text max_width">
@@ -123,7 +124,7 @@ const Product = ({ nLang }) => {
                         <TrackingProductItem itemClass="tracking_pr_two" rowclass="flex-row-reverse" image="wd2.jpg" imagepre="wd2pre.jpg" TrackingTitle={content.d0477}  Trackingd={content.d0478} Trackingd2={content.d0479} Trackingbtn={content.d0142} nLang={nLang}/>
                     </div>
                 </section>
-                </Reveal>
+
 
                 <Reveal>
                 <div className="bk_col5 wrapper_padding7 sec_pad35">
