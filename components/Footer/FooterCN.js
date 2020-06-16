@@ -33,7 +33,7 @@ class Footer extends Component {
         
         axios({
             method: "POST", 
-            url:"https://bknv2-40dv07f6g.vercel.app/sends", 
+            url:"https://bknv2-kip10nxm0.vercel.app/sends", 
             // url:"http://localhost:3002/sends", 
             data: {
                 type: 'enquiry',
