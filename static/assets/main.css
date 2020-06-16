@@ -19063,15 +19063,6 @@ height: 120px;
   transition: all 0.1s linear;
 }
 
-.hosting_service_item2:hover {
-  border-radius: 10%;
-  padding: 30px 30px 30px 30px;
-  -webkit-transition: all 0.1s linear;
-  -o-transition: all 0.1s linear;
-  transition: all 0.1s linear;
-  border: 2px solid #FF0B6F;
-  box-shadow: 0 0 10px #FF0B6F;
-}
 
 .hosting_service_item2:hover .icon {
   -webkit-transition: all 0.3s linear;
@@ -19288,15 +19279,7 @@ height: 120px;
   transition: all 0.3s linear;
 }
 
-.hosting_service_item6:hover {
-  padding: 30px 30px;
-  border-radius: 50px;
-  -webkit-transition: all 0.1s linear;
-  /* -o-transition: all 0.3s linear;
-  transition: all 0.3s linear; */
-  border: 2px solid #FF0B6F;
-  box-shadow: 0 0 10px #FF0B6F;
-}
+
 
 .hosting_service_item6:hover .icon{
   -webkit-transition: all 0.3s linear;
@@ -27923,6 +27906,14 @@ a .h_head2:hover {
   margin-top: 30px;
   line-height: 35px;
   letter-spacing: 1px;
+}
+
+.about_pg h5 {
+  color: white;
+  font-size: 60px;
+  font-weight: 300;
+  letter-spacing: 5px;
+  line-height: 60px;
 }
 
 .about_pg h10 {

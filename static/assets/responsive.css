@@ -1160,6 +1160,27 @@
         /* position: absolute; */
       }
 
+      .hosting_service_item2:hover {
+        border-radius: 10%;
+        padding: 30px 30px 30px 30px;
+        -webkit-transition: all 0.1s linear;
+        -o-transition: all 0.1s linear;
+        transition: all 0.1s linear;
+        border: 2px solid #FF0B6F;
+        box-shadow: 0 0 10px #FF0B6F;
+      }
+
+      .hosting_service_item6:hover {
+        padding: 30px 30px;
+        border-radius: 50px;
+        -webkit-transition: all 0.1s linear;
+        /* -o-transition: all 0.3s linear;
+        transition: all 0.3s linear; */
+        border: 2px solid #FF0B6F;
+        box-shadow: 0 0 10px #FF0B6F;
+      }
+
+
     
 }
 
@@ -1229,7 +1250,19 @@
         margin-top: 30px;
         line-height: 30px;
         letter-spacing: 1px;
-      }
+    }
+
+    .about_pg h5 {
+        color: white;
+        font-size: 40px;
+        font-weight: 400;
+        letter-spacing: 3px;
+        line-height: 60px;
+    }
+
+    .span_title {
+    font-size: 35px;
+    }
 
     .about_pg h11 {
         color: white;
@@ -1490,10 +1523,6 @@
         -webkit-transition: all 0.1s linear;
         -o-transition: all 0.1s linear;
         transition: all 0.1s linear;
-    }
-
-    .hosting_service_item2:hover {
-        padding: 0;
     }
 
     .hosting_service_item2 .icon {
@@ -4569,6 +4598,7 @@
     line-height: 33px;
     letter-spacing: 2px;
     }
+
 
 
     .ctr_textm {

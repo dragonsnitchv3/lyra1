@@ -34,7 +34,7 @@ const Service = ({ nLang }) => {
                 <div className="wrapper_padding2 pt_150 ctr_textm">
                 <Reveal>
                     <div className="about_pg mb_70">
-                        <h1 className="">{content.d0360}<span className="font_col1">{content.d0360a}</span></h1>
+                        <h5 className="">{content.d0360}<span className="font_col1 span_title">{content.d0360a}</span></h5>
                         {/* <hr className="hr12"></hr> */}
                         <p>{content.d0034}</p>
                     </div>
