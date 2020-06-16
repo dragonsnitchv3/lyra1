@@ -59,7 +59,7 @@ class Contacts extends Component {
         const message = this.state.message;
         axios({
             method: "POST", 
-            url:"https://18.224.19.30:3002/send",
+            url:"https://bknv2-40dv07f6g.vercel.app/send",
             // url:"http://localhost:3002/send", 
             data: {
                 name: name,   
