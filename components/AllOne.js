@@ -103,14 +103,14 @@ const AllOne = ({nLang}) => {
 
                 <div className=" sec_pad32">
                     <div className="prod_desc2 ctr_text mb_70">
-                        <h2>{content.d0597}</h2>
+                        <h2>{content.d0597a}</h2>
                     </div>
                     <div className="row ctr_textm">
 
-                        <WYWG PIcon="ti-split-v-alt" PName={content.d0494} PDesc={content.d0490}/>
-                        <WYWG PIcon="icon-link" PName={content.d0495} PDesc={content.d0491}/>
-                        <WYWG PIcon="ti-files" PName={content.d0496} PDesc={content.d0492}/>
-                        <WYWG PIcon="ti-bolt" PName={content.d0497} PDesc={content.d0493}/>
+                        <WYWG PIcon="icon-frame" PName={content.d0494} PDesc={content.d0490}/>
+                        <WYWG PIcon="ti-server" PName={content.d0495} PDesc={content.d0491}/>
+                        <WYWG PIcon="ti-harddrives" PName={content.d0496} PDesc={content.d0492}/>
+                        <WYWG PIcon="ti-link" PName={content.d0497} PDesc={content.d0493}/>
                         
                     </div>
                     <div className="mt_70 ctr_text">

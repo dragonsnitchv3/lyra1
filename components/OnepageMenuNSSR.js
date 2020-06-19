@@ -78,23 +78,15 @@ class OnepageMenu extends Component {
                             </ul>
                            
                             {nLang === 'en'? 
-                                <div class="dropdown submenu ">
-                                    <button class="lang_box1 btn " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <img className={'flag'} src='/img/uk.svg'/>
-                                    </button>
-                                    <div class="dropdown-menu dropdown-menu-left language" aria-labelledby="dropdownMenuButton">
-                                        <a className="dropdown-item" href={`/cn${navL}`}><img className="flag"  src='/img/china.svg' /> 中文</a>
-                                    </div>
-                                </div> 
+                                
+                                    
+                                        <a className="pl_40" href={`/cn${navL}`}><img className="flag"  src='/img/china.svg' /></a>
+                                    
+                                
                                 :
-                                <div class="dropdown submenu ">
-                                    <button class="lang_box1 btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <img className={'flag'} src='/img/china.svg'/>
-                                    </button>
-                                    <div class="dropdown-menu dropdown-menu-left language" aria-labelledby="dropdownMenuButton">
-                                        <a className="dropdown-item" href={`/${navL}`}><img className="flag"  src='/img/uk.svg' /> English</a>
-                                    </div>
-                                </div>
+                                    
+                                        <a className="pl_40" href={`/${navL}`}><img className="flag"  src='/img/uk.svg' /></a>
+                                    
                                 
                             }
 
