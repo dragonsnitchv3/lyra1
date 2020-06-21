@@ -36,7 +36,7 @@ const Product = ({ nLang }) => {
                                     <p>{content.d0486}</p>
                                     <h1>{content.d0487b}<br></br></h1>
                                     <h2>{content.d0488}<br></br></h2>
-                                    <p>{content.d0489a}<br></br></p>
+                                    <p>{content.d0489b}<br></br></p>
                                 </div>
                             </div>
                         </div>
