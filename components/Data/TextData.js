@@ -46,7 +46,7 @@ const textData = {
         d0032a: 'CONTACT',
         d0032b: ' US',
         d0033: 'What We Do?',
-        d0034: 'Lyratics Technologies is a premier web solutions company that specializes in end-to-end web application & software engineering for startups, SMEs and corporate firms across South East Asia & China. We handle the complete product development lifecycle including analysis, design, development, QA/Testing, deployment, maintenance, cloud hosting and beyond.',
+        d0034: 'Lyratics Technologies is a premier web & software solutions company that provides end-to-end development services for startups, SMEs and corporate firms across South East Asia & China. We handle the complete web & software development lifecycle including analysis, design, development, QA/Testing, deployment, maintenance, cloud hosting and beyond.',
         d0035: 'INDUSTRIES & EXPERIENCES',
         d0036: 'With 9 years of industrial experience, our core expertise relates to the fields of Multi Level Marketing (MLM), E-Commerce & Online Marketplaces, Logistics Management Systems, Inventory Management Systems, Online Booking Systems (Accomodation, Travel, Transportation), Web Portals, Content Management Systems (CMS).',
         d0037: 'TECHNOLOGIES & SOLUTIONS',
