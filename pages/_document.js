@@ -12,6 +12,21 @@ class MyDocument extends Document {
         <Head>
         <meta charset="utf-8" />
         <link rel="shortcut icon" href="/img/ly1.png" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170284473-1"></script>
+            <script>
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+            
+              gtag('config', 'UA-170284473-1');
+            </script>            
+              `,
+          }}
+        />
         </Head>
         <body>
           <Main />
