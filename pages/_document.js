@@ -13,6 +13,10 @@ class MyDocument extends Document {
         <meta charset="utf-8" />
         <link rel="shortcut icon" href="/img/ly1.png" />
         <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=UA-170284473-1"
+        ></script>
+        <script
           dangerouslySetInnerHTML={{
             __html: `
             <!-- Global site tag (gtag.js) - Google Analytics -->
