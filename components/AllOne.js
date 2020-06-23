@@ -19,6 +19,8 @@ const AllOne = ({nLang}) => {
     (content = textData.english):
     (content = textData.chinese)
 
+    const size = "flag2 col-lg-1"
+
     return(
         
         <div className="body_wrapper bk_col5 ">
@@ -169,8 +171,33 @@ const AllOne = ({nLang}) => {
                     
                     
                 </div>
+
             
             <TechStacks nLang={nLang} bk_col="bk_col8"/>
+
+            <div className="sec_pad32 bk_col5 wrapper_padding8">
+
+                        <div className="home_desc5 ctr_text2 mt_50r">
+                            <h2 className="txt_gap3">{content.d0602}</h2>
+                            <h4 className="">{content.d0603}</h4>
+                        </div>
+
+                        <div className="row justify-content-center min_height1">
+                            <img className={size} src='./img/country/china.svg'></img>
+                            <img className={size} src='./img/country/malaysia.svg'></img>
+                            <img className={size} src='./img/country/singapore.svg'></img>
+                            <img className={size} src='./img/country/cambodia.svg'></img>
+                            <img className={size} src='./img/country/thailand.svg'></img>
+                            <img className={size} src='./img/country/vietnam.svg'></img>
+                            <img className={size} src='./img/country/philippines.svg'></img>
+                            <img className={size} src='./img/country/hong-kong.svg'></img>
+                            <img className={size} src='./img/country/laos.svg'></img>
+                            <img className={size} src='./img/country/australia.svg'></img>
+                            <img className={size} src='./img/country/brunei.svg'></img>
+                        </div>
+
+
+                </div>
             
             </Reveal>
         </div>

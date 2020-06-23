@@ -22,7 +22,7 @@ const TechStacks = ({ nLang, bk_col}) => {
             </div>
             
             <div className="row disp_mob">
-                <div className="row ctr_text2">
+                <div className="row ctr_text2 justify-content-center">
                     {
                         content.d0482.map((item) => {
                             return(
@@ -34,7 +34,7 @@ const TechStacks = ({ nLang, bk_col}) => {
                 </div>
             </div>
             
-                <div className="row disp_dks">
+                <div className="row disp_dks justify-content-center">
                     
                         {
                             content.d0482.map((item) => {
@@ -55,7 +55,7 @@ const TechStacks = ({ nLang, bk_col}) => {
             </div>
             
             <div className="row disp_mob">
-                <div className="row ctr_text2">
+                <div className="row ctr_text2 justify-content-center">
                     {
                         content.d0483.map((item) => {
                             return(
@@ -67,7 +67,7 @@ const TechStacks = ({ nLang, bk_col}) => {
                 </div>
             </div>
 
-            <div className="row disp_dks"> 
+            <div className="row disp_dks justify-content-center"> 
                     {
                         content.d0483.map((item) => {
                             return(

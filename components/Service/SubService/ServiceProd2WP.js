@@ -54,13 +54,13 @@ const Product = ({ nLang }) => {
                         <p>{content.d0577}</p>
                         <h1>{content.d0559e}</h1>
                     </div>
-                    <div className="verticle_lineg1_ctr"></div>
-                    <div className="triangle-up "></div>
+                    <div className="verticle_lineg1_ctr disp_mob"></div>
+                    <div className="triangle-up disp_mob"></div>
                 </div>
                 </Reveal>
 
                 <Reveal>
-                <div className="bk_col5b wrapper_padding7 sec_pad35">
+                <div className="bk_col5b wrapper_padding7 sec_pad35 disp_mob">
                     <div className="row">
                         <div className="col-lg-4">
                             <div className="prod_desc2 width1 ctr_text">
@@ -87,7 +87,7 @@ const Product = ({ nLang }) => {
                         <div className="prod_desc2 ctr_text mb_70">
                             <h2>{content.d0306}</h2>
                         </div>
-                        <div className="row mt_50r">
+                        <div className="row mt_50r justify-content-center">
                             {/* <div className="col-lg-1"></div> */}
                             {
                                 content.d0561d.map((item) => {
@@ -143,7 +143,7 @@ const Product = ({ nLang }) => {
                     <div className="mb_70 prod_desc2 lf_text">
                             <h2>{content.d0591}</h2>
                     </div>  
-                    <div className="row mt_50r">
+                    <div className="row mt_50r justify-content-center">
                     {
                         content.d0562d.map((item) => {
                             return(
