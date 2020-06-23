@@ -10,7 +10,8 @@ import TrackingProductItem from '../Features/TrackingProductItem';
 import TechStacks from '../Service/TechStacks'
 import Link from 'next/link';
 import ProgressiveImage from 'react-progressive-image';
-import ServiceItem from '../Service/HostingServiceitem'
+import ServiceItem from '../Service/HostingServiceitem';
+import KF from './Icon/KeyFunctions3'
 
 
 
@@ -91,15 +92,15 @@ const Product = ({ nLang }) => {
                             <h2>{content.d0513}</h2>
                         </div>
                         <div className="row mt_70rt justify-content-center">
-                            <div className="col-lg-1"></div>
-
-                            <Team PIcon="icon-user" PName={content.d0514} />
-                            <Team PIcon="icon-user" PName={content.d0515}/>
-                            <Team PIcon="icon-user" PName={content.d0516}/>
-                            <Team PIcon="icon-user" PName={content.d0517}/>
-                            <Team PIcon="icon-user" PName={content.d0518}/>
                             
-                            <div className="col-lg-1"></div>
+                            {
+                                content.d0604.map((item) => {
+                                    return(
+                                        <KF PIcon={item.PIcon} PName={item.PName} PDesc={item.PDesc}/>  
+                                    )
+                                    
+                                })
+                            }
                         </div>
                     </div>
 

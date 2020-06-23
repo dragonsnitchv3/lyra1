@@ -2,7 +2,8 @@ import React from 'react';
 import Reveal from 'react-reveal/Reveal';
 import textData from '../../Data/TextData';
 import FaqSection from '../../../components/FaqSection';
-import KF from '../Icon/KeyFunctions'
+import KF from '../Icon/KeyFunctions4'
+import KF3 from '../Icon/KeyFunctions3'
 import WYWG2 from '../Icon/WYWG2'
 import IWDT from '../Icon/IWDT'
 import TechStacks from '../../Service/TechStacks';
@@ -112,12 +113,12 @@ const Product = ({ nLang }) => {
                 <FaqSection dataNo={content.d0412} C1T={content.d0250} C3T={content.d0240} nLang={nLang} hideD2={true}/>
                 
                 <Reveal>
-                <div className="bk_col5b wrapper_padding10 pt_s50">
+                <div className="bk_col5b wrapper_padding7 pt_s50">
                     <div className="row justify-content-center">
                     {
                         content.d0562b.map((item) => {
                             return(
-                                <KF PIcon={item.PIcon} PName={item.PName} PDesc={item.PDesc}/>  
+                                <KF3 PIcon={item.PIcon} PName={item.PName} PDesc={item.PDesc}/>  
                             )
                             
                         })

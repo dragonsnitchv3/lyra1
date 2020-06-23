@@ -2,7 +2,8 @@ import React from 'react';
 import Reveal from 'react-reveal/Reveal';
 import textData from '../../Data/TextData';
 import {connect} from 'react-redux';
-import KF from '../Icon/KeyFunctions'
+import KF from '../Icon/KeyFunctions4'
+import KF3 from '../Icon/KeyFunctions3'
 import KF2 from '../Icon/KeyFunctions2'
 import WYWG2 from '../Icon/WYWG2'
 import IWDT from '../Icon/IWDT'
@@ -139,7 +140,7 @@ const Product = ({ nLang }) => {
                 </Reveal>
 
                 <Reveal>
-                <div className="bk_col5b wrapper_padding10 pt_s50">
+                <div className="bk_col5b wrapper_padding7 pt_s50">
                     <div className="mb_70 prod_desc2 lf_text">
                             <h2>{content.d0591}</h2>
                     </div>  
@@ -147,7 +148,7 @@ const Product = ({ nLang }) => {
                     {
                         content.d0562d.map((item) => {
                             return(
-                                <KF2 PIcon={item.PIcon} PName={item.PName} PDesc={item.PDesc}/>  
+                                <KF3 PIcon={item.PIcon} PName={item.PName} PDesc={item.PDesc}/>  
                             )
                             
                         })

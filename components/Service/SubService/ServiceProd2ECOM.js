@@ -4,7 +4,8 @@ import Fade from 'react-reveal/Fade';
 import textData from '../../Data/TextData';
 import {connect} from 'react-redux';
 import FaqSection from '../../../components/FaqSection';
-import KF from '../Icon/KeyFunctions'
+import KF from '../Icon/KeyFunctions4'
+import KF3 from '../Icon/KeyFunctions3'
 import WYWG2 from '../Icon/WYWG2'
 import IWDT from '../Icon/IWDT'
 import TechStacks from '../../Service/TechStacks'
@@ -54,13 +55,13 @@ const Product = ({ nLang }) => {
                         <p>{content.d0069}</p>
                         <h1>{content.d0559a}</h1>
                     </div>
-                    <div className="verticle_lineg1_ctr disp_mob"></div>
-                    <div className="triangle-up disp_mob"></div>
+                    <div className="verticle_lineg1_ctr"></div>
+                    <div className="triangle-up "></div>
                 </div>
                 </Reveal>
 
                 <Reveal>
-                <div className="bk_col5b wrapper_padding7 sec_pad35 disp_mob">
+                <div className="bk_col5b wrapper_padding7 sec_pad35">
                     <div className="row">
                         <div className="col-lg-4">
                             <div className="prod_desc2 width1 ctr_text">
@@ -113,12 +114,12 @@ const Product = ({ nLang }) => {
                 <FaqSection dataNo={content.d0411} C1T={content.d0072} C2T={content.d0090} C3T={content.d0106} nLang={nLang}/> 
                 
                 <Reveal>
-                <div className="bk_col5b wrapper_padding10 pt_s50">
+                <div className="bk_col5b wrapper_padding7 pt_s50">
                     <div className="row justify-content-center">
                     {
                         content.d0562a.map((item) => {
                             return(
-                                <KF PIcon={item.PIcon} PName={item.PName} PDesc={item.PDesc}/>  
+                                <KF3 PIcon={item.PIcon} PName={item.PName} PDesc={item.PDesc}/>  
                             )
                             
                         })

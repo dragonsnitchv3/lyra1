@@ -2360,7 +2360,7 @@ const textData = {
         d0511a: "The difficulties in managing warehouse flow through traditional MS Excel is a huge bottleneck for many businesses because of its lack of automation. It often leads to frequent unforced data errors, limiting overall productivity.",
         d0512: "Why go through this process when your business demands your full attention on business growth and reaping market share of the industry. Lyratics' team of web development specialists are the solution to this puzzle.",
         d0512a: "Through automated management software, each in-out-flow transaction is recorded precisely, calculated, and reflected swiftly in system. Thus, eliminating discrepencies between system database and the actual running balance.",
-        d0513: "WEB APPLICATION FEATURES",
+        d0513: "WEB APPS",
         d0514: "PROJECT MANAGER",
         d0515: "FRONT END PROGRAMMER",
         d0516: "BACK END PROGRAMMER",
@@ -2843,7 +2843,42 @@ const textData = {
         d0601: "YOUR VISION CODED",
         d0602: "WE GO THE DISTANCE",
         d0603: "Lyratics Technologies provides International Development Service to countries across South East Asia & China. Based on each project's requirements, we are able to work on-site or remotely.",
-        d060: "",
+        d0604: [
+            {
+                PIcon:"ti-instagram",
+                PName:"SOCIAL NETWORKS",
+            },
+            {
+                PIcon:"ti-rss",
+                PName:"NEWS",
+            },
+            {
+                PIcon:"ti-settings",
+                PName:"PRODUCTIVITY",
+            },
+            {
+                PIcon:"icon-wrench",
+                PName:"UTILITIES",
+            },
+            {
+                PIcon:"ti-video-camera",
+                PName:"ENTERTAINMENT",
+            },
+            {
+                PIcon:"icon-plane",
+                PName:"TRAVEL & TRANSPORTATION",
+            },
+            {
+                PIcon:"ti-bell",
+                PName:"ON-DEMAND SERVICES",
+            },
+            {
+                PIcon:"ti-heart",
+                PName:"HEALTH",
+            },
+            
+            
+        ],
         d060: "",
         d060: "",
         d060: "",
@@ -2909,7 +2944,7 @@ const textData = {
         d0001: '主页',
         d0002: '关于我们',
         d0003: '开发服务',
-        d0004: '制造流程',
+        d0004: '开发流程',
         d0005: '作品',
         d0006: '联系我们',
         d0007: '开创',
@@ -3956,7 +3991,7 @@ const textData = {
                   {
                     id: 3,
                     url: "/cn/Process",
-                    text: '制造过程',
+                    text: '开发过程',
                   },
                   {
                     id: 4,
@@ -4037,14 +4072,14 @@ const textData = {
         d0355: 'Ready to get started?',
         d0356: '将您的业务，现代化。',
         d0357: '免费咨询',
-        d0358: '科技开发',
+        d0358: '科技产品开发',
         d0358b: '服务',
         d0359: '天琴科技在多种行业里提供网络系统服务，提供您广大的网络系统服务范围。',
         d0360: '关于',
         d0360a: '天琴科技',
         d0361: '联系我们',
         d0362: '产品',
-        d0362b: '制造过程',
+        d0362b: '开发过程',
         d0363: '天琴科技采用8阶段构建过程法来开发每个科技项目。',
         d0364: '诚聘英才',
         d0365: '诚聘',
@@ -5741,7 +5776,7 @@ const textData = {
         d0600: "Real-Time Application",
         d0601: "将您的概念数码化",
         d0602: "跨国科技项目开发",
-        d0603: "天琴科技是一所国际化的科技项目开发公司，我们能够在您业务基于的任何国家（东南亚与中国大陆），提供您优质的科技开发服务。",
+        d0603: "天琴科技是一所国际化的科技项目开发公司，我们能够为您基于各国业务（东南亚与中国大陆），提供优质的科技开发服务。",
         
     }
 }

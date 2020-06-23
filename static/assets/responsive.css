@@ -1180,6 +1180,55 @@
         box-shadow: 0 0 10px #FF0B6F;
       }
 
+      .hosting_service_item5a {
+        width: 300px;
+        border-radius: 0px;
+        -webkit-transition: all 0.3s linear;
+        -o-transition: all 0.3s linear;
+        transition: all 0.3s linear;
+      }
+
+      .hosting_service_item5b {
+        width: 300px;
+        border-radius: 0px;
+        -webkit-transition: all 0.3s linear;
+        -o-transition: all 0.3s linear;
+        transition: all 0.3s linear;
+      }
+
+      .hosting_service_item5b:hover {
+        padding: 30px 10px;
+        border-radius: 50px;
+        -webkit-transition: all 0.1s linear;
+        /* -o-transition: all 0.3s linear;
+        transition: all 0.3s linear; */
+        border: 2px solid #FF0B6F;
+        box-shadow: 0 0 10px #FF0B6F;
+    }
+
+    .hosting_service_item5b:hover .icon{
+        -webkit-transition: all 0.3s linear;
+        -o-transition: all 0.3s linear;
+        transition: all 0.3s linear;
+        width: 200px;
+        /* width: 50px; */
+        text-shadow: 0 0 50px red;
+        box-shadow: 0 0 25px #FF0B6F;
+    }
+
+    .hosting_service_item5b p {
+        color: #c0c0c0;
+        margin-bottom: 0;
+        font-weight: 200;
+        font-size: 14px;
+        line-height: 23px;
+        letter-spacing: 1px;
+        width: 250px;
+        text-align: center;
+      }
+
+      
+
 
     
 }
@@ -4598,6 +4647,139 @@
     line-height: 33px;
     letter-spacing: 2px;
     }
+
+    .hosting_service_item5a:hover .icon{
+        -webkit-transition: all 0.3s linear;
+        -o-transition: all 0.3s linear;
+        transition: all 0.3s linear;
+        text-shadow: 0 0 30px red;
+        box-shadow: 0 0 30px #FF0B6F;
+      
+      }
+      
+      .hosting_service_item5a:hover h1{
+        color: #FF0B6F;
+        font-weight: 600;
+      }
+      
+      .hosting_service_item5a:hover h2{
+        color: #FF0B6F;
+        font-weight: 600;
+      }
+
+      .hosting_service_item5a .icon {
+        -webkit-transition: all 0.3s linear;
+        -o-transition: all 0.3s linear;
+        transition: all 0.3s linear;
+        width: 120px;
+        /* width: 50px; */
+        border: 2px solid #FF0B6F;
+        border-radius: 30%;
+        padding: 25px ;
+        margin-bottom: 20px;
+        color: #FF0B6F;
+        font-size: 60px;
+        text-shadow: 0 0 3px red;
+        box-shadow: 0 0 10px #FF0B6F;
+        margin: 0 auto;
+      }
+
+      .hosting_service_item5a:hover .icon{
+        -webkit-transition: all 0.3s linear;
+        -o-transition: all 0.3s linear;
+        transition: all 0.3s linear;
+        /* width: 50px; */
+        text-shadow: 0 0 50px red;
+        box-shadow: 0 0 25px #FF0B6F;
+      }
+
+      .hosting_service_item5a p {
+        color: #c0c0c0;
+        font-weight: 200;
+        font-size: 14px;
+        line-height: 23px;
+        letter-spacing: 1px;
+        text-align: center;
+      }
+      
+      .hosting_service_item5a h1 {
+        color: #ffffff;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: 2px;
+        text-align: center;
+      }
+      
+      .hosting_service_item5a h2 {
+        color: #ffffff;
+        margin-bottom: 10px;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 26px;
+        letter-spacing: 2px;
+        text-align: center;
+      }
+      
+
+      
+      .hosting_service_item5b .icon {
+        -webkit-transition: all 0.3s linear;
+        -o-transition: all 0.3s linear;
+        transition: all 0.3s linear;
+        width: 120px;
+        /* width: 50px; */
+        border: 2px solid #FF0B6F;
+        border-radius: 30%;
+        padding: 25px ;
+        margin-bottom: 20px;
+        color: #FF0B6F;
+        font-size: 60px;
+        text-shadow: 0 0 3px red;
+        box-shadow: 0 0 10px #FF0B6F;
+        margin: 0 auto;
+      }
+
+      .hosting_service_item5b:hover .icon{
+        -webkit-transition: all 0.3s linear;
+        -o-transition: all 0.3s linear;
+        transition: all 0.3s linear;
+        /* width: 50px; */
+        text-shadow: 0 0 50px red;
+        box-shadow: 0 0 25px #FF0B6F;
+      }
+
+      .hosting_service_item5b p {
+        color: #c0c0c0;
+        font-weight: 200;
+        font-size: 14px;
+        line-height: 23px;
+        letter-spacing: 1px;
+        text-align: center;
+      }
+      
+      .hosting_service_item5b h1 {
+        color: #ffffff;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: 2px;
+        text-align: center;
+      }
+      
+      .hosting_service_item5b h2 {
+        color: #ffffff;
+        margin-bottom: 10px;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 26px;
+        letter-spacing: 2px;
+        text-align: center;
+      }
 
 
 
