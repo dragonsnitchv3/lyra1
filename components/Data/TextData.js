@@ -2360,7 +2360,7 @@ const textData = {
         d0511a: "The difficulties in managing warehouse flow through traditional MS Excel is a huge bottleneck for many businesses because of its lack of automation. It often leads to frequent unforced data errors, limiting overall productivity.",
         d0512: "Why go through this process when your business demands your full attention on business growth and reaping market share of the industry. Lyratics' team of web development specialists are the solution to this puzzle.",
         d0512a: "Through automated management software, each in-out-flow transaction is recorded precisely, calculated, and reflected swiftly in system. Thus, eliminating discrepencies between system database and the actual running balance.",
-        d0513: "WEB APPS",
+        d0513: "WEB APPICATIONS WE BUILD",
         d0514: "PROJECT MANAGER",
         d0515: "FRONT END PROGRAMMER",
         d0516: "BACK END PROGRAMMER",
@@ -2879,15 +2879,15 @@ const textData = {
             
             
         ],
-        d060: "",
-        d060: "",
-        d060: "",
-        d060: "",
-        d060: "",
-        d061: "",
-        d061: "",
-        d061: "",
-        d061: "",
+        d0605: "YOUR WEB NEEDS UNDER ONE ROOF",
+        d0606: "Web application architecture design",
+        d0607: "UX/UI design",
+        d0608: "Front-end development",
+        d0609: "Back-end development and integration",
+        d0610: "Testing & QC",
+        d0611: "Hosting and deployment",
+        d0612: "Upgrade",
+        d0613: "Maintenence",
         d061: "",
         d061: "",
         d061: "",
@@ -5158,7 +5158,7 @@ const textData = {
         d0468: "优质系统开发服务",
         d0469: "完整系统开发服务",
         d0470: "网络系统开发是我们的主要提供的服务。拥有专业的开发技术，我们能为客户提供系统生命周期内的服务需求。",
-        d0470a: "这包含顾问服务，界面设计，系统前段开发，系统后段开发，虚拟主机设定, 服务器设定, 系统测试, 系统升级与保养。",
+        d0470a: "这包含顾问服务，界面设计，系统前段开发，系统后段开发，主机设定, 服务器设定, 系统测试, 系统升级与保养。",
         d0471: "顾问服务",
         d0472: "我们提供员工培训，系统架构资讯，科技顾问服务与网络系统开发方案。",
         d0473: "我们了解科技正随着时间不断更新，呈现出新的科技构架。拥有9年经验的我们能够为您提供最新的科技资讯与方案，协助您在业务科技上保持领先地位",
@@ -5295,7 +5295,7 @@ const textData = {
         d0511a: "使用传统MS Excel来管理仓库流时所面对的困难是许多仓库企业的巨大瓶颈。由于缺乏自动化的功能，它导致频繁的人为数据错误，从而限制了整体运营效率。",
         d0512: "同时，您的业务需要您全神贯注于业务增长与争取行业市场份额。拥有长久网络开发经验的天琴科技团队能为您提供多元化解决方案。",
         d0512a: "通过使用自动化管理软件，系统能精确记录，计算和记录每个货流入与流出的动态，并将数据迅速反映到系统中。因此，解决了系统数据库与实际货存量之间的差异。",
-        d0513: "网站开发团队",
+        d0513: "我们的网站应用程序开发领域",
         d0514: "项目经理",
         d0515: "前端程序开发员",
         d0516: "后端程序开发员",
@@ -5777,6 +5777,51 @@ const textData = {
         d0601: "将您的概念数码化",
         d0602: "跨国科技项目开发",
         d0603: "天琴科技是一所国际化的科技项目开发公司，我们能够为您基于各国业务（东南亚与中国大陆），提供优质的科技开发服务。",
+        d0604: [
+            {
+                PIcon:"ti-instagram",
+                PName:"社交网络",
+            },
+            {
+                PIcon:"ti-rss",
+                PName:"新闻",
+            },
+            {
+                PIcon:"ti-settings",
+                PName:"运营自动化",
+            },
+            {
+                PIcon:"icon-wrench",
+                PName:"操控板，仪表板",
+            },
+            {
+                PIcon:"ti-video-camera",
+                PName:"娱乐",
+            },
+            {
+                PIcon:"icon-plane",
+                PName:"旅游与交通",
+            },
+            {
+                PIcon:"ti-bell",
+                PName:"服务业",
+            },
+            {
+                PIcon:"ti-heart",
+                PName:"医疗",
+            },
+            
+            
+        ],
+        d0605: "具备您所需的网站应用程序开发服务",
+        d0606: "网站应用程序开开发蓝图",
+        d0607: "UX/UI 界面设计",
+        d0608: "系统前段开发",
+        d0609: "系统后段开发",
+        d0610: "系统测试",
+        d0611: "主机设定, 服务器设定",
+        d0612: "系统升级",
+        d0613: "保养",
         
     }
 }

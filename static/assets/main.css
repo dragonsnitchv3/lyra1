@@ -27486,6 +27486,10 @@ a .h_head2:hover {
   padding-right: 250px;
 }
 
+.cap_text1  {
+  text-transform: capitalize;
+}
+
 .home_desc1 {
   padding-left: 30px;
 }

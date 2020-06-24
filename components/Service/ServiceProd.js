@@ -112,6 +112,32 @@ const Product = ({ nLang }) => {
                 </div>
                 </Reveal>
 
+                <Reveal>
+                <div className="bk_col5 wrapper_padding7 sec_pad35">
+                    <div className="mb_70 prod_desc2 lf_text">
+                            <h2 className="">{content.d0605}</h2>
+                    </div>  
+                    <div className="row mt_50r">
+                        <div className="col-lg-6">
+                            <div className="prod_desc3">
+                                <li className="process_bullet4">{content.d0606}</li>
+                                <li className="process_bullet4">{content.d0607}</li>
+                                <li className="process_bullet4">{content.d0608}</li>
+                                <li className="process_bullet4">{content.d0609}</li>
+                            </div>
+                        </div>
+                        <div className="col-lg-6">
+                            <div className="prod_desc3">
+                                <li className="process_bullet4">{content.d0610}</li>
+                                <li className="process_bullet4">{content.d0611}</li>
+                                <li className="process_bullet4">{content.d0612}</li>
+                                <li className="process_bullet4">{content.d0613}</li>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+                </Reveal>
+
 
                 {/* <FaqSection dataNo={content.d0414} C1T={content.d0072} C2T={content.d0090} C3T={content.d0106} nLang={nLang}/> */}
                 <section className="bk_col5b sec_pad32">
