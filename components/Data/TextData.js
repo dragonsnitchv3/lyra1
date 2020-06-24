@@ -2438,12 +2438,17 @@ const textData = {
             {
                 PIcon:"icon-pin",
                 PName:"All in One",
-                PDesc:"One powerful platform to handle all your business processes, operating on an integrated database.",
+                PDesc:"One powerful MLM/Direct-Sales platform to handle all your business processes, operating on an integrated database.",
             },
             {
                 PIcon:"ti-rocket",
-                PName:"Marketing Automation",
-                PDesc:"Automated communication & Marketing processes, boots sales and deliver personalized customer-experience.",
+                PName:"Custom MLM/Direct-Sales Plan",
+                PDesc:"Wide Range of customizable MLM/Direct Sales Plan for your business.",
+            },
+            {
+                PIcon:"ti-shopping-cart-full",
+                PName:"E-Commerce Module",
+                PDesc:"Integrate the latest E-Commerce module with MLM/Direct-Sales Software",
             },
             {
                 PIcon:"ti-server",
@@ -2460,14 +2465,13 @@ const textData = {
                 PName:"Scalability & Integration",
                 PDesc:"Payment gateways, couriers, warehouse & 3rd party systems",
             },
-            {
-                PIcon:"ti-vector",
-                PName:"Customizability",
-                PDesc:"Our modules are fully customizable to your business needs.",
-            },
             
         ],
         d0562: [
+            {
+                PIcon:"icon-share",
+                PName:"Genealogies",
+            },
             {
                 PIcon:"icon-credit-card",
                 PName:"Payment Gateway Integration",
@@ -2485,8 +2489,8 @@ const textData = {
                 PName:"Multi-Languages & Currency",
             },
             {
-                PIcon:"ti-shopping-cart-full",
-                PName:"E-Commerce Module",
+                PIcon:"ti-vector",
+                PName:"Customizability",
             },
             {
                 PIcon:"ti-link",
@@ -2500,10 +2504,7 @@ const textData = {
                 PIcon:"ti-facebook",
                 PName:"Social Media Connectivity",
             },
-            {
-                PIcon:"icon-share",
-                PName:"Genealogies",
-            },
+            
             
         ],
         d0561a: [
@@ -5373,12 +5374,17 @@ const textData = {
             {
                 PIcon:"icon-pin",
                 PName:"全包功能",
-                PDesc:"一站式平台，使用集中式数据库，运行所有业务流程。",
+                PDesc:"一站式MLM 多层营销 / 直销平台，使用集中式数据库，运行所有业务流程。",
             },
             {
                 PIcon:"ti-rocket",
-                PName:"自动化营销",
-                PDesc:"自动化的沟通和营销功能，能协助您增加销售量，同时提供客户良好用户体验。",
+                PName:"定制 MLM 多层营销 / 直销计划",
+                PDesc:"我们能配置多种的MLM 多层营销 / 直销计划于平台。",
+            },
+            {
+                PIcon:"ti-shopping-cart-full",
+                PName:"电子商业系统",
+                PDesc:"我们配置先进的电子商业系统于平台中。",
             },
             {
                 PIcon:"ti-server",
@@ -5395,14 +5401,14 @@ const textData = {
                 PName:"系统扩展性与科技混合",
                 PDesc:"能结合支付网关，快递，仓库和第三方系统",
             },
-            {
-                PIcon:"ti-vector",
-                PName:"量身定制",
-                PDesc:"系统可完全根据客户要求量身定制",
-            },
+            
             
         ],
         d0562: [
+            {
+                PIcon:"icon-share",
+                PName:"系谱功能",
+            },
             {
                 PIcon:"icon-credit-card",
                 PName:"支付网关结合",
@@ -5420,8 +5426,8 @@ const textData = {
                 PName:"多语言和货币功能",
             },
             {
-                PIcon:"ti-shopping-cart-full",
-                PName:"电子商业系统",
+                PIcon:"ti-vector",
+                PName:"量身定制",
             },
             {
                 PIcon:"ti-link",
@@ -5435,10 +5441,7 @@ const textData = {
                 PIcon:"ti-facebook",
                 PName:"社交媒体连接",
             },
-            {
-                PIcon:"icon-share",
-                PName:"系谱功能",
-            },
+            
             
         ],
         d0561a: [
