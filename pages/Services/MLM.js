@@ -4,7 +4,7 @@ import FooterData from '../../components/Footer/FooterData';
 import Footer from '../../components/Footer/Footer';
 import textData from '../../components/Data/TextData';
 import {connect} from 'react-redux';
-import { Helmet } from 'react-helmet';
+import Head from 'next/head';
 import Product2 from '../../components/Service/SubService/ServiceProd2MLM';
 import dynamic from 'next/dynamic';
 
@@ -30,11 +30,11 @@ class MLM extends React.Component {
         return(
             <div className="body_wrapper">
                 <DynamicComponentWithNoSSR />
-                <Helmet>
+                <Head>
                     <title>{content.d0009}{content.d0443}</title>
                     <meta name="description" content={content.d0141} />
                     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-                </Helmet>
+                </Head>
                 <OnepageMenu slogo="sticky_logo" mClass="menu_four" nClass="w_menu" hbtnClass="btn_get_radious menu_custfive" nLang={cLang} navL="/Services/MLM"/>
                 {/* <CrmBanner PtitleBTF = {true} PdescriptionTF ={true} Ptitle="MLM" Psub ="The complete MLM package." Pdescription="Hyatt Labs`s techonological experiences stretches throughout various industries, bringing you wider range of products and expertise."/> */}
                 <Product2 nLang={cLang}/>

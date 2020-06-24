@@ -9,7 +9,7 @@ import AgencyAction from '../../components/AgencyAction';
 
 import textData from '../../components/Data/TextData';
 import {connect} from 'react-redux';
-import { Helmet } from 'react-helmet'
+import Head from 'next/head';
 import dynamic from 'next/dynamic';
 
 class Service extends React.Component {
@@ -36,11 +36,11 @@ class Service extends React.Component {
         return(
             <div className="body_wrapper">
                 <DynamicComponentWithNoSSR />
-                <Helmet>
+                <Head>
                     <title>{content.d0003}{content.d0443}</title>
                     <meta name="description" content={content.d0359} />
                     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-                </Helmet>
+                </Head>
                 <OnepageMenu slogo="sticky_logo" mClass="menu_four" nClass="w_menu" hbtnClass="btn_get_radious menu_custfive" nLang={cLang} navL="/Services"/>
                 {/* <Breadcrumb3 breadcrumbClass="breadcrumb_area_new_product" imgName="breadcrumb/banner_bg.png" PtitleBTF = {true} PdescriptionTF ={true} Ptitle={content.d0358} Pdescription={content.d0359} imgName2={require("../img/Products.png")} nLang={cLang}/> */}
                 <ServiceP ServiceData={ServiceData} nLang={cLang}/>

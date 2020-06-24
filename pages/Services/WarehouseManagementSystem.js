@@ -4,7 +4,7 @@ import FooterData from '../../components/Footer/FooterData';
 import Footer from '../../components/Footer/Footer';
 import textData from '../../components/Data/TextData';
 import {connect} from 'react-redux';
-import { Helmet } from 'react-helmet'
+import Head from 'next/head';
 import Product2 from '../../components/Service/SubService/ServiceProd2LOG';
 import dynamic from 'next/dynamic';
 
@@ -31,11 +31,11 @@ class Logistics extends React.Component {
         return(
             <div className="body_wrapper">
                 <DynamicComponentWithNoSSR />
-                <Helmet>
+                <Head>
                     <title>{content.d0010}{content.d0443}</title>
                     <meta name="description" content={content.d0236} />
                     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-                </Helmet>
+                </Head>
                 <OnepageMenu slogo="sticky_logo" mClass="menu_four" nClass="w_menu" hbtnClass="btn_get_radious menu_custfive" nLang={cLang} navL="/Services/WarehouseManagementSystem"/>
                 {/* <SecurityBanner PtitleBTF = {true} PdescriptionTF ={true} Ptitle={content.d0235} Psub ={content.d0236} Pdescription={content.d0237} Limg={require('../../img/home7/log1.png')} nLang={cLang}/> */}
                 {/* <ServiceP ServiceData={ServiceData} Title={content.d0238} LOG={true} Hicon='ti-truck' iclass='icon_three' hrno3="hr3_three" hrno4="hr4_three" dataNo={content.d0441a} dataNo2={content.d0436} nLang={cLang}/>      

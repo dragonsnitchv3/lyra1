@@ -4,7 +4,7 @@ import Footer from '../../components/Footer/Footer';
 import FooterData from '../../components/Footer/FooterData';
 import {connect} from 'react-redux';
 import AgencyAction from '../../components/AgencyAction';
-import { Helmet } from 'react-helmet'
+import Head from 'next/head';
 import ServiceProc from '../../components/Service/ServiceProc';
 import dynamic from 'next/dynamic';
 import textData from '../../components/Data/TextData';
@@ -31,11 +31,11 @@ class Process extends React.Component {
         return(
             <div className="">
                 <DynamicComponentWithNoSSR />
-                <Helmet>
+                <Head>
                     <title>{content.d0004}{content.d0443}</title>
                     <meta name="description" content={content.d0446} />
                     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-                </Helmet>
+                </Head>
                 <OnepageMenu slogo="sticky_logo" mClass="menu_four" nClass="w_menu" hbtnClass="btn_get_radious menu_custfive" nLang={cLang} navL="Process"/>
                 <ServiceProc nLang={cLang}/>
                 <AgencyAction nLang={cLang}/>

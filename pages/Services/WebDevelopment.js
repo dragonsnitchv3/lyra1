@@ -1,7 +1,7 @@
 import React from 'react';
 import textData from '../../components/Data/TextData';
 import {connect} from 'react-redux';
-import { Helmet } from 'react-helmet';
+import Head from 'next/head';
 import OnepageMenu from '../../components/OnepageMenu';
 import Footer from '../../components/Footer/Footer';
 import Product from '../../components/Service/ServiceProd';
@@ -29,11 +29,11 @@ class WSWA extends React.Component {
         return(
             <div className="body_wrapper2">
                <DynamicComponentWithNoSSR />
-                <Helmet>
+                <Head>
                     <title>{content.d0481}{content.d0443}</title>
                     <meta name="description" content={content.d0470a} />
                     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-                </Helmet>
+                </Head>
                 <OnepageMenu slogo="sticky_logo" mClass="menu_four" nClass="w_menu" hbtnClass="btn_get_radious menu_custfive" nLang={cLang} navL="/Services/WebDevelopment"/>
                 <Product nLang={cLang}/>
                 {/* <CloudBanner nLang={cLang}/>

@@ -4,7 +4,7 @@ import FooterData from '../../../components/Footer/FooterData';
 import Footer from '../../../components/Footer/FooterCN';
 import textData from '../../../components/Data/TextData';
 import {connect} from 'react-redux';
-import { Helmet } from 'react-helmet'
+import Head from 'next/head';
 import Product2 from '../../../components/Service/SubService/ServiceProd2OBS';
 import dynamic from 'next/dynamic';
 
@@ -30,11 +30,11 @@ class OBS extends React.Component {
         return(
             <div className="body_wrapper">
                 <DynamicComponentWithNoSSR />
-                <Helmet>
+                <Head>
                     <title>{content.d0011b}{content.d0443}</title>
                     <meta name="description" content={content.d0283} />
                     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-                </Helmet>
+                </Head>
                 <OnepageMenu slogo="sticky_logo" mClass="menu_four" nClass="w_menu" hbtnClass="btn_get_radious menu_custfive" nLang={cLang} navL="Services/BookingSystem"/>
                 {/* <StartupBanner PtitleBTF = {true} PdescriptionTF ={true} Ptitle={content.d0282} Psub ={content.d0283} Pdescription={content.d0284} Limg={require('../../img/home7/book1.png')} nLang={cLang} nTheme="agency_banner_area_three"/>  */}
                 {/* <ServiceP ServiceData={ServiceData} Title={content.d0285} OBS={true} Hicon='ti-credit-card' iclass='icon_four' hrno3="hr3_four" hrno4="hr4_four" dataNo={content.d0440} dataNo2={content.d0436} nLang={cLang}/>      
