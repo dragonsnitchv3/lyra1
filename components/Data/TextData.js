@@ -87,7 +87,7 @@ const textData = {
                 Pduration: 400,
                 Ptitle: 'MLM / DIRECT-SALES PLATFORM',
                 Pdescription: 'Facilitate your sales business with the latest commerce system integrated with advanced levelled sales maps.',
-                Hicon: 'ti-user',
+                Hicon: 'icon-share',
                 rclass : 'pr_70',
                 iclass: 'icon_one',
                 Phref: "/Services/MLM",
@@ -2082,7 +2082,7 @@ const textData = {
         d0437: "Lyratics E-Commerce Marketplace",
         d0438: "Lyratics Web Portal",
         d0439: "Businesses and organizations are rendering for their own unique web portals for growth and improving their operation online.",
-        d0439a: "Top Web App Developer In Malaysia - Lyratics",
+        d0439a: "Top Web App Developer In Malaysia - Lyratics Technologies",
         d0440: "Lyratics Online Booking System",
         d0441: "Lyratics MLM/Direct-Sales Platform",
         d0441a: "Lyratics Warehouse Management System",
@@ -2424,7 +2424,7 @@ const textData = {
         d0554e: "INSIDE WEB PORTAL TECHNOLOGY",
         d0555: "Let your million dollar idea realize it's full colour, we bring your ideas to the launchpad, primed & groomed to meet the world. Hit us up, we'll talk through on how to make it happen.",
         d0556: "YOUR MILLION DOLLAR IDEA, CODED",
-        d0557: "GET STARTED TODAY",
+        d0557: "LIKE WHAT YOU HAVE SEEN?",
         d0557a: "TAILORED FEATURES",
         d0559: "Finding an 'All In One Box' MLM System for your business?",
         d0559a: "Need a feature-rich E-Commerce Platform for your business?",
@@ -2858,8 +2858,8 @@ const textData = {
                 PName:"PRODUCTIVITY",
             },
             {
-                PIcon:"icon-wrench",
-                PName:"UTILITIES",
+                PIcon:"ti-gift",
+                PName:"RETAIL",
             },
             {
                 PIcon:"ti-video-camera",
@@ -2880,7 +2880,7 @@ const textData = {
             
             
         ],
-        d0605: "YOUR WEB NEEDS UNDER ONE ROOF",
+        d0605: "YOUR WEB DEVELOPMENT NEEDS UNDER ONE ROOF",
         d0606: "Web application architecture design",
         d0607: "UX/UI design",
         d0608: "Front-end development",
@@ -3025,7 +3025,7 @@ const textData = {
                 Pduration: 400,
                 Ptitle: 'MLM 多层传销/直销平台',
                 Pdescription: '此平台能够在线处理所有多层/直销计划与交易活动。它具备智能程序，能够自动处理复杂的销售结构与佣金分配。',
-                Hicon: 'ti-user',
+                Hicon: 'icon-share',
                 rclass : 'pr_70',
                 iclass: 'icon_one',
                 Phref: "/cn/Services/MLM",
@@ -5794,8 +5794,8 @@ const textData = {
                 PName:"运营自动化",
             },
             {
-                PIcon:"icon-wrench",
-                PName:"操控板，仪表板",
+                PIcon:"ti-gift",
+                PName:"销售",
             },
             {
                 PIcon:"ti-video-camera",

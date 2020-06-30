@@ -157,7 +157,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 @media (min-width: 1250px) {
   .container {
-    max-width: 1200px;
+    max-width: 90%;
   }
 }
 
@@ -18983,6 +18983,7 @@ height: 120px;
   -o-transition: all 0.3s linear;
   transition: all 0.3s linear;
   /* text-shadow: 0 0 30px red; */
+  text-shadow: 0 0 30px red;
   box-shadow: 0 0 30px #FF0B6F;
 }
 
@@ -19004,13 +19005,7 @@ height: 120px;
   
 }
 
-.hosting_service_item .icon:hover {
-  -webkit-transition: all 0.3s linear;
-  -o-transition: all 0.3s linear;
-  transition: all 0.3s linear;
-  text-shadow: 0 0 30px red;
-  box-shadow: 0 0 30px #FF0B6F;
-}
+
 
 .hosting_service_item .icon a {
   width: 70px;
@@ -27467,18 +27462,18 @@ a .h_head2:hover {
 }
 
 .wrapper_padding7 {
-  padding-left: 130px;
-  padding-right: 130px;
+  padding-left: 12%;
+  padding-right: 12%;
 }
 
 .wrapper_padding8 {
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 7%;
+  padding-right: 7%;
 }
 
 .wrapper_padding9 {
-  padding-left: 250px;
-  padding-right: 250px;
+  padding-left: 16%;
+  padding-right: 16%;
 }
 
 .wrapper_padding10 {

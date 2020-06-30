@@ -51,7 +51,7 @@ const Product = ({ nLang }) => {
                         </div>
                     </div> */}
                     <div className="verticle_lineg1_ctr"></div>
-                    <div className="wrapper_padding7 prod_desc1 ctr_text2 sec_pad34">
+                    <div className="prod_desc1 ctr_text2 sec_pad34">
                         <p>{content.d0577}</p>
                         <h1>{content.d0559e}</h1>
                     </div>
@@ -294,13 +294,13 @@ const Product = ({ nLang }) => {
             <Reveal>
             <div className=" wrapper_padding7xb sec_pad35 ctr_text row">
 
-                <div className="prod_desc1 ctr_text2">
+                <div className="col-12 prod_desc1 ctr_text2">
                     <h2 className="">{content.d0556}</h2>
                     <p className="mb_100">{content.d0555}</p>
                     {/* <a href={content.d0386} className="mt_70 txt_gap2 about_btn wow fadeInRight" data-wow-delay="0.4s">{content.d0032}</a> */}
                 </div>
 
-                <div className="prod_desc1 ctr_text2 ">
+                <div className="col-12 prod_desc1 ctr_text2 ">
                     <h2 className="mb_50">{content.d0557}</h2>
                     <Link href={content.d0386} data-wow-delay="0.4s"><a className="mt_130 ctr_text txt_gap2 about_btn wow fadeInRight">{content.d0032}</a></Link>
                 </div>
