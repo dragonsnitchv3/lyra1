@@ -54,7 +54,7 @@ const Product = ({ nLang }) => {
                     </div> */}
                     <Reveal></Reveal>
                     <div className="verticle_lineg1_ctr"></div>
-                    <div className="prod_desc1 ctr_text2 sec_pad34">
+                    <div className="wrapper_paddingm1 prod_desc1 ctr_text2 sec_pad34">
                         <p>{content.d0506}</p>
                         <h1>{content.d0507}</h1>
                     </div>

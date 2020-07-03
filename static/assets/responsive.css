@@ -1265,6 +1265,11 @@
     .pb_90r {
         margin-bottom: 40px;
     }
+
+    .wrapper_paddingm1 {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
     
 
     .about_pg h1 {
