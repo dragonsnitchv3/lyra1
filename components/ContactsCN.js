@@ -104,7 +104,7 @@ class Contacts extends Component {
                             {/* <h2 className={`contact_info_item2 f_p f_size_24 t_color3 f_700 l_height28 `}>{content.d0340}</h2>
                             <h2 className="contact_info_item3 f_p f_size_16 t_color3 f_400">{content.d0341}</h2> */}
                             <div className="about_pg mb_70 mt_30r">
-                                <h className="mb_40">{content.d0485}<span className="font_col1">{content.d0485a}</span></h>
+                                <h1 className="mb_40">{content.d0485}<span className="font_col1">{content.d0485a}</span></h1>
                                 <hr className="hr12"></hr>
                             </div>
 
