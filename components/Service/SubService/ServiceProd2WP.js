@@ -112,7 +112,7 @@ const Product = ({ nLang }) => {
                 </Reveal>
 
                 <Reveal>
-                <div className="bk_col5 wrapper_padding7 sec_pad35">
+                <div className="bk_col5 wrapper_padding7xb sec_pad35">
                     <div className="mb_70 prod_desc2 lf_text">
                             <h2>{content.d0592}</h2>
                     </div>  

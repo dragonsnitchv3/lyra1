@@ -27462,8 +27462,8 @@ a .h_head2:hover {
 }
 
 .wrapper_padding7 {
-  padding-left: 12%;
-  padding-right: 12%;
+  padding-left: 7%;
+  padding-right: 7%;
 }
 
 .wrapper_padding7xb {
@@ -27990,35 +27990,36 @@ a .h_head2:hover {
 }
 
 .process_bullet3:before {
-  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color:  #FF0B6F; /* Change the color */
-  font-weight: 900; /* If you want it to be bold */
-  display: inline-block; /* Needed to add space between the bullet and the text */
-  width: 1em; /* Also needed for space (tweak if needed) */
-  margin-left: 1em; /* Also needed for space (tweak if needed) */
-
+  content: "\2022";
+  color:  #FF0B6F;
+  display: block;
+  position: absolute;
+  font-weight: 900;
+  width: 1em;
+  top: 0px;
+  left: -15px;
 }
 
-.process_bullet4 {
-  list-style: none;
-  /* list-style-position: outside; */
-
-  font-size: 18px;
+.process_bullet4{
+  list-style-type: none;
+  position: relative;
+  padding-left: 5px;
+  font-size: 16px;
   color: white;
   font-weight: 300;
   letter-spacing: 1px;
   margin-bottom: 10px;
 }
 
-.process_bullet4:before {
-  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: #FF0B6F; /* Change the color */
-  font-weight: 900; /* If you want it to be bold */
-  display: inline-block; /* Needed to add space between the bullet and the text */
-  width: 1em; /* Also needed for space (tweak if needed) */
-  margin-left: 1em; /* Also needed for space (tweak if needed) */
-  list-style-position: outside
-
+.process_bullet4:before{
+  content: "\2022";
+  color:  #FF0B6F;
+  display: block;
+  position: absolute;
+  font-weight: 900;
+  width: 1em;
+  top: 0px;
+  left: -15px;
 }
 
 .font_col1 {

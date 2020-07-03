@@ -113,12 +113,12 @@ const Product = ({ nLang }) => {
                 </Reveal>
 
                 <Reveal>
-                <div className="bk_col5 wrapper_padding7 sec_pad35">
+                <div className="bk_col5 wrapper_padding7xb sec_pad35">
                     <div className="mb_70 prod_desc2 lf_text">
                             <h2 className="">{content.d0605}</h2>
                     </div>  
                     <div className="row mt_50r">
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 ">
                             <div className="prod_desc3">
                                 <li className="process_bullet4">{content.d0606}</li>
                                 <li className="process_bullet4">{content.d0607}</li>
