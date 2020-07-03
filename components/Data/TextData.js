@@ -1114,7 +1114,7 @@ const textData = {
               ],
           },
       ],
-        d0332: "© Lyratics Technologies Sdn Bhd. 2020 All rights reserved.",
+        d0332: "© Lyratics Technologies. 2020 All rights reserved.",
         d0333: 'Office Address',
         d0334: 'Contact Info',
         d0335: 'Others',
