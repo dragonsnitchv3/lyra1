@@ -1241,6 +1241,11 @@
         display: none
     }
 
+    .counter_padding1 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
     .sec_pad35r {
         padding-top: 60px;
         padding-bottom: 60px;

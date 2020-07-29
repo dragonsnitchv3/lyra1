@@ -25,7 +25,7 @@ const AllOne = ({nLang}) => {
         
         <div className="body_wrapper bk_col5 ">
             <Reveal duration={1} effectOut="fadeOutLeft">
-            <div className="wrapper_padding2 bk_col5 sec_pad32">
+            <div className=" bk_col5 sec_pad32">
                 {/* <Fade bottom cascade>
                     <div className="home_desc3 ctr_text hosting_title ">
                         <h>{content.d0423}</h>
@@ -43,7 +43,7 @@ const AllOne = ({nLang}) => {
                         })
                     } */}
 
-                    <div className="container disp_mob">
+                    <div className="container disp_mob counter_padding1">
                         <div className="row">
                             <div className="col-lg-6 col-md-12 d-flex align-items-center">
                                 <div className="home_panel1 txt_gap1 pr_15r">
@@ -72,7 +72,7 @@ const AllOne = ({nLang}) => {
 
                     <div className="container disp_dks">
                         <div className="row">
-                            <div className="col-lg-6 col-12 d-flex align-items-center">
+                            <div className="col-lg-6 col-12 d-flex align-items-center counter_padding1">
                                 <div className="home_panel1 txt_gap1 pr_15r">
                                     <h2 className="wow fadeInUp " data-wow-delay="0.3s">{content.d0596}</h2>
                                     <p className="wow fadeInUp" data-wow-delay="0.5s">{content.d0016}</p>
@@ -143,7 +143,7 @@ const AllOne = ({nLang}) => {
                 </div>
             </div> */}
 
-                <div className="sec_pad32 bk_col5b">
+                <div className="wrapper_padding2 sec_pad32 bk_col5b">
 
                     <div className="container">
                         <div className="prod_desc2 ctr_text mb_50r ">
