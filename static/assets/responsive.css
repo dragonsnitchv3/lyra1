@@ -4664,12 +4664,10 @@
       
       .hosting_service_item5a:hover h1{
         color: #FF0B6F;
-        font-weight: 600;
       }
       
       .hosting_service_item5a:hover h2{
         color: #FF0B6F;
-        font-weight: 600;
       }
 
       .hosting_service_item5a .icon {
@@ -4711,7 +4709,7 @@
         color: #ffffff;
         margin-bottom: 10px;
         margin-top: 20px;
-        font-weight: 400;
+        font-weight: 600;
         font-size: 15px;
         line-height: 25px;
         letter-spacing: 2px;

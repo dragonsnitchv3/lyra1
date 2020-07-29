@@ -25,9 +25,7 @@ class Portfolio2griditem extends Component{
                             
                                 <h3 className="f_500 f_size_22 txt_gap1 f_p">{Ptitle}</h3>
                                 
-                            <div className="links">
-                                <Link href={Phref}>{PtOne}</Link>
-                            </div>
+                            
                             <hr className="hr13"></hr>
                         </div>
                     </div>

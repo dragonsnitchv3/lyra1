@@ -74,9 +74,9 @@ class Service extends React.Component {
                             </div>
                             </Fade> */}
                             <div className="row sec_pad20">
-                                <div className="row portfolio_gallery mb_30" id="work-portfolio">
+                                <div className="row portfolio_gallery mb_30 justify-content-center" id="work-portfolio">
                                 {
-                                    content.d0056.map((item) => {
+                                    content.d0056a.map((item) => {
                                         return(
                                             // <Package3 Pduration={item.Pduration} Ptitle={item.Ptitle} Pdescription={item.Pdescription} />
                                             <Product2griditem colClass="col-lg-6 col-sm-6 develop" Pduration={item.Pduration} pImg={item.Pimg} pImgpre={item.Pimgpre} Phref={item.Phref} Ptitle={item.Ptitle} Pdescription={item.Pdescription} PtOne={item.PtOne}/>

@@ -19301,7 +19301,7 @@ height: 120px;
 .hosting_service_item5a h1 {
   color: #ffffff;
   margin-bottom: 20px;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 16px;
   line-height: 33px;
   letter-spacing: 2px;
@@ -25094,7 +25094,7 @@ a .h_head2:hover {
   color: #ffffff;
   font-size: 40px;
   letter-spacing: 5px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .prod_desc2 h3 {
@@ -27336,6 +27336,14 @@ a .h_head2:hover {
   border-radius: 5px;
 }
 
+.img_size_square3u {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border: 10px solid #2e2e2e;
+  border-radius: 20px;
+}
+
 .img_size_square3 {
   width: 100%;
   height: 350px;
@@ -27962,29 +27970,35 @@ a .h_head2:hover {
 }
 
 .process_bullet2 {
-  list-style: none;
-  font-size: 19px;
+  list-style-type: none;
+  position: relative;
+  padding-left: 5px;
   color: white;
+  font-size: 19px;
   font-weight: 400;
   letter-spacing: 3px;
   margin-bottom: 10px;
+  margin-left: 10px;
 }
 
 .process_bullet2:before {
-  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color:  #FF0B6F; /* Change the color */
-  font-weight: 900; /* If you want it to be bold */
-  display: inline-block; /* Needed to add space between the bullet and the text */
-  width: 1em; /* Also needed for space (tweak if needed) */
-  margin-left: 1em; /* Also needed for space (tweak if needed) */
-
+  content: "\2022";
+  color:  #FF0B6F;
+  display: block;
+  position: absolute;
+  font-weight: 900;
+  width: 1em;
+  top: 0px;
+  left: -15px;
 }
 
 .process_bullet3 {
-  list-style: none;
-  font-size: 18px;
+  list-style-type: none;
+  position: relative;
+  padding-left: 5px;
   color: white;
-  font-weight: 300;
+  font-size: 18px;
+  font-weight: 400;
   letter-spacing: 1px;
   margin-bottom: 10px;
 }
@@ -28004,9 +28018,9 @@ a .h_head2:hover {
   list-style-type: none;
   position: relative;
   padding-left: 5px;
-  font-size: 16px;
   color: white;
-  font-weight: 300;
+  font-size: 20px;
+  font-weight: 400;
   letter-spacing: 1px;
   margin-bottom: 10px;
 }

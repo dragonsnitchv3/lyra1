@@ -26,6 +26,7 @@ const AppBanner = ({nLang}) => {
         let tp3 = content.d0010a
         let tp4 = content.d0011a
         let tp5 = content.d0012
+        let tp8 = content.d0649
 
         let dura;
 
@@ -44,7 +45,7 @@ const AppBanner = ({nLang}) => {
                                             <h2 className={`f_300 w_color2 wow text-center fadeInLeft f_size_65 text_align1 txt_gap3`} data-wow-delay="0.3s">
                                                 <Typical
                                                     className="f_300 w_color2"
-                                                    steps={[tp6, dura, tp1,dura, tp2, dura, tp7, dura, tp3, dura, tp4, dura, tp5, dura]}
+                                                    steps={[tp8, dura, tp6, dura, tp1,dura, tp2, dura, tp7, dura, tp3, dura, tp4, dura, tp5, dura]}
                                                     loop={Infinity}
                                                     wrapper='b'
                                                 />
