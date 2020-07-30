@@ -116,7 +116,7 @@ const Product = ({ nLang }) => {
                 <Reveal>
                 <div className="bk_col5 wrapper_padding7xb sec_pad35">
                     <div className="mb_70 prod_desc2 lf_text">
-                            <h2 className="">{content.d0605}</h2>
+                            <h2 className="">{content.d0624}</h2>
                     </div>  
                     <div className="row mt_50r">
                         <div className="col-lg-6 ">

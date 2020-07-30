@@ -25153,6 +25153,7 @@ a .h_head2:hover {
 
 
 
+
 /*============= seo_service_area css =============*/
 .seo_service_item_pkg {
   background-color: rgba(255, 255, 255, 0);
@@ -28020,10 +28021,10 @@ a .h_head2:hover {
   position: relative;
   padding-left: 5px;
   color: white;
-  font-size: 20px;
-  font-weight: 400;
+  font-size: 22px;
+  font-weight: 300;
   letter-spacing: 1px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .process_bullet4:before{
