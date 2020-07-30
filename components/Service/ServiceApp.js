@@ -40,7 +40,7 @@ const Product = ({ nLang }) => {
                                     <p>{content.d0486}</p>
                                     <h1>{content.d0614}<br></br></h1>
                                     <h2>{content.d0488}<br></br></h2>
-                                    <p>{content.d0489}<br></br></p>
+                                    <p>{content.d0650}<br></br></p>
                                 </div>
                             </div>
                         </div>

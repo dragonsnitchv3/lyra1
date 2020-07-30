@@ -27342,6 +27342,7 @@ a .h_head2:hover {
   object-fit: cover;
   border: 10px solid #2e2e2e;
   border-radius: 20px;
+  background: linear-gradient(140deg, yellow, rgb(243, 245, 133) ); 
 }
 
 .img_size_square3 {
