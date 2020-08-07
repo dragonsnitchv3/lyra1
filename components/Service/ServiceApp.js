@@ -116,7 +116,7 @@ const Product = ({ nLang }) => {
                 <Reveal>
                 <div className="bk_col5 wrapper_padding7xb sec_pad35">
                     <div className="mb_70 prod_desc2 lf_text">
-                            <h2 className="">{content.d0624}</h2>
+                            <h5 className="">{content.d0624}</h5>
                     </div>  
                     <div className="row mt_50r">
                         <div className="col-lg-6 ">
@@ -143,7 +143,7 @@ const Product = ({ nLang }) => {
                 {/* <FaqSection dataNo={content.d0414} C1T={content.d0072} C2T={content.d0090} C3T={content.d0106} nLang={nLang}/> */}
                 <section className="bk_col5b sec_pad32">
                     <div className="wrapper_padding3 prod_desc2 lf_text max_width">
-                            <Reveal effect="fadeInUp" duration={1300}><h2>{content.d0468}</h2></Reveal>
+                            <Reveal effect="fadeInUp" duration={1300}><h5>{content.d0468}</h5></Reveal>
                     </div>     
                     <div className="wrapper_padding3">
                         <TrackingProductItem itemClass="tracking_pr_two" image="wd1.jpg" imagepre="wd1pre.jpg"  TrackingTitle={content.d0469} Trackingd={content.d0633} Trackingd2={content.d0470a} Trackingbtn={content.d0142} nLang={nLang}/>

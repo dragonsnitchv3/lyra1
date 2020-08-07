@@ -7,6 +7,7 @@
 
     var t1 = textData.english.d0382;
     var t2 = textData.english.d0383;
+    var t3 = textData.english.d0651;
 
     class Footer extends Component {
 
@@ -33,7 +34,7 @@
             
             axios({
                 method: "POST", 
-                url:"https://bknv2-kip10nxm0.vercel.app/sends", 
+                url:`${t3}/sends`, 
                 // url:"https://localhost:3002/sends", 
                 data: {
                     type: 'enquiry',

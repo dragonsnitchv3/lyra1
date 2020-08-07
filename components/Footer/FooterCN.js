@@ -7,6 +7,7 @@ import axios from 'axios';
 
 var t1 = textData.chinese.d0382;
 var t2 = textData.chinese.d0383;
+var t3 = textData.chinese.d0651;
 
 class Footer extends Component {
 
@@ -33,7 +34,7 @@ class Footer extends Component {
         
         axios({
             method: "POST", 
-            url:"https://bknv2-kip10nxm0.vercel.app/sends", 
+            url:`${t3}/sends`, 
             // url:"http://localhost:3002/sends", 
             data: {
                 type: 'enquiry',

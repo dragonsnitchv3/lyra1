@@ -1486,6 +1486,14 @@
     color: #FF0B6F;
     letter-spacing: 5px;
     }
+
+    .prod_desc2 h5 {
+        color: #ffffff;
+        font-size: 30px;
+        letter-spacing: 5px;
+        font-weight: 400;
+        margin-bottom: 80px;
+        }
     
     .prod_desc2 p {
     color: #c0c0c0;

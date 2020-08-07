@@ -25114,6 +25114,15 @@ a .h_head2:hover {
   
 }
 
+.prod_desc2 h5 {
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 5px;
+  font-weight: 400;
+  text-align: left;
+}
+
+
 .prod_desc2 p {
   color: #c0c0c0;
   font-size: 17px;
@@ -28022,7 +28031,7 @@ a .h_head2:hover {
   position: relative;
   padding-left: 5px;
   color: white;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 300;
   letter-spacing: 1px;
   margin-bottom: 20px;
@@ -28251,7 +28260,7 @@ a .h_head2:hover {
   font-size: 20px;
   font-weight: 300;
   margin-top: 30px;
-  line-height: 20px;
+  line-height: 30px;
   margin-bottom: 10px;
   letter-spacing: 2px;
 }
