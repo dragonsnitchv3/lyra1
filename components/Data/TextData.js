@@ -159,8 +159,8 @@ const textData = {
                 rclass : 'pr_70',
                 iclass: 'icon_five',
                 Phref: "/Services/WebDevelopment",
-                Pimg: "wswa2.jpg",
-                Pimgpre: "wswa2pre.jpg",
+                Pimg: "wapp.png",
+                Pimgpre: "wapppre.png",
                 PtOne: "Web System"
             },
             {
@@ -172,8 +172,8 @@ const textData = {
                 rclass : 'pr_70',
                 iclass: 'icon_four',
                 Phref: "/Services/MobileAppDevelopment",
-                Pimg: "mapp2.jpg",
-                Pimgpre: "mapp2.jpg",
+                Pimg: "mapp.jpg",
+                Pimgpre: "mapppre.jpg",
                 PtOne: "Web System"
             },
             {
@@ -2320,7 +2320,7 @@ const textData = {
         d0467: "Utility you need.",
         d0468: "TAILORED SERVICES",
         d0469: "FULL SERVICE DEVELOPMENT",
-        d0470: "Web System & Web Application development are among our primary service offering. We have the expertise to assist our clients through the entire development cycle.",
+        d0470: "Web development is our primary service offering. We have the expertise to assist our clients through the entire development cycle.",
         d0470a: "Full development service includes Advisory, UI/UX Design, Frontend Development, Backend Development, Hosting, Server, Testing, Upgrade and Maintenence.",
         d0471: "CONSULTATION",
         d0472: "We provide staff training, solution architecture, consultation on technology and development best practices. ",
@@ -2331,7 +2331,7 @@ const textData = {
         d0476: "Our multilingual team are versatile in executing projects with generic requirements while delivering paramount development quality.",
         d0477: "LEADING TECHNOLOGIES",
         d0478: "Our specialization spans across various tech stacks including React, NodeJS, Python, PHP, Microsoft .NET (C#.NET, VB.NET), Big Data (NoSQL, MongoDB, MSSQL), JavaScript, jQuery, jSON, CSS, Payment Gateway Development, API programming and integration etc.",
-        d0479: "Your web system & web app will be built using cutting edge technologies and frameworks.",
+        d0479: "Your website will be built using cutting edge technologies and frameworks.",
         d0480: "Web System",
         d0481: "Web Development",
         d0482: [
@@ -2446,18 +2446,24 @@ const textData = {
         d0503: "Faster delivery",
         d0504: "Reliable system performance",
         d0505: "Great technical support",
-        d0506: "Online IT development solution is a very lucrative industry that is very relevant today. As top talents are always in demand, difficulty in hiring web development specialists are commonly faced by startups and businesses. The process could take months, stretching product's time to market.",
+        d0506: "Web Development is a very lucrative industry that is very relevant today. As top talents are always in demand, difficulty in hiring web development specialists are commonly faced by startups and businesses. The process could take months, stretching product's time to market.",
         d0507: "Facing difficulties in finding a professional web developer? ",
         d0508: "WE READ YOUR ISSUE",
         d0508a: "TURBOCHARGE YOUR FLOW",
+        d0508c: "WHAT IS A WEB APP?",
         d0508b: "HA",
         d0509: "A",
         d0510: "key part of the winning formula for businesses is the ability to compress its time to market (TTM) span.",
         d0510aa: "A",
         d0510a: "well infrastructured warehouse process flow is the key to unlock a greater level of operation efficiency.",
-        d0511: "Forming a capable team of project manager, front & back-end programmer, designer and copywriter are the pivotal ingredients to develop a great web application. It's clear that this process takes substantial time and monetary resources.",
+        d0511: "capable project manager, front & back-end programmer, designer and copywriter are the key ingredients to build a great website. However, the process to gather such talents requires substantial time and monetary investment.",
         d0511a: "The difficulties in managing warehouse flow through traditional MS Excel is a huge bottleneck for many businesses because of its lack of automation. It often leads to frequent unforced data errors, limiting overall productivity.",
-        d0512: "Why go through this process when your business demands your full attention on business growth and reaping market share of the industry. Lyratics' team of web development specialists are the solution to this puzzle.",
+        d0512: "This is why startups and businesses have turned to Lyratics' team of web development specialists for quality web solutions (such as Web Application) and faster Time-To-Market (TTM).",
+        d0512b:"WEB APPLICATIONS",
+        d0512c:"are dynamic websites built with functionality and interactive elements.",
+        d0512d:"Whilst regular websites are one-way informational feeds that do not allow viewers to interact or communicate back to the site, Web Applications can perform wide range of functionality built for user engagement, creating an interactive environment for all visitors.",
+        d0512e:"Ferrari.com, BMW.com, Hyatt.com, Dominos.com, Airbnb, etc. are all Web Apps that are dynamic, and built for user engagement.",
+        d0512f: "In a Web App, Data can be referenced, stored, and accessed through a customized interface to simplify the delivery of information to your customer.",
         d0512a: "Through automated management software, each in-out-flow transaction is recorded precisely, calculated, and reflected swiftly in system. Thus, eliminating discrepencies between system database and the actual running balance.",
         d0513: "WEB APPICATIONS WE BUILD",
         d0514: "PROJECT MANAGER",
@@ -2950,15 +2956,15 @@ const textData = {
             },
             {
                 PIcon:"ti-panel",
-                PName:"PRODUCTIVITY",
+                PName:"BUSINESS PRODUCTIVITY",
             },
             {
                 PIcon:"ti-gift",
-                PName:"RETAIL",
+                PName:"RETAIL & ENTERTAINMENT",
             },
             {
-                PIcon:"ti-video-camera",
-                PName:"ENTERTAINMENT",
+                PIcon:"ti-home",
+                PName:"REAL ESTATE",
             },
             {
                 PIcon:"icon-plane",
@@ -3128,8 +3134,8 @@ const textData = {
                 rclass : 'pr_70',
                 iclass: 'icon_four',
                 Phref: "/cn/Services/MobileAppDevelopment",
-                Pimg: "mapp2.jpg",
-                Pimgpre: "mapp2.jpg",
+                Pimg: "mapp.jpg",
+                Pimgpre: "mapppre.jpg",
                 PtOne: "Web System"
             },
             {
@@ -3196,8 +3202,8 @@ const textData = {
                 rclass : 'pr_70',
                 iclass: 'icon_five',
                 Phref: "/cn/Services/WebDevelopment",
-                Pimg: "wswa2.jpg",
-                Pimgpre: "wswa2pre.jpg",
+                Pimg: "wapp.png",
+                Pimgpre: "wapppre.png",
                 PtOne: "网络系统"
             },
             {
@@ -3210,7 +3216,7 @@ const textData = {
                 iclass: 'icon_four',
                 Phref: "/cn/Services/MobileAppDevelopment",
                 Pimg: "mapp2.jpg",
-                Pimgpre: "mapp2.jpg",
+                Pimgpre: "mapp2pre.jpg",
                 PtOne: "Web System"
             },
             {
@@ -5488,6 +5494,7 @@ const textData = {
         d0508: "我们了解您的难题",
         d0508a: "将您的仓库迅速化",
         d0508b: "HA",
+        d0508c: "什么是网站应用程序?",
         d0509: "一个",
         d0510: "企业成功的关键因素之一在于能否缩短化产品上市所需时间（TTM）。",
         d0510aa: "拥有",
@@ -5496,6 +5503,11 @@ const textData = {
         d0511a: "使用传统MS Excel来管理仓库流时所面对的困难是许多仓库企业的巨大瓶颈。由于缺乏自动化的功能，它导致频繁的人为数据错误，从而限制了整体运营效率。",
         d0512: "同时，您的业务需要您全神贯注于业务增长与争取行业市场份额。拥有长久网络开发经验的天琴科技团队能为您提供多元化解决方案。",
         d0512a: "通过使用自动化管理软件，系统能精确记录，计算和记录每个货流入与流出的动态，并将数据迅速反映到系统中。因此，解决了系统数据库与实际货存量之间的差异。",
+        d0512b:"网站应用程序",
+        d0512c:"是具有多元功能与互动元素的智能网站",
+        d0512d:"相对于只能支持只读的普通静态网站，网站应用程序能通过先进的用户应用功能，支持双方来回数据与信息流，呈现出一种互动性的平台，提升用户体验。",
+        d0512e:"Ferrari.com, BMW.com, Hyatt.com, Dominos.com, Airbnb, 等等 都是拥有互动性质的网站应用程序。",
+        d0512f: "网站应用程序也能支持用户数据储存与索取。这功能将简单化与准确化在网站呈现给用户的个人信息的过程。",
         d0513: "我们的网站应用程序开发领域",
         d0514: "项目经理",
         d0515: "前端程序开发员",
@@ -5991,11 +6003,11 @@ const textData = {
             },
             {
                 PIcon:"ti-gift",
-                PName:"销售",
+                PName:"销售&娱乐",
             },
             {
-                PIcon:"ti-video-camera",
-                PName:"娱乐",
+                PIcon:"ti-home",
+                PName:"房地产",
             },
             {
                 PIcon:"icon-plane",

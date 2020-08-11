@@ -31,7 +31,7 @@ const Product = ({ nLang }) => {
                     <div className="sec_pad32 col-lg-12 ">
                         <div className="row">
                             <div className="col-lg-5 sec_pad33">
-                                <ProgressiveImage src='/img/home7/mapp.jpg' placeholder='/img/home7/mapppre.png'>
+                                <ProgressiveImage src='/img/home7/mapp2.jpg' placeholder='/img/home7/mapp2pre.jpg'>
                                     {src => <img className="img_size_square3u" src={src} alt="" />}
                                 </ProgressiveImage>
                             </div>

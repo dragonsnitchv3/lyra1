@@ -29,12 +29,12 @@ const Product = ({ nLang }) => {
                     <div className="col-lg-12 sec_pad32">
                         <div className="row ">
                             <div className="col-lg-5 sec_pad33">
-                                <ProgressiveImage src='/img/home7/portal1.png' placeholder='/img/home7/portal1pre.png'>
-                                    {src => <img className="img_size_square3e" src={src} alt="" />}
+                                <ProgressiveImage src='/img/home7/wp2.png' placeholder='/img/home7/wp2pre.png'>
+                                    {src => <img className="img_size_square3u" src={src} alt="" />}
                                 </ProgressiveImage>
                             </div>
                             <div className="col-lg-7 pl_70r">
-                                <div className="prodm_pg txt_gap3">
+                                <div className="prodm_pg2 txt_gap3">
                                     <p>{content.d0486}</p>
                                     <h1>{content.d0487e}<br></br></h1>
                                     <h2>{content.d0488}<br></br></h2>

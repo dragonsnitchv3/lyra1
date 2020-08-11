@@ -31,12 +31,12 @@ const Product = ({ nLang }) => {
                     <div className="sec_pad32 col-lg-12 ">
                         <div className="row">
                             <div className="col-lg-5 sec_pad33">
-                                <ProgressiveImage src='/img/home7/mlm1.png' placeholder='/img/home7/mlm1pre.png'>
-                                    {src => <img className="img_size_square3" src={src} alt="" />}
+                                <ProgressiveImage src='/img/home7/wapp.png' placeholder='/img/home7/wapppre.png'>
+                                    {src => <img className="img_size_square3u" src={src} alt="" />}
                                 </ProgressiveImage>
                             </div>
                             <div className="col-lg-7 pl_70r ">
-                                <div className="prodm_pg txt_gap3 ">
+                                <div className="prodm_pg2 txt_gap3 ">
                                     <p>{content.d0486}</p>
                                     <h1>{content.d0487}<br></br></h1>
                                     <h2>{content.d0488}<br></br></h2>
@@ -55,7 +55,9 @@ const Product = ({ nLang }) => {
                     <Reveal></Reveal>
                     <div className="verticle_lineg1_ctr"></div>
                     <div className="wrapper_paddingm1 prod_desc1 ctr_text2 sec_pad34">
-                        <p>{content.d0506}</p>
+                        {/*<p><span className="f_700 t_color f_size_30 lf_text3">{content.d0509}</span>{content.d0510}</p>*/}
+                        <p><span className="f_700 t_color f_size_30 lf_text3">{content.d0509}</span>{content.d0511}</p>
+                        <p>{content.d0512}</p>
                         <h1>{content.d0507}</h1>
                     </div>
                     <div className="verticle_lineg1_ctr disp_mob"></div>
@@ -68,14 +70,15 @@ const Product = ({ nLang }) => {
                     <div className="row">
                         <div className="col-lg-4">
                             <div className="prod_desc2 width1 ctr_text">
-                                <h2>{content.d0508}</h2>
+                                <h2>{content.d0508c}</h2>
                             </div>
                         </div>
                         <div className="col-lg-8">
                             <div className="prod_desc2">
-                                <p><span className="f_700 t_color f_size_30 lf_text3">{content.d0509}</span>{content.d0510}</p>
-                                <p>{content.d0511}</p>
-                                <p>{content.d0512}</p>
+                                <p><span className="f_700 t_color f_size_30 lf_text3">{content.d0512b}</span>{content.d0512c}</p>
+                                <p>{content.d0512d}</p>
+                                <p>{content.d0512e}</p>
+                                <p>{content.d0512f}</p>
                             </div>
                         </div>
                     </div>  

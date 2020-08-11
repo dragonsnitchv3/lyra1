@@ -6,6 +6,7 @@ import Fade from 'react-reveal/Fade';
 
 var t1 = textData.english.d0384;
 var t2 = textData.english.d0383;
+var t3 = textData.english.d0651;
 
 class Contacts extends Component {
 

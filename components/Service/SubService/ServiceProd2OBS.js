@@ -34,7 +34,7 @@ const Product = ({ nLang }) => {
                                 </ProgressiveImage>
                             </div>
                             <div className="col-lg-7 pl_70r">
-                                <div className="prodm_pg txt_gap3">
+                                <div className="prodm_pg2 txt_gap3">
                                     <p>{content.d0486}</p>
                                     <h1>{content.d0487d}<br></br></h1>
                                     <h2>{content.d0488}<br></br></h2>
