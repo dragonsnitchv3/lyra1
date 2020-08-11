@@ -58,7 +58,7 @@ const Product = ({ nLang }) => {
                         {/*<p><span className="f_700 t_color f_size_30 lf_text3">{content.d0509}</span>{content.d0510}</p>*/}
                         <p><span className="f_700 t_color f_size_30 lf_text3">{content.d0509}</span>{content.d0511}</p>
                         <p>{content.d0512}</p>
-                        <h1>{content.d0507}</h1>
+                        <h1 className="disp_mob">{content.d0507}</h1>
                     </div>
                     <div className="verticle_lineg1_ctr disp_mob"></div>
                     <div className="triangle-up disp_mob "></div>
