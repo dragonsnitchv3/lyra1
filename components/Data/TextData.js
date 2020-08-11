@@ -3215,8 +3215,8 @@ const textData = {
                 rclass : 'pr_70',
                 iclass: 'icon_four',
                 Phref: "/cn/Services/MobileAppDevelopment",
-                Pimg: "mapp2.jpg",
-                Pimgpre: "mapp2pre.jpg",
+                Pimg: "mapp.jpg",
+                Pimgpre: "mapppre.jpg",
                 PtOne: "Web System"
             },
             {
