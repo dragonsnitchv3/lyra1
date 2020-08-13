@@ -6,6 +6,7 @@ import Fade from 'react-reveal/Fade';
 
 var t1 = textData.chinese.d0384;
 var t2 = textData.chinese.d0383;
+var t3 = textData.chinese.d0651;
 
 class Contacts extends Component {
 
@@ -59,7 +60,7 @@ class Contacts extends Component {
         const message = this.state.message;
         axios({
             method: "POST", 
-            url:"https://bknv2-p1yn87dyh.vercel.app/send",
+            url:`${t3}/send`, 
             // url:"http://localhost:3002/send", 
             data: {
                 name: name,   
