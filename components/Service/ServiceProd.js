@@ -31,7 +31,7 @@ const Product = ({ nLang }) => {
                     <div className="sec_pad32 col-lg-12 ">
                         <div className="row">
                             <div className="col-lg-5 sec_pad33">
-                                <ProgressiveImage src='/img/home7/wapp.png' placeholder='/img/home7/wapppre.png'>
+                                <ProgressiveImage src='/img/home7/wapp2.png' placeholder='/img/home7/wapp2pre.png'>
                                     {src => <img className="img_size_square3u" src={src} alt="" />}
                                 </ProgressiveImage>
                             </div>
@@ -58,7 +58,6 @@ const Product = ({ nLang }) => {
                         {/*<p><span className="f_700 t_color f_size_30 lf_text3">{content.d0509}</span>{content.d0510}</p>*/}
                         <p><span className="f_700 t_color f_size_30 lf_text3">{content.d0509}</span>{content.d0511}</p>
                         <p>{content.d0512}</p>
-                        <p>{content.d0512}</p>
                         <h1 className="disp_mob">{content.d0507}</h1>
                     </div>
                     <div className="verticle_lineg1_ctr disp_mob"></div>
@@ -82,8 +81,7 @@ const Product = ({ nLang }) => {
                                 <p>{content.d0512f}</p>
                             </div>
                         </div>
-                    </div>
-                      
+                    </div>  
                 </div>
                 </Reveal>
                 

@@ -10,7 +10,7 @@ const textData = {
         d0007: 'Get Started',
         d0008: 'E-COMMERCE',
         d0008a: 'WEB',
-        d0009: 'MLM',
+        d0009: 'MARKETING SYSTEM',
         d0009a: 'DIRECT SALES',
         d0010: 'Warehouse Management System',
         d0010a: 'LOGISTICS',
@@ -47,9 +47,8 @@ const textData = {
         d0032b: ' US',
         d0033: 'What We Do?',
         d0034: 'Lyratics Technologies is a premier mobile app, web & software development company that provides end-to-end development services for startups, SMEs and corporate firms across South East Asia & China. We handle the complete technology development lifecycle including analysis, design, development, QA/Testing, deployment, maintenance, cloud hosting and beyond.',
-        d0034a: 'Malaysia premier mobile app, web app and software development company. We assist businesses and startups to launch their ideas and grow through technology.',
         d0035: 'INDUSTRIES & EXPERIENCES',
-        d0036: 'With 9 years of collective industrial experience, our core expertise relates to the fields of E-Commerce & Online Marketplaces, Multi Level Marketing (MLM), Direct Sales, Logistics Management Systems, Inventory Management Systems, Online Booking Systems (Accomodation, Travel, Transportation), Web Portals, Content Management Systems (CMS).',
+        d0036: 'With 9 years of collective industrial experience, our core expertise relates to the fields of E-Commerce & Online Marketplaces, Sales & Marketing Management System, Logistics Management Systems, Inventory Management Systems, Online Booking Systems (Accomodation, Travel, Transportation), Web Portals, Content Management Systems (CMS).',
         d0037: 'TECHNOLOGIES & SOLUTIONS',
         d0038: 'Our specialization spans across various tech stacks including ReactJS, React Native, NodeJS, Python, PHP, Microsoft .NET (C#.NET, VB.NET), Big Data (NoSQL, MongoDB, MSSQL), JavaScript, jQuery, jSON, CSS, Payment Gateway Development, API programming and integration etc.',
         d0039: 'Our Products',
@@ -70,132 +69,11 @@ const textData = {
         d0054: 'Bring your service availability online.',
         d0055: 'Build a web portal for your organisation or customers.',
         d0056: [
-            {
-                id: '6',
-                Pduration: 300,
-                Ptitle : 'CORPORATE WEBSITE',
-                Pdescription: "Curate a bespoke corporate website for your business",
-                Hicon: 'icon-briefcase',
-                rclass : 'pr_70',
-                iclass: 'icon_five',
-                Phref: "/Services/CorporateWebsiteDevelopment",
-                Pimg: "wswa2.jpg",
-                Pimgpre: "wswa2pre.jpg",
-                PtOne: "Web System"
-            },
-            {
-                id: '6',
-                Pduration: 300,
-                Ptitle : 'WEB DEVELOPMENT',
-                Pdescription: "Develop your distinct custom Web Application",
-                Hicon: 'icon-screen-desktop',
-                rclass : 'pr_70',
-                iclass: 'icon_five',
-                Phref: "/Services/WebDevelopment",
-                Pimg: "wswa2.jpg",
-                Pimgpre: "wswa2pre.jpg",
-                PtOne: "Web System"
-            },
-            {
-                id: '4',
-                Pduration: 700,
-                Ptitle : 'MOBILE APP DEVELOPMENT',
-                Pdescription: "Develop your distinct custom Mobile Application",
-                Hicon: 'icon-screen-tablet',
-                rclass : 'pr_70',
-                iclass: 'icon_four',
-                Phref: "/Services/MobileAppDevelopment",
-                Pimg: "mapp.jpg",
-                Pimgpre: "mapp.jpg",
-                PtOne: "Web System"
-            },
-            {
-                id: '2',
-                Pduration: 500,
-                Ptitle : 'E-COMMERCE PLATFORM',
-                Pdescription: 'E-Commerce Marketplace, Platform, and the technologies you need to establish your business online today.',
-                Hicon: 'ti-shopping-cart',
-                rclass : 'pr_70',
-                iclass: 'icon_two',
-                Phref: "/Services/Ecommerce",
-                Pimg: "ecom.jpg",
-                Pimgpre: "ecompre.jpg",
-                PtOne: "Web System"
-            },
-            {
-                id: '3',
-                Pduration: 600,
-                Ptitle : 'WAREHOUSE MANAGEMENT SOFTWARE',
-                Pdescription: 'Software to command your logistics & warehousing operation from anywhere.',
-                Hicon: 'ti-truck',
-                rclass : 'pr_70',
-                iclass: 'icon_three',
-                Phref: "/Services/WarehouseManagementSystem",
-                Pimg: "logistics.jpg",
-                Pimgpre: "logisticspre.jpg",
-                PtOne: "Web System"
-            },
-            {
-                id: '5',
-                Pduration: 800,
-                Ptitle : 'BUSINESS WEB PORTAL',
-                Pdescription: 'Feature rich web portal for your organisation or customers.',
-                Hicon: 'ti-id-badge',
-                rclass : 'pr_70',
-                iclass: 'icon_five',
-                Phref: "/Services/WebPortal",
-                Pimg: "wp2.jpg",
-                Pimgpre: "wp2pre.jpg",
-                tOne: "Web System",
-                PtOne: "Web System"
-            },
             
-            
-        ],
-        d0056a: [
-            {
-                id: '6',
-                Pduration: 300,
-                Ptitle : 'CORPORATE WEBSITE',
-                Pdescription: "Curate a bespoke corporate website for your business",
-                Hicon: 'icon-screen-desktop',
-                rclass : 'pr_70',
-                iclass: 'icon_five',
-                Phref: "/Services/CorporateWebsiteDevelopment",
-                Pimg: "corp.png",
-                Pimgpre: "corppre.png",
-                PtOne: "Web System",
-            },
-            {
-                id: '6',
-                Pduration: 300,
-                Ptitle : 'WEB APP DEVELOPMENT',
-                Pdescription: "Develop your distinct custom Web Application",
-                Hicon: 'icon-screen-desktop',
-                rclass : 'pr_70',
-                iclass: 'icon_five',
-                Phref: "/Services/WebDevelopment",
-                Pimg: "wapp.png",
-                Pimgpre: "wapppre.png",
-                PtOne: "Web System",
-            },
-            {
-                id: '4',
-                Pduration: 700,
-                Ptitle : 'MOBILE APP DEVELOPMENT',
-                Pdescription: "Develop your distinct custom Mobile Application",
-                Hicon: 'icon-screen-tablet',
-                rclass : 'pr_70',
-                iclass: 'icon_four',
-                Phref: "/Services/MobileAppDevelopment",
-                Pimg: "mapp.jpg",
-                Pimgpre: "mapppre.jpg",
-                PtOne: "Web System"
-            },
             {
                 id: '1',
                 Pduration: 400,
-                Ptitle: 'MLM / DIRECT-SALES PLATFORM',
+                Ptitle: 'SALES & MARKETING PLATFORM',
                 Pdescription: 'Facilitate your sales business with the latest commerce system integrated with advanced levelled sales maps.',
                 Hicon: 'icon-share',
                 rclass : 'pr_70',
@@ -203,19 +81,6 @@ const textData = {
                 Phref: "/Services/MLM",
                 Pimg: "mlm.jpg",
                 Pimgpre: "mlmpre.jpg",
-                PtOne: "Web System"
-            },
-            {
-                id: '2',
-                Pduration: 500,
-                Ptitle : 'E-COMMERCE PLATFORM',
-                Pdescription: 'E-Commerce Marketplace, Platform, and the technologies you need to establish your business online today.',
-                Hicon: 'ti-shopping-cart',
-                rclass : 'pr_70',
-                iclass: 'icon_two',
-                Phref: "/Services/Ecommerce",
-                Pimg: "ecom.jpg",
-                Pimgpre: "ecompre.jpg",
                 PtOne: "Web System"
             },
             {
@@ -243,6 +108,130 @@ const textData = {
                 Pimg: "wp2.jpg",
                 Pimgpre: "wp2pre.jpg",
                 tOne: "Web System",
+                PtOne: "Web System"
+            },
+            {
+                id: '4',
+                Pduration: 700,
+                Ptitle : 'MOBILE APP DEVELOPMENT',
+                Pdescription: "Develop your distinct custom Mobile Application",
+                Hicon: 'icon-screen-tablet',
+                rclass : 'pr_70',
+                iclass: 'icon_four',
+                Phref: "/Services/MobileAppDevelopment",
+                Pimg: "mapp.jpg",
+                Pimgpre: "mapp.jpg",
+                PtOne: "Web System"
+            },
+            {
+                id: '6',
+                Pduration: 300,
+                Ptitle : 'WEB DEVELOPMENT',
+                Pdescription: "Develop your distinct custom Web Application",
+                Hicon: 'icon-screen-desktop',
+                rclass : 'pr_70',
+                iclass: 'icon_five',
+                Phref: "/Services/WebDevelopment",
+                Pimg: "wswa2.jpg",
+                Pimgpre: "wswa2pre.jpg",
+                PtOne: "Web System"
+            },
+            {
+                id: '2',
+                Pduration: 500,
+                Ptitle : 'E-COMMERCE PLATFORM',
+                Pdescription: 'E-Commerce Marketplace, Platform, and the technologies you need to establish your business online today.',
+                Hicon: 'ti-shopping-cart',
+                rclass : 'pr_70',
+                iclass: 'icon_two',
+                Phref: "/Services/Ecommerce",
+                Pimg: "ecom.jpg",
+                Pimgpre: "ecompre.jpg",
+                PtOne: "Web System"
+            },
+            
+            
+            
+            
+        ],
+        d0056a: [
+            {
+                id: '3',
+                Pduration: 600,
+                Ptitle : 'WAREHOUSE MANAGEMENT SOFTWARE',
+                Pdescription: 'Software to command your logistics & warehousing operation from anywhere.',
+                Hicon: 'ti-truck',
+                rclass : 'pr_70',
+                iclass: 'icon_three',
+                Phref: "/Services/WarehouseManagementSystem",
+                Pimg: "logistics.jpg",
+                Pimgpre: "logisticspre.jpg",
+                PtOne: "Web System"
+            },
+            {
+                id: '5',
+                Pduration: 800,
+                Ptitle : 'CORPORATE WEB PORTAL',
+                Pdescription: 'Feature rich web portal for your organisation or customers.',
+                Hicon: 'ti-id-badge',
+                rclass : 'pr_70',
+                iclass: 'icon_five',
+                Phref: "/Services/WebPortal",
+                Pimg: "wp2.jpg",
+                Pimgpre: "wp2pre.jpg",
+                tOne: "Web System",
+                PtOne: "Web System"
+            },
+            {
+                id: '1',
+                Pduration: 400,
+                Ptitle: 'SALES & MARKETING PLATFORM',
+                Pdescription: 'Facilitate your sales business with the latest commerce system integrated with advanced levelled sales maps.',
+                Hicon: 'icon-share',
+                rclass : 'pr_70',
+                iclass: 'icon_one',
+                Phref: "/Services/MLM",
+                Pimg: "mlm.jpg",
+                Pimgpre: "mlmpre.jpg",
+                PtOne: "Web System"
+            },
+            {
+                id: '4',
+                Pduration: 700,
+                Ptitle : 'MOBILE APP DEVELOPMENT',
+                Pdescription: "Develop your distinct custom Mobile Application",
+                Hicon: 'icon-screen-tablet',
+                rclass : 'pr_70',
+                iclass: 'icon_four',
+                Phref: "/Services/MobileAppDevelopment",
+                Pimg: "mapp.jpg",
+                Pimgpre: "mapppre.jpg",
+                PtOne: "Web System"
+            },
+            {
+                id: '6',
+                Pduration: 300,
+                Ptitle : 'WEB DEVELOPMENT',
+                Pdescription: "Develop your distinct custom Web Application",
+                Hicon: 'icon-screen-desktop',
+                rclass : 'pr_70',
+                iclass: 'icon_five',
+                Phref: "/Services/WebDevelopment",
+                Pimg: "wapp.png",
+                Pimgpre: "wapppre.png",
+                PtOne: "Web System"
+            },
+            {
+                id: '2',
+                Pduration: 500,
+                Ptitle : 'E-COMMERCE PLATFORM',
+                Pdescription: 'E-Commerce Marketplace, Platform, and the technologies you need to establish your business online today.',
+                Hicon: 'ti-shopping-cart',
+                rclass : 'pr_70',
+                iclass: 'icon_two',
+                Phref: "/Services/Ecommerce",
+                Pimg: "ecom.jpg",
+                Pimgpre: "ecompre.jpg",
                 PtOne: "Web System"
             },
             {
@@ -490,11 +479,11 @@ const textData = {
         d0135: 'Leverage on your customer`s shopping activity data, use them to define customers profiles and launch targeted campaigns.',
         d0136: 'VENDOR PARTNERSHIPS',
         d0137: 'Attract sellers & vendors to your E-Commerce Platform, stimulate growth in product variety available on your platform and ability to serve larger audience while receiving cuts from their sales.',
-        d0138: 'MLM &',
-        d0138a: 'DIRECT SELLING',
+        d0138: 'SALES &',
+        d0138a: 'MARKETING',
         d0138b: 'PLATFORM SOLUTIONS',
-        d0139: "Lyratics provides multi-level marketing software solutions for all kind of network marketing & direct sales model companies. Software customization is available based on customer's needs and requirements. We have successfully delivered variety of MLM models (Binary MLM plan, Forced matrix MLM plan, Australian plan, Party plan and more).",
-        d0140: 'MLM & DIRECT SELLING SOFTWARE FEATURES',
+        d0139: "Lyratics provides multi-level marketing software solutions for all kind of network marketing & direct sales model companies. Software customization is available based on customer's needs and requirements.",
+        d0140: 'SALES & MARKETING SYSTEM FEATURES',
         d0140a: [
             {
                 id: '1',
@@ -1810,15 +1799,15 @@ const textData = {
             Col2:[
                 {
                     id: 2,
-                    title: "Available MLM Plans, Compensation & Bonus Customization",
+                    title: "Available Plans, Compensation & Bonus Customization",
                     desc:[
                         {
                             "id": 1,
-                            "Feature": "Binary Compensation MLM Plan",
+                            "Feature": "Binary Compensation ",
                         },
                         {
                             "id": 2,
-                            "Feature": "Unilevel MLM Plan",
+                            "Feature": "Unilevel ",
                         },
                         {
                             "id": 3,
@@ -1830,31 +1819,31 @@ const textData = {
                         },
                         {
                             "id": 5,
-                            "Feature": "Stair Step MLM Plan",
+                            "Feature": "Stair Step ",
                         },
                         {
                             "id": 6,
-                            "Feature": "Cross-Up MLM Plan",
+                            "Feature": "Cross-Up ",
                         },
                         {
                             "id": 7,
-                            "Feature": "Matrix MLM Plan",
+                            "Feature": "Matrix ",
                         },
                         {
                             "id": 8,
-                            "Feature": "Board MLM Plan",
+                            "Feature": "Board ",
                         },
                         {
                             "id": 9,
-                            "Feature": "Straight Line MLM Plan",
+                            "Feature": "Straight Line ",
                         },
                         {
                             "id": 10,
-                            "Feature": "Spillover Binary MLM Plan",
+                            "Feature": "Spillover Binary ",
                         },
                         {
                             "id": 11,
-                            "Feature": "Hybrid MLM Plan",
+                            "Feature": "Hybrid ",
                         },
                         {
                             "id": 12,
@@ -2389,36 +2378,6 @@ const textData = {
 
             
         ],
-        d0482a: [
-            {
-                id: '4',
-                Pimg: 'html.svg',
-                Pdesc : 'HTML5',
-            },
-            {
-                id: '5',
-                Pimg: 'css.svg',
-                Pdesc : 'CSS',
-            },
-            {
-                id: '1',
-                Pimg: 'react.svg',
-                Pdesc : 'React.js & React Native',
-            },
-            {
-                id: '2',
-                Pimg: 'node.svg',
-                Pdesc : 'Node.js',
-            },
-            {
-                id: '2',
-                Pimg: 'net.svg',
-                Pdesc : 'ASP.NET Framework',
-            },
-            
-
-            
-        ],
         d0483: [
             {
                 id: '9',
@@ -2471,7 +2430,7 @@ const textData = {
         d0487e: "WEB PORTAL SOLUTIONS",
         d0488: "IN MALAYSIA",
         d0489: "We Provide Web Development Solutions Service Internationally",
-        d0489a: "We Provide MLM / Direct Sales Software Solutions Service Internationally",
+        d0489a: "We Provide Sales & Marketing Platform Solutions Service Internationally",
         d0489b: "We Provide E-Commerce Development Solutions Service Internationally",
         d0489c: "We Provide Warehouse Software Solutions Service Internationally",
         d0489d: "We Provide Online Booking Solutions Service Internationally",
@@ -2504,7 +2463,7 @@ const textData = {
         d0510a: "well infrastructured warehouse process flow is the key to unlock a greater level of operation efficiency.",
         d0511: "capable project manager, front & back-end programmer, designer and copywriter are the key ingredients to build a great website. However, the process to gather such talents requires substantial time and monetary investment.",
         d0511a: "The difficulties in managing warehouse flow through traditional MS Excel is a huge bottleneck for many businesses because of its lack of automation. It often leads to frequent unforced data errors, limiting overall productivity.",
-        d0512: "This is why startups and businesses have turned to Lyratics' team of web development specialists for quality websites & web applications with rapid Time-To-Market (TTM).",
+        d0512: "This is why startups and businesses have turned to Lyratics' team of web development specialists for quality websites (such as Web Application) and faster Time-To-Market (TTM).",
         d0512b:"WEB APPLICATIONS",
         d0512c:"are dynamic websites built with functionality and interactive elements.",
         d0512d:"Whilst regular websites are one-way informational feeds that do not allow viewers to interact or communicate back to the site, Web Applications can perform wide range of functionality built for user engagement, creating an interactive environment for all visitors.",
@@ -2520,7 +2479,7 @@ const textData = {
         d0519: "YOUR VISION IS OUR MISSION",
         d0520: "LET",
         d0521: "us handle your tech, our professionals provide you peace of mind to fully focus on what matters, your business and it's growth.",
-        d0522: "Startups and businesses across South East Asia & China facing the same challenges as you, are leveraging on our services, to develop their bespoke web needs.",
+        d0522: "Startups and businesses across South East Asia & China facing the same challenges as you, are leveraging on our services, to develop their bespoke web systems and applications.",
         d0523: "With 9 years of software development experience under our belt, we provide all forms of mobile app, web & software solutions you need for your business.",
         d0524: "LYRATICS",
         d0525: "Technologies consists of a group of local multilingual web & software developers in Malaysia. We provide bespoke web design and web development solutions to our clientele across SEA and China.",
@@ -2568,7 +2527,7 @@ const textData = {
         d0552: "THE",
         d0553: "Combined with our effective and efficient web solutions delivery, you are receving one of the best end to end solutions service in the industry.",
         d0554: "INSIDE WEB DEVELOPMENT TECHNOLOGY",
-        d0554a: "INSIDE MLM SOFTWARE TECHNOLOGY",
+        d0554a: "INSIDE SALES SOFTWARE TECHNOLOGY",
         d0554b: "INSIDE E-COMMERCE TECHNOLOGY",
         d0554c: "INSIDE WAREHOUSING TECHNOLOGY",
         d0554d: "INSIDE ONLINE BOOKING TECHNOLOGY",
@@ -2577,29 +2536,29 @@ const textData = {
         d0556: "YOUR MILLION DOLLAR IDEA, CODED",
         d0557: "LIKE WHAT YOU HAVE SEEN?",
         d0557a: "TAILORED FEATURES",
-        d0559: "Finding an 'All In One Box' MLM System for your business?",
+        d0559: "Finding an 'All In One Box' Sales & Marketing System for your business?",
         d0559a: "Need a feature-rich E-Commerce Platform for your business?",
         d0559b: "Need a reliable,   for your business?",
         d0559c: "Need an 'All In One', Feature-Rich Warehouse Management Software for your business?",
         d0559d: "Need an 'All In One', Feature-Rich Online Booking Platform for your business?",
         d0559e: "Need an 'All In One', Enterprise-Grade Web Portal for your business?",
         d0559f: "Need an 'All In One', Feature-Rich E-Commerce Platform for your business?",
-        d0560: "Lyratics develops enterprise-grade MLM Software designed with complete modern technologies and functionalities. With high depth of customization ability, we are able to capable of servicing all orientations of MLM & Direct Sales businesses.",
+        d0560: "Lyratics develops enterprise-grade software designed with complete modern technologies and functionalities. With high depth of customization ability, we are able to capable of servicing all orientations of sales businesses.",
         d0561: [
             {
                 PIcon:"icon-pin",
                 PName:"All in One",
-                PDesc:"One powerful MLM/Direct-Sales platform to handle all your business processes, operating on an integrated database.",
+                PDesc:"One powerful platform to handle all your business processes, operating on an integrated database.",
             },
             {
                 PIcon:"ti-rocket",
-                PName:"Custom MLM/Direct-Sales Plan",
-                PDesc:"Wide Range of customizable MLM/Direct Sales Plan for your business.",
+                PName:"Custom Sales Plan",
+                PDesc:"Wide Range of customizable Sales Plan for your business.",
             },
             {
                 PIcon:"ti-shopping-cart-full",
                 PName:"E-Commerce Module",
-                PDesc:"Integrate the latest E-Commerce module with MLM/Direct-Sales Software",
+                PDesc:"Integrate the latest E-Commerce module with Sales Software",
             },
             {
                 PIcon:"ti-server",
@@ -2951,7 +2910,7 @@ const textData = {
                 PName: "Custom Portal Development"
             },
         ],
-        d0563: "deliver high performance MLM solutions to businesses, tailored exactly to our client's business needs.",
+        d0563: "deliver high performance solutions to businesses, tailored exactly to our client's business needs.",
         d0564: "Our MLM solutions are versatile in purpose, we develop softwares for all business sizes needs ranging from start-ups, SMEs & corporate entities.",
         d0565: "As your business needs may vary across time, we are always ready to service your business with new requirements such as growth scaling and new functions.",
         d0566: "deliver high performance E-Commerce solutions to businesses, tailored exactly our client's business needs.",
@@ -3031,7 +2990,7 @@ const textData = {
             
             
         ],
-        d0605: "END TO END ",
+        d0605: "END TO END WEB DEVELOPMENT",
         d0606: "Website architecture design",
         d0607: "UX/UI design",
         d0608: "Front-end development",
@@ -3078,362 +3037,15 @@ const textData = {
         d0649: "MOBILE APP",
         d0650: "We Provide Mobile App Development Solutions Service Internationally",
         d0651: "https://bknv2-8op34hqg6.vercel.app",
-        d0652: "LYRATICS",
-        d0653: " PORTFOLIO",
-        d0654: "WEBSITES & WEB APPLICATIONS",
-        d0655: [
-            {
-                id: '6',
-                Pduration: 300,
-                Ptitle : 'Loukanis',
-                Pdescription: "Corporate Website With Advanced Animations @ 2020",
-                Pimg: "loukas.png",
-                Pimg1: "loukas1.png",
-                Pimgpre: "loukaspre.png",
-                PInsert1: "A tailored real estate developer corporate website built with modern web technologies. ",
-                PInsert2: "Built for a Greek-family owned real estate company, the web UI/UX is constructed with opulence elements to exhibit the luxury and prestigious values carried by the developer for 43 years. Advanced element transition animations are seemlessly integrated to deliver an alluring visual experience.",
-                PTech: [
-                    {
-                        id: '4',
-                        Pimg: 'html.svg',
-                        Pdesc : 'HTML5',
-                    },
-                    {
-                        id: '5',
-                        Pimg: 'css.svg',
-                        Pdesc : 'CSS',
-                    },
-                    {
-                        id: '5',
-                        Pimg: 'js.svg',
-                        Pdesc : 'JS',
-                    },
-                    {
-                        id: '9',
-                        Pimg: 'jquery.svg',
-                        Pdesc : 'jQuery',
-                    },
-                    {
-                        id: '9',
-                        Pimg: 'aws.svg',
-                        Pdesc : 'AWS Cloudfront',
-                    },
-                    {
-                        id: '9',
-                        Pimg: 's3.svg',
-                        Pdesc : 'AWS EC2',
-                    },
-                    
-                ],
-                PLink: "//portfolio.lyratics.com/loukanis",
-            },
-            {
-                id: '4',
-                Pduration: 700,
-                Ptitle : 'Vyronas',
-                Pdescription: "Corporate Website With Advanced Animations @ 2020",
-                Pimg: "vyronas.png",
-                Pimg1: "vyronas1.png",
-                Pimgpre: "vyronaspre.png",
-                PInsert1: "Private equity company corporate website built with clinical interface and advanced animations.",
-                PInsert2: "With an investment portfolio engulfed in diverse international assets, the 10 years old Cayman Islands based company needed a timeless corporate website for its clients. Therefore, this modern website is built using contemporary UI/UX elements, harmonized with conformed element animations. The result is an information efficient interface and an immersive visual experience.",
-                PTech: [
-                    {
-                        id: '4',
-                        Pimg: 'html.svg',
-                        Pdesc : 'HTML5',
-                    },
-                    {
-                        id: '5',
-                        Pimg: 'css.svg',
-                        Pdesc : 'CSS',
-                    },
-                    {
-                        id: '5',
-                        Pimg: 'js.svg',
-                        Pdesc : 'JS',
-                    },
-                    {
-                        id: '9',
-                        Pimg: 'jquery.svg',
-                        Pdesc : 'jQuery',
-                    },
-                    {
-                        id: '9',
-                        Pimg: 'aws.svg',
-                        Pdesc : 'AWS Cloudfront',
-                    },
-                    {
-                        id: '9',
-                        Pimg: 's3.svg',
-                        Pdesc : 'AWS EC2',
-                    },
-                    
-                ],
-                PLink: "//portfolio.lyratics.com/vyronas",
-            },
-            {
-                id: '1',
-                Pduration: 400,
-                Ptitle: 'ProPay',
-                Pdescription: 'Start-Up Website With Live Elements @ 2020 On Going Project',
-                Phref: "/Services/MLM",
-                Pimg: "propay.png",
-                Pimg1: "propay1.png",
-                Pimgpre: "propaypre.png",
-                PInsert1: "Fintech startup company website built with top notch Javascript activated background animation. ",
-                PInsert2: "The founder's objective is to create a website that appeals to new markets and potential investors. We've worked towards a direction where the website is exclusively simple yet fully capable of showcasing ProPay's functionalities. This project is on-going pending v2 and v3 package test & release.",
-                PTech: [
-                    {
-                        id: '4',
-                        Pimg: 'html.svg',
-                        Pdesc : 'HTML5',
-                    },
-                    {
-                        id: '5',
-                        Pimg: 'css.svg',
-                        Pdesc : 'CSS',
-                    },
-                    {
-                        id: '5',
-                        Pimg: 'js.svg',
-                        Pdesc : 'JS',
-                    },
-                    {
-                        id: '9',
-                        Pimg: 'jquery.svg',
-                        Pdesc : 'jQuery',
-                    },
-                    {
-                        id: '9',
-                        Pimg: 'aws.svg',
-                        Pdesc : 'AWS Cloudfront',
-                    },
-                    {
-                        id: '9',
-                        Pimg: 's3.svg',
-                        Pdesc : 'AWS EC2',
-                    },
-                    
-                ],
-                PLink: "//portfolio.lyratics.com/propay",
-            },
-            {
-                id: '2',
-                Pduration: 500,
-                Ptitle : 'Hérrlich',
-                Pdescription: 'Luxury Skin Product Official Website with Designer Elements. @ 2021',
-                Phref: "/Services/Ecommerce",
-                Pimg: "herrlich.png",
-                Pimg1: "herrlich1.png",
-                Pimgpre: "herrlich.png",
-                PInsert1: "Luxury skin product brand official website with modern designer elements.",
-                PInsert2: "Hérrlich offers a range of luxury skincare products from Switzerland. The company needed a website with a designer UI/UX to showcase its products, and an highly automated integrated online store. We have spent resources in designing and build the website to present information through luxury visual elements and cohesive layout. Unique elements are seamlessly added at strategic positions to create a timeless user experience.",
-                PTech: [
-                    {
-                        id: '4',
-                        Pimg: 'html.svg',
-                        Pdesc : 'HTML5',
-                    },
-                    {
-                        id: '5',
-                        Pimg: 'css.svg',
-                        Pdesc : 'CSS',
-                    },
-                    {
-                        id: '5',
-                        Pimg: 'js.svg',
-                        Pdesc : 'JS',
-                    },
-                    {
-                        id: '9',
-                        Pimg: 'php.svg',
-                        Pdesc : 'PHP',
-                    },
-                    {
-                        id: '9',
-                        Pimg: 'aws.svg',
-                        Pdesc : 'AWS Cloudfront',
-                    },
-                    {
-                        id: '9',
-                        Pimg: 's3.svg',
-                        Pdesc : 'AWS EC2',
-                    },
-                    
-                ],
-                PLink: "//www.herrlichofficial.com",
-
-            },
-            {
-                id: '2',
-                Pduration: 500,
-                Ptitle : 'Lyratics Technologies',
-                Pdescription: 'Technology Company Website with Animated Elements. @ 2019',
-                Phref: "/Services/Ecommerce",
-                Pimg: "lyraticssite.png",
-                Pimg1: "lyraticssite1.png",
-                Pimgpre: "lyraticssitepre.png",
-                PInsert1: "Technology solutions provider corporate website built with modern animated elements.",
-                PInsert2: "Lyratics Technologies offers a wide range of development services, thus efficient communication of information is critical. We have built the website to present comprehensive information through interactive elements and cohesive layout. Animated elements are seamlessly added at strategic coordinates to create a timeless user experience.",
-                PTech: [
-                    {
-                        id: '4',
-                        Pimg: 'react.svg',
-                        Pdesc : 'ReactJS',
-                    },
-                    {
-                        id: '5',
-                        Pimg: 'nextjs.svg',
-                        Pdesc : 'NextJS',
-                    },
-                    {
-                        id: '5',
-                        Pimg: 'node.svg',
-                        Pdesc : 'NodeJS',
-                    },
-                    {
-                        id: '9',
-                        Pimg: 'docker.svg',
-                        Pdesc : 'Docker',
-                    },
-                    {
-                        id: '9',
-                        Pimg: 'jquery.svg',
-                        Pdesc : 'jQuery',
-                    },
-                    {
-                        id: '9',
-                        Pimg: 'aws.svg',
-                        Pdesc : 'AWS EC2',
-                    },
-                    
-                ],
-                PLink: "//www.lyratics.com",
-
-            },
-            
-            
-            
-        ],
-        d0656: "Technologies Embedded:",
-        d0657: "Portfolio",
-        d0657a: "/Portfolio",
-        d0659: "VISIT SITE",
-        d0660: [
-            {
-                PIcon:"ti-briefcase",
-                PName:"Mobile & Responsive Website",
-                PDesc:"Expect 50% or more of your visitors to be coming from mobile devices. It is therefore imperative that your new website is optimized for all screen sizes."
-            },
-            {
-                PIcon:"ti-panel",
-                PName:"Bespoke UI/UX",
-                PDesc:"With User Experience Analysis and state-of-the art user Interface design, we bond the distance between the human brain and the digital product.",
-            },
-            {
-                PIcon:"ti-gift",
-                PName:"Content Creation",
-                PDesc:"We put together the right concept on the proper media, combined with outstanding visuals and striking copy.",
-            },
-            {
-                PIcon:"ti-bell",
-                PName:"Immersive Visual",
-                PDesc:"We design digital experiences that delivering the right message to the right audience with a captivating way resulting the desired brand lift for your business",
-            },
-            {
-                PIcon:"ti-home",
-                PName:"CMS implementation",
-                PDesc:"We implement and connect CMS from custom solutions and applications, to Wordpress platforms.",
-            },
-            {
-                PIcon:"ti-home",
-                PName:"Brand Positioning & Development",
-                PDesc:"A successful business requires a strong degree of trust and loyalty from your customers. Therefore, it is essential that your strategy involves strong brand positioning and development. We have the research expertise and experience to assist you.",
-            },
-            {
-                PIcon:"ti-home",
-                PName:"SEO",
-                PDesc:"We combine both technical and creative processes to drive relevant visitors to your website thanks to on-site and off-site activities.",
-            },
-            {
-                PIcon:"icon-plane",
-                PName:"Analytics & Tag Management",
-                PDesc:"We offer forward-thinking data analytics and Tag-Management implementations to track your visitors and come up with measurable and actionable insights to improve performance of your site.",
-            },
-            {
-                PIcon:"icon-plane",
-                PName:"Online Reputation Management",
-                PDesc:"Your brand is what your customers say it is. We gather and analyze your customers feedback and sentiment,  discover trends that affecting your brand or your products and provide you with insightful reports to take action.",
-            },
-            {
-                PIcon:"ti-bell",
-                PName:"Website Maintenance",
-                PDesc:"You don't have to worry about maintaining and updating your website once it is live. We can devote a dedicated team to manage your updates and keep your website in working order.",
-            },
-            
-            
-        ],
-        d0661: "CORPORATE WEBSITE SERVICES",
-        d0662: "believe in blending strategy, creativity, media and technology. Our experts work closely together to solve our clients’ business problems in compelling, innovative ways. We develop big and small ideas that bring brands alive whether they exist as services, stories or campaigns.",
-        d0663: "WE",
-        d0664: "This is why startups and businesses have turned to Lyratics' team of corporate website specialists for a website built with modern technologies that represents a company's value with rapid development timeline.",
-        d0665: "Need a modern age ready corporate website?",
-        d0666: "WEBSITE THAT IMMERSES",
-        d0667: "MOST",
-        d0668: "corporate websites today are built with the objective of getting the job done at a low cost through agencies using simple CRM drag & drop UI system such as the all familiar, Wordpress.",
-        d0669: 'The end product is a simple, looks similar to others and has minimal interface elements.',
-        d0670: "CORPORATE WEBSITE DEVELOPER",
-        d0671: "We Provide Corporate Website Solutions Service Internationally",
-        d0672: "STRATEGY & INSIGHT",
-        d0673: "CREATIVE & PRODUCTION",
-        d0674: "DISTRIBUTION & PERFORMANCE",
-        d0675: "We use unique insights to initiate our ideas, personalize our messages and reach people at the right moment, in the way that feels most natural. This is when real magic happens.",
-        d0676: "We master the blending of strategy, creativity, media and technology. Our experts work closely together to solve our clients’ business problems in compelling, innovative ways.",
-        d0677: "We are experts at designing for all kinds of digital platforms, harnessing the power of digital media to engage people in unexpected ways – and increase conversations about our clients’ brands.",
-        d0678: [
-            {
-                id: '6',
-                Pduration: 300,
-                Ptitle : 'STRATEGY & INSIGHT',
-                Pdescription: "We use unique insights to initiate our ideas, personalize our messages and reach people at the right moment, in the way that feels most natural. This is when real magic happens.",
-                
-                Pimg: "corp1.png",
-                PtOne: "Web System"
-            },
-            {
-                id: '6',
-                Pduration: 300,
-                Ptitle : 'CREATIVE & PRODUCTION',
-                Pdescription: "We master the blending of strategy, creativity, media and technology. Our experts work closely together to solve our clients’ business problems in compelling, innovative ways.",
-                
-                Pimg: "corp2.png",
-                PtOne: "Web System"
-            },
-            {
-                id: '6',
-                Pduration: 300,
-                Ptitle : 'DISTRIBUTION & PERFORMANCE',
-                Pdescription: "We are experts at designing for all kinds of digital platforms, harnessing the power of digital media to engage people in unexpected ways – and increase conversations about our clients’ brands.",
-                
-                Pimg: "corp3.png",
-                PtOne: "Web System"
-            },
-            
-            
-        ],
-        d067: "",
-        d068: "",
-        d068: "",
-        d068: "",
-        d068: "",
-        d068: "",
-        d068: "",
-        d068: "",
-        d068: "",
-        d068: "",
-        d068: "",
-        d069: "",
+        d065: "",
+        d065: "",
+        d065: "",
+        d065: "",
+        d065: "",
+        d065: "",
+        d065: "",
+        d065: "",
+        d066: "",
 
 
 
@@ -3449,7 +3061,7 @@ const textData = {
         d0007: '开创',
         d0008: '电子商业平台',
         d0008a: '网站应用程序',
-        d0009: 'MLM 多层传销/直销平台',
+        d0009: '多层传销/直销平台',
         d0009a: '直销平台',
         d0010: '仓库管理系统',
         d0011: '在线服务预订平台',
@@ -3483,9 +3095,8 @@ const textData = {
         d0032: '联系我们',
         d0033: '我们的专长',
         d0034: '天琴科技是一家手机应用程序，网站应用程序与软件开发公司。我们提供广大的开发服务范围，包含完整的科技产品生命周期内的各种服务（系统分析，设计, 开创, 模拟测试, 云端运算, 升级与保养）。东南亚与中国大陆是我们主要的服务市场。',
-        d0034a: '马来西亚卓越手机应用程序，网站应用程序与软件开发公司。我们提供一站式的开发服务。',
         d0035: '服务领域与经验',
-        d0036: '我们拥有9年的技术经验，专门服务的领域包含 (网站应用程序， MLM 多层次营销, 电子商业, 物流业，在线服务预订 【旅游，酒店，交通】，在线门户， 内容管理系统）。',
+        d0036: '我们拥有9年的技术经验，专门服务的领域包含 (网站应用程序， 多层次营销, 电子商业, 物流业，在线服务预订 【旅游，酒店，交通】，在线门户， 内容管理系统）。',
         d0037: '科技掌握',
         d0038: '我们擅长的‘科技叠’与技术有 ReactJS, React Native, NodeJS, Python, PHP, ASP.NET (C#.NET, VB.NET), Big Data (NoSQL, MongoDB, MSSQL), JavaScript, jQuery, jSON, CSS, 电子支付网关结合, API 程序偏写与结合， 等等。',
         d0039: '产品介绍',
@@ -3535,7 +3146,7 @@ const textData = {
             {
                 id: '1',
                 Pduration: 400,
-                Ptitle: 'MLM 多层传销/直销平台',
+                Ptitle: '多层传销/直销平台',
                 Pdescription: '此平台能够在线处理所有多层/直销计划与交易活动。它具备智能程序，能够自动处理复杂的销售结构与佣金分配。',
                 Hicon: 'icon-share',
                 rclass : 'pr_70',
@@ -3616,7 +3227,7 @@ const textData = {
             {
                 id: '1',
                 Pduration: 400,
-                Ptitle: 'MLM 多层传销/直销平台',
+                Ptitle: '多层传销/直销平台',
                 Pdescription: '此平台能够在线处理所有多层/直销计划与交易活动。它具备智能程序，能够自动处理复杂的销售结构与佣金分配。',
                 Hicon: 'icon-share',
                 rclass : 'pr_70',
@@ -3909,11 +3520,11 @@ const textData = {
         d0135: '通过顾客账户所收集的数据，您能够使用数据所提供的资料推断顾客的消费与浏览习惯，计划未来的销售策略。',
         d0136: '邀请其他商家加入平台',
         d0137: '邀请其他商家加入您的平台能够为您增加收入来源，产品种类以及扩大您的平台市场。',
-        d0138: 'MLM 多层传销',
+        d0138: '多层传销',
         d0138a: '/ 直销',
         d0138b: '软件开发服务',
-        d0139: '天琴科技提供一系列的优质 MLM 多层传销平台，适合用于各种多层传销业务。系统可依据客户业务需求定制， 我们擅长的 MLM 多层传销计划有 (二进制传销制度, MATRIX多级营销, 澳大利亚计划, 派对计划, 等等。).',
-        d0140: 'MLM 多层传销 / 直销平台主要功能',
+        d0139: '天琴科技提供一系列的优质 多层传销平台，适合用于各种多层传销业务。系统可依据客户业务需求定制， 我们擅长的 多层传销计划有 (二进制传销制度, MATRIX多级营销, 澳大利亚计划, 派对计划, 等等。).',
+        d0140: '多层传销 / 直销平台主要功能',
         d0140a: [
             {
                 id: '1',
@@ -4060,7 +3671,7 @@ const textData = {
             },
             
         ],
-        d0141: '多功能 MLM 多层传销/直销平台。',
+        d0141: '多功能 多层传销/直销平台。',
         d0142: '免费咨询',
         d0143: '用户功能',
         d0144: 'BACK OFFICE',
@@ -4089,7 +3700,7 @@ const textData = {
         d0167: 'Team Sales Reports',
         d0168: 'Rank History Report',
         d0169: 'Team Sales Reports',
-        d0170: 'MLM 多层计划种类与佣金管理功能',
+        d0170: '多层计划种类与佣金管理功能',
         d0171: 'COMPENSATION PLAN',
         d0172: 'Binary Compensation MLM Plan',
         d0173: 'Unilevel MLM Plan',
@@ -4626,7 +4237,7 @@ const textData = {
                   {
                     id: 2,
                     url: "/cn/Services/MLM",
-                    text: 'MLM 多层次营销平台',
+                    text: '多层次营销平台',
                   },
                   {
                     id: 3,
@@ -5228,15 +4839,15 @@ const textData = {
             Col2:[
                 {
                     id: 2,
-                    title: "MLM 多层营销计划，佣金管理功能。",
+                    title: "多层营销计划，佣金管理功能。",
                     desc:[
                         {
                             "id": 1,
-                            "Feature": "Binary Compensation MLM Plan",
+                            "Feature": "Binary Compensation ",
                         },
                         {
                             "id": 2,
-                            "Feature": "Unilevel MLM Plan",
+                            "Feature": "Unilevel ",
                         },
                         {
                             "id": 3,
@@ -5248,31 +4859,31 @@ const textData = {
                         },
                         {
                             "id": 5,
-                            "Feature": "Stair Step MLM Plan",
+                            "Feature": "Stair Step ",
                         },
                         {
                             "id": 6,
-                            "Feature": "Cross-Up MLM Plan",
+                            "Feature": "Cross-Up ",
                         },
                         {
                             "id": 7,
-                            "Feature": "Matrix MLM Plan",
+                            "Feature": "Matrix ",
                         },
                         {
                             "id": 8,
-                            "Feature": "Board MLM Plan",
+                            "Feature": "Board ",
                         },
                         {
                             "id": 9,
-                            "Feature": "Straight Line MLM Plan",
+                            "Feature": "Straight Line ",
                         },
                         {
                             "id": 10,
-                            "Feature": "Spillover Binary MLM Plan",
+                            "Feature": "Spillover Binary ",
                         },
                         {
                             "id": 11,
-                            "Feature": "Hybrid MLM Plan",
+                            "Feature": "Hybrid ",
                         },
                         {
                             "id": 12,
@@ -5608,7 +5219,7 @@ const textData = {
         d0426: "电子商业平台优点简介",
         d0427: "",
         d0428: "物流管理系统优点简介",
-        d0429: "MLM 多层营销计划简介",
+        d0429: "多层营销计划简介",
         d0430: "",
         d0431: "在线服务预订平台系统优点简介",
         d0432: "提供可被预订，保留或租赁的产品或服务的企业都能通过使用该平台，增加营业额。",
@@ -5621,7 +5232,7 @@ const textData = {
         d0439: "专用在线门户能够提升企业与机构在线操作的质量。",
         d0439a: "领先市场的手机与网站应用程序开发服务 - 天琴科技",
         d0440: "在线服务预订平台主要功能",
-        d0441: "MLM 多层传销平台主要功能",
+        d0441: "多层传销平台主要功能",
         d0441a: "仓库管理系统主要功能",
         d0442: "在线门户系列",
         d0443: " - 天琴科技",
@@ -5862,7 +5473,7 @@ const textData = {
         d0487e: "在线门户开发服务",
         d0488: "马来西亚科技开发专家",
         d0489: "提供国际网站应用程序开发服务",
-        d0489a: "提供国际 MLM 多层/直销平台系统开发服务",
+        d0489a: "提供国际 多层/直销平台系统开发服务",
         d0489b: "提供国际电子商务平台开发服务",
         d0489c: "提供国际仓库管理软件开发服务",
         d0489d: "提供国际在线服务预订平台开发服务",
@@ -5919,7 +5530,7 @@ const textData = {
         d0527: "无论您在世界哪端从事的业务，我们都能在那提供您优质的科技开发服务。",
         d0528: "关于我们",
         d0529: "我们的专长",
-        d0530: "提供的科技开发服务范围远超普通网站开发。天琴科技服务领域包含 (MLM 多层次营销, 电子商业, 物流业，在线服务预订 【旅游，酒店，交通】，在线门户， CMS 内容管理系统）。",
+        d0530: "提供的科技开发服务范围远超普通网站开发。天琴科技服务领域包含 (多层次营销, 电子商业, 物流业，在线服务预订 【旅游，酒店，交通】，在线门户， CMS 内容管理系统）。",
         d0531: "我们",
         d0532: "为什么选择我们？",
         d0533: "我们",
@@ -5937,20 +5548,20 @@ const textData = {
         d0545: "完整科技生命周期服务",
         d0546: "多语沟通能力 [中 & 英 & 印 & 马]",
         d0547: "优质的网站与它的应用程序取决于它所基于的技术。天琴科技使用国际公认开放源构架与构架进行软件开发，以充分发挥您企业网站的在线潜力。",
-        d0547a: "优质的MLM 多层营销 / 直销平台取决于它所基于的技术。天琴科技使用国际公认开放源构架与构架进行软件开发，以充分发挥您企业的销售潜力。",
+        d0547a: "优质的多层营销 / 直销平台取决于它所基于的技术。天琴科技使用国际公认开放源构架与构架进行软件开发，以充分发挥您企业的销售潜力。",
         d0547b: "优质的电子商务平台取决于它所基于的技术。天琴科技使用国际公认开放源构架与构架进行软件开发，以充分发挥您企业的在线销售潜力与提升用户体验。",
         d0547c: "优质的仓库管理软件取决于它所基于的技术。天琴科技使用国际公认开放源构架与构架进行软件开发，以充分发挥您企业的运营潜力。",
         d0547d: "优质的在线服务预订平台取决于它所基于的技术。天琴科技使用国际公认开放源构架与构架进行软件开发，以充分发挥您企业的在线销售潜力与提升用户体验。",
         d0547e: "优质的在线门户取决于它所基于的技术。天琴科技使用国际公认开放源构架与构架进行软件开发，以充分发挥您企业的信息传达效率。",
         d0548: "使用此模式进行开发的我们采用的科技之一，SSR 服务器端渲染技术，能确保网站在任何电子设备上，在任何网速下，操作随时保持流畅，提供良好的用户体验。",
-        d0548a: "使用此模式进行开发的我们采用的科技之一，快取与In-Memory数据库技术，能确保MLM 多层营销 / 直销平台在任何电子设备上，在任何网速下，操作随时保持流畅，提供良好的用户体验。",
+        d0548a: "使用此模式进行开发的我们采用的科技之一，快取与In-Memory数据库技术，能确保多层营销 / 直销平台在任何电子设备上，在任何网速下，操作随时保持流畅，提供良好的用户体验。",
         d0548b: "使用此模式进行开发的我们采用的科技之一，快取与In-Memory数据库技术，能确保电子商务平台在任何电子设备上，在任何网速下，操作随时保持流畅，提供良好的用户体验。",
         d0548c: "使用此模式进行开发的我们采用的科技之一，优化数据库索引编制技术，能确保仓库管理软件在任何电子设备上，在任何网速下，操作随时保持流畅，提供良好的用户体验。",
         d0548d: "使用此模式进行开发的我们采用的科技之一，快取与In-Memory数据库技术，能确保在线服务预订平台在任何电子设备上，在任何网速下，操作随时保持流畅，提供良好的用户体验。",
         d0548e: "使用此模式进行开发的我们采用的科技之一，优化数据库索引编制技术，能确保在线门户在任何电子设备上，在任何网速下，操作随时保持流畅，提供良好的用户体验。",
         d0549: "一个",
         d0550: "客户们在网站开发需求上拥有宏大的区别，我们必须不断地在增广我们的技术范围，以多元科技方案满足客户项目细节上的所有需求。",
-        d0550a: "客户们在MLM 多层营销 / 直销平台开发需求上拥有宏大的区别，我们必须不断地在增广我们的技术范围，以多元科技方案满足客户项目细节上的所有需求。",
+        d0550a: "客户们在多层营销 / 直销平台开发需求上拥有宏大的区别，我们必须不断地在增广我们的技术范围，以多元科技方案满足客户项目细节上的所有需求。",
         d0550b: "客户们在电子商务平台开发需求上拥有宏大的区别，我们必须不断地在增广我们的技术范围，以多元科技方案满足客户项目细节上的所有需求。",
         d0550c: "客户们在仓库管理软件台开发需求上拥有宏大的区别，我们必须不断地在增广我们的技术范围，以多元科技方案满足客户项目细节上的所有需求。",
         d0550d: "客户们在在线服务预订平台开发需求上拥有宏大的区别，我们必须不断地在增广我们的技术范围，以多元科技方案满足客户项目细节上的所有需求。",
@@ -5959,7 +5570,7 @@ const textData = {
         d0552: "由于",
         d0553: "广泛知识加上我们高效的开发产品交付，您将获得市场上最佳的科技开发服务之一。",
         d0554: "了解网站开发科技",
-        d0554a: "了解MLM 多层营销 / 直销平台开发科技INSIDE ",
+        d0554a: "了解多层营销 / 直销平台开发科技INSIDE ",
         d0554b: "了解电子商务平台开发科技",
         d0554c: "了解仓库管理软件开发科技",
         d0554d: "了解在线服务预订平台开发科技",
@@ -5969,23 +5580,23 @@ const textData = {
         d0557: "今日开创",
         d0557a: "定制功能表",
         d0559: "寻找着适合您业务的全包网站开发配套？",
-        d0559a: "寻找着适合您业务的全包MLM 多层营销 / 直销平台开发配套？",
+        d0559a: "寻找着适合您业务的全包多层营销 / 直销平台开发配套？",
         d0559b: "Need a reliable,   for your business?",
         d0559c: "寻找着适合您业务的全包仓库管理软件开发配套？",
         d0559d: "寻找着适合您业务的全包在线服务预订平台开发配套？",
         d0559e: "寻找着适合您业务的全包在线门户开发配套？",
         d0559f: "寻找着适合您业务的全包电子商务平台开发配套？",
-        d0560: "天琴科技提供具有现代化技术与功能的商业级MLM 多层营销 / 直销平台。拥有多元技术的我们，能为各种传销和直销模式的企业提供定制开发服务。",
+        d0560: "天琴科技提供具有现代化技术与功能的商业级多层营销 / 直销平台。拥有多元技术的我们，能为各种传销和直销模式的企业提供定制开发服务。",
         d0561: [
             {
                 PIcon:"icon-pin",
                 PName:"全包功能",
-                PDesc:"一站式MLM 多层营销 / 直销平台，使用集中式数据库，运行所有业务流程。",
+                PDesc:"一站式多层营销 / 直销平台，使用集中式数据库，运行所有业务流程。",
             },
             {
                 PIcon:"ti-rocket",
-                PName:"定制 MLM 多层营销 / 直销计划",
-                PDesc:"我们能配置多种的MLM 多层营销 / 直销计划于平台。",
+                PName:"定制 多层营销 / 直销计划",
+                PDesc:"我们能配置多种的多层营销 / 直销计划于平台。",
             },
             {
                 PIcon:"ti-shopping-cart-full",
@@ -6343,8 +5954,8 @@ const textData = {
                 PName: "定制特殊门户"
             },
         ],
-        d0563: "为企业提供高性能的MLM 多层营销 / 直销平台， 可完全根据客户要求量身定制。",
-        d0564: "我们提供多元化的MLM 多层营销 / 直销平台解决方案， 能为各大中小规模企业服务。",
+        d0563: "为企业提供高性能的多层营销 / 直销平台， 可完全根据客户要求量身定制。",
+        d0564: "我们提供多元化的多层营销 / 直销平台解决方案， 能为各大中小规模企业服务。",
         d0565: "在这高节奏的市场里，您的业务需求可能会随着市场改变，例如扩展规模或需要新的功能与系统模式。天琴科技随时准备好服务您新的科技需求，。",
         d0566: "为企业提供高性能的电子商务平台， 可完全根据客户要求量身定制。",
         d0567: "天琴科技的电子商务平台采用直觉感的操作设计，让您平台上的客户能快速搜索各类产品与公司资料。",
@@ -6383,7 +5994,7 @@ const textData = {
         d0598: "Single Page Application",
         d0599: "Progressive Web Application",
         d0600: "Real-Time Application",
-        d0601: "数码化您的概念",
+        d0601: "将您的概念数码化",
         d0602: "跨国科技项目开发",
         d0603: "天琴科技是一所国际化的科技项目开发公司，我们能够为您基于各国业务（东南亚与中国大陆），提供优质的科技开发服务。",
         d0604: [
@@ -6446,7 +6057,7 @@ const textData = {
         d0626: "我们与市场上仅开发原生程式编（漫长的开发所需时间）和 传统混合程序编 （低质量）的开发公司截然不同。",
         d0627: "我们采用市场上最新的手机应用程序跨平台开发框架，React Native。这项技术能使用一个代码，开发出IOS与Android的高质量应用程序。",
         d0628: "该技术可加快了应用程序开发流程，同时能开发出优质的应用程序，从而缩短了客户的产品上市时间。",
-        d0629: "提供的科技开发服务范围远超普通手机应用程序开发。天琴科技服务领域包含 (MLM 多层次营销, 电子商业, 物流业，在线服务预订 【旅游，酒店，交通】，在线门户， CMS 内容管理系统）。",
+        d0629: "提供的科技开发服务范围远超普通手机应用程序开发。天琴科技服务领域包含 (多层次营销, 电子商业, 物流业，在线服务预订 【旅游，酒店，交通】，在线门户， CMS 内容管理系统）。",
         d0630: "Cross-Platform Mobile Application",
         d0631: "Native Bridging Technology",
         d0632: "手机应用程序开开发蓝图",
@@ -6469,248 +6080,6 @@ const textData = {
         d0649: "手机应用程序",
         d0650: "提供国际手机应用程序开发服务",
         d0651: "https://bknv2-8op34hqg6.vercel.app",
-        d0652: "天琴科技",
-        d0653: "代表项目",
-        d0654: "WEBSITES & WEB APPLICATIONS",
-        d0655: [
-            {
-                id: '6',
-                Pduration: 300,
-                Ptitle : 'Loukanis',
-                Pdescription: "现代公司官方网站。含有创新界面转换动画. @ 2020",
-                Pimg: "loukas.png",
-                Pimg1: "loukas1.png",
-                Pimgpre: "loukaspre.png",
-                PInsert1: "以现代网络开发技术构建的房地产开发商企业网站。具备创新界面转换动画.",
-                PInsert2: "此项目是为一家希腊家族房地产公司而开发。这网站启发于富裕与元素，以展现开发商长达43年的豪华价值。我们在适合的界面位置配置了特制界面转换动画，提供诱人的视觉体验.",
-                PTech: [
-                    {
-                        id: '4',
-                        Pimg: 'html.svg',
-                        Pdesc : 'HTML5',
-                    },
-                    {
-                        id: '5',
-                        Pimg: 'css.svg',
-                        Pdesc : 'CSS',
-                    },
-                    {
-                        id: '5',
-                        Pimg: 'js.svg',
-                        Pdesc : 'JS',
-                    },
-                    {
-                        id: '9',
-                        Pimg: 'jquery.svg',
-                        Pdesc : 'jQuery',
-                    },
-                    {
-                        id: '9',
-                        Pimg: 'aws.svg',
-                        Pdesc : 'AWS Cloudfront',
-                    },
-                    {
-                        id: '9',
-                        Pimg: 's3.svg',
-                        Pdesc : 'AWS EC2',
-                    },
-                    
-                ],
-                PLink: "//portfolio.lyratics.com/loukanis",
-            },
-            {
-                id: '4',
-                Pduration: 700,
-                Ptitle : 'Vyronas',
-                Pdescription: "现代公司官方网站。含有创新界面转换动画. @ 2020",
-                Pimg: "vyronas.png",
-                Pimg1: "vyronas1.png",
-                Pimgpre: "vyronaspre.png",
-                PInsert1: "以现代网络开发技术构建的投资公司网站。高雅网站界面与具备创新界面转换动画.",
-                PInsert2: "这位于开曼群岛的投资公司需要一个能与他客户群有效传达信息的全新的现代网站。因此，这个现代网站使用了现代UI / UX元素，加上创新界面转换动画，能呈现出高效的讯息传达与非凡的用户视觉体验。",
-                PTech: [
-                    {
-                        id: '4',
-                        Pimg: 'html.svg',
-                        Pdesc : 'HTML5',
-                    },
-                    {
-                        id: '5',
-                        Pimg: 'css.svg',
-                        Pdesc : 'CSS',
-                    },
-                    {
-                        id: '5',
-                        Pimg: 'js.svg',
-                        Pdesc : 'JS',
-                    },
-                    {
-                        id: '9',
-                        Pimg: 'jquery.svg',
-                        Pdesc : 'jQuery',
-                    },
-                    {
-                        id: '9',
-                        Pimg: 'aws.svg',
-                        Pdesc : 'AWS Cloudfront',
-                    },
-                    {
-                        id: '9',
-                        Pimg: 's3.svg',
-                        Pdesc : 'AWS EC2',
-                    },
-                    
-                ],
-                PLink: "//portfolio.lyratics.com/vyronas",
-            },
-            {
-                id: '1',
-                Pduration: 400,
-                Ptitle: 'ProPay',
-                Pdescription: '现代新创公司官方网站。含有创新界面转换动画。 @ 2020 进行中',
-                Phref: "/Services/MLM",
-                Pimg: "propay.png",
-                Pimg1: "propay1.png",
-                Pimgpre: "propaypre.png",
-                PInsert1: "以现代网络开发技术构建的金融科技公司网站。高雅网站界面，具备创新界面转换动画与Javascript操控的界面背景动画.",
-                PInsert2: "此公司创始人需要一个能吸引新市场和潜在投资者的现代网站。我们朝着简单生动的概念方向开发此网站，让用户能在短时间明白ProPay功能。此项目还在进行开发中，v2 与 v3 版本将带来更多的功能。",
-                PTech: [
-                    {
-                        id: '4',
-                        Pimg: 'html.svg',
-                        Pdesc : 'HTML5',
-                    },
-                    {
-                        id: '5',
-                        Pimg: 'css.svg',
-                        Pdesc : 'CSS',
-                    },
-                    {
-                        id: '5',
-                        Pimg: 'js.svg',
-                        Pdesc : 'JS',
-                    },
-                    {
-                        id: '9',
-                        Pimg: 'jquery.svg',
-                        Pdesc : 'jQuery',
-                    },
-                    {
-                        id: '9',
-                        Pimg: 'aws.svg',
-                        Pdesc : 'AWS Cloudfront',
-                    },
-                    {
-                        id: '9',
-                        Pimg: 's3.svg',
-                        Pdesc : 'AWS EC2',
-                    },
-                    
-                ],
-                PLink: "//portfolio.lyratics.com/propay",
-            },
-            {
-                id: '2',
-                Pduration: 500,
-                Ptitle : 'Hérrlich',
-                Pdescription: '豪华护肤品牌公司官方网站。含有高贵质感的界面与转换动画。@ 2021',
-                Phref: "/Services/Ecommerce",
-                Pimg: "herrlich.png",
-                Pimg1: "herrlich1.png",
-                Pimgpre: "herrlich.png",
-                PInsert1: "豪华护肤品牌公司官方网站。拥有高贵设计质感的界面与转换动画。",
-                PInsert2: "Hérrlich 拥有一系列的瑞士豪华护肤产品。在进入市场的过程，该公司需要一家拥有专业与优雅设计质感的官网，与一家高科技自动化的电子商城。天琴科技在设计方面投入了大量时间，确保界面设计与资讯能被有效混合，同时资讯能被高效传达。我们也在主要的界面位置上配置了创新界面转换动画，提高界面质感.",
-                PTech: [
-                    {
-                        id: '4',
-                        Pimg: 'html.svg',
-                        Pdesc : 'HTML5',
-                    },
-                    {
-                        id: '5',
-                        Pimg: 'css.svg',
-                        Pdesc : 'CSS',
-                    },
-                    {
-                        id: '5',
-                        Pimg: 'js.svg',
-                        Pdesc : 'JS',
-                    },
-                    {
-                        id: '9',
-                        Pimg: 'php.svg',
-                        Pdesc : 'PHP',
-                    },
-                    {
-                        id: '9',
-                        Pimg: 'aws.svg',
-                        Pdesc : 'AWS Cloudfront',
-                    },
-                    {
-                        id: '9',
-                        Pimg: 's3.svg',
-                        Pdesc : 'AWS EC2',
-                    },
-                    
-                ],
-                PLink: "//www.herrlichofficial.com/cn",
-
-            },
-            {
-                id: '2',
-                Pduration: 500,
-                Ptitle : '天琴科技',
-                Pdescription: '现代科技公司官方网站。含有创新界面转换动画。 @ 2019',
-                Phref: "/Services/Ecommerce",
-                Pimg: "lyraticssite.png",
-                Pimg1: "lyraticssite1.png",
-                Pimgpre: "lyraticssitepre.png",
-                PInsert1: "以现代网络开发技术构建的科技开发公司网站。高雅网站界面与具备创新界面转换动画.",
-                PInsert2: "天琴科技提供广泛的开发服务, 因此有效的信息传达是开发主要考量之一。此网站由互动性的浏览方式来传达全面的资讯。我们也在主要的界面位置上配置了创新界面转换动画，提高界面质感.",
-                PTech: [
-                    {
-                        id: '4',
-                        Pimg: 'react.svg',
-                        Pdesc : 'ReactJS',
-                    },
-                    {
-                        id: '5',
-                        Pimg: 'nextjs.svg',
-                        Pdesc : 'NextJS',
-                    },
-                    {
-                        id: '5',
-                        Pimg: 'node.svg',
-                        Pdesc : 'NodeJS',
-                    },
-                    {
-                        id: '9',
-                        Pimg: 'docker.svg',
-                        Pdesc : 'Docker',
-                    },
-                    {
-                        id: '9',
-                        Pimg: 'jquery.svg',
-                        Pdesc : 'jQuery',
-                    },
-                    {
-                        id: '9',
-                        Pimg: 'aws.svg',
-                        Pdesc : 'AWS EC2',
-                    },
-                    
-                ],
-                PLink: "//www.lyratics.com/cn",
-
-            },
-            
-            
-            
-        ],
-        d0656: "标配科技:",
-        d0657: "代表项目",
-        d0657a: "/cn/Portfolio",
-        d0659: "前往项目"
         
     }
 }

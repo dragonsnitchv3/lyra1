@@ -31,7 +31,6 @@ class MyDocument extends Document {
               `,
           }}
         />
-        <script src="https://cdn.rawgit.com/progers/pathseg/master/pathseg.js"></script>
         </Head>
         <body>
           <Main />

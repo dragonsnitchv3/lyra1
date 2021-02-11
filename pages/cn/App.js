@@ -33,7 +33,7 @@ class DigitalMarketing extends React.Component {
                 <DynamicComponentWithNoSSR />
                 <Head>
                     <title>{content.d0439a}</title>
-                    <meta name="description" content={content.d0034a} />
+                    <meta name="description" content={content.d0034} />
                     <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 </Head>
                 <OnepageMenu nLang={cLang} navL=""/>
