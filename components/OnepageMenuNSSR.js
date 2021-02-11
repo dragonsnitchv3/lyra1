@@ -73,6 +73,7 @@ class OnepageMenu extends Component {
                                 
                                 <li className="nav-item"><Link exact title="About Us"  href={content.d0386a}><a className="nav-link">{content.d0002}</a></Link></li> {/*.w_menu .nav-item .nav-link*/}
                                 <li className="nav-item"><Link exact title="Products" href={content.d0386b}><a className="nav-link">{content.d0003}</a></Link></li>
+                                <li className="nav-item"><Link exact title="Portfolio" href={content.d0657a}><a className="nav-link">{content.d0657}</a></Link></li>
                                 <li className="nav-item"><Link exact title="Process" href={content.d0386c}><a className="nav-link">{content.d0004}</a></Link></li>
                                 <li className="nav-item"><Link title="Pricing" href={content.d0386}><a className="nav-link">{content.d0006}</a></Link></li>
                             </ul>

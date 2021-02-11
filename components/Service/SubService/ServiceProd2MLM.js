@@ -30,8 +30,8 @@ const Product = ({ nLang }) => {
                     <div className=" sec_pad32 col-lg-12 ">
                         <div className="row ">
                             <div className="col-lg-5 sec_pad33">
-                                <ProgressiveImage src='/img/home7/SMS.png' placeholder='/img/home7/SMSpre.png'>
-                                    {src => <img className="img_size_square3u" src={src} alt="" />}
+                                <ProgressiveImage src='/img/home7/mlm1.png' placeholder='/img/home7/mlm1pre.png'>
+                                    {src => <img className="img_size_square3a" src={src} alt="" />}
                                 </ProgressiveImage>
                             </div>
                             <div className="col-lg-7 pl_70r">
