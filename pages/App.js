@@ -17,6 +17,50 @@ class DigitalMarketing extends React.Component {
         script.async = true;
     
         document.body.appendChild(script);
+
+        function disableselect(e) {
+            return false
+          }
+          
+          function reEnable() {
+            return true
+          }
+          
+          document.onselectstart = new Function ("return false")
+          
+          if (window.sidebar) {
+            document.onmousedown = disableselect
+            document.onclick = reEnable
+          }
+       
+       
+          document.onkeypress = function (event) {  
+          event = (event || window.event);  
+          if (event.keyCode == 123) {  
+          return false;  
+          }  else if (event.ctrlKey && event.shiftKey && event.keyCode == 73) { // Prevent Ctrl+Shift+I        
+                   return false;
+                }
+          }  
+          document.onmousedown = function (event) {  
+          event = (event || window.event);  
+          if (event.keyCode == 123) {  
+          return false;  
+          }  else if (event.ctrlKey && event.shiftKey && event.keyCode == 73) { // Prevent Ctrl+Shift+I        
+                   return false;
+                }
+          }  
+          document.onkeydown = function (event) {  
+          event = (event || window.event);  
+          if (event.keyCode == 123) {  
+          return false;  
+          }  else if (event.ctrlKey && event.shiftKey && event.keyCode == 73) { // Prevent Ctrl+Shift+I        
+                   return false;
+                }
+          }  
+       
+       document.addEventListener('contextmenu', event => event.preventDefault());
+          
       }
 
 
@@ -33,7 +77,7 @@ class DigitalMarketing extends React.Component {
                 <DynamicComponentWithNoSSR />
                 <Helmet>
                     <title>{content.d0439a}</title>
-                    <meta name="description" content={content.d0034} />
+                    <meta name="description" content={content.d0034a} />
                     <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 </Helmet>
                 <OnepageMenu nLang={cLang} navL=""/>
