@@ -3226,7 +3226,7 @@ const textData = {
                 Phref: "/Services/Ecommerce",
                 Pimg: "herrlich.png",
                 Pimg1: "herrlich1.png",
-                Pimgpre: "herrlich.png",
+                Pimgpre: "loukaspre.png",
                 PInsert1: "Luxury skin product brand official website with modern designer elements.",
                 PInsert2: "Hérrlich offers a range of luxury skincare products from Switzerland. The company needed a website with a designer UI/UX to showcase its products, and an highly automated integrated online store. We have spent resources in designing and build the website to present information through luxury visual elements and cohesive layout. Unique elements are seamlessly added at strategic positions to create a timeless user experience.",
                 PTech: [
@@ -6630,7 +6630,7 @@ const textData = {
                 Phref: "/Services/Ecommerce",
                 Pimg: "herrlich.png",
                 Pimg1: "herrlich1.png",
-                Pimgpre: "herrlich.png",
+                Pimgpre: "loukaspre.png",
                 PInsert1: "豪华护肤品牌公司官方网站。拥有高贵设计质感的界面与转换动画。",
                 PInsert2: "Hérrlich 拥有一系列的瑞士豪华护肤产品。在进入市场的过程，该公司需要一家拥有专业与优雅设计质感的官网，与一家高科技自动化的电子商城。天琴科技在设计方面投入了大量时间，确保界面设计与资讯能被有效混合，同时资讯能被高效传达。我们也在主要的界面位置上配置了创新界面转换动画，提高界面质感.",
                 PTech: [
