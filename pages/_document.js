@@ -5,11 +5,6 @@ class MyDocument extends Document {
     const initialProps = await Document.getInitialProps(ctx)
     return { ...initialProps }
   }
-  componentDidMount() {
-    document.addEventListener('contextmenu', (e) => {
-      e.preventDefault();
-    });
-  };
 
   render() {
     return (
