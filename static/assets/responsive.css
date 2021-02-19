@@ -1127,6 +1127,33 @@
     }
 }
 
+@media (min-width:1367px){
+
+    .popup_inner {  
+        position: absolute;  
+        left: 3%;  
+        right: 3%;  
+        top: 10%;  
+        bottom: 1%;  
+        margin: auto;  
+        border-radius: 20px;  
+        background: rgb(0, 0, 0);  
+    }
+
+}
+
+@media (max-width:991px){
+    .tech_logo_area img {
+        max-width: 70px;
+        max-height: 60px;
+        margin-bottom: 20px;
+        -webkit-transition: all 0.3s ease 0s;
+        -o-transition: all 0.3s ease 0s;
+        transition: all 0.3s ease 0s;
+      }
+}
+
+
 @media (min-width:992px){
 
     .hideOnDesktop {
@@ -1141,8 +1168,7 @@
         position: absolute;  
         left: 3%;  
         right: 3%;  
-        top: 10%;  
-        bottom: 1%;  
+        top: 10%;   
         margin: auto;  
         border-radius: 20px;  
         background: rgb(0, 0, 0);  
