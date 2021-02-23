@@ -115,7 +115,7 @@ const AllOne = ({nLang}) => {
                         <WYWG PIcon="ti-link" PName={content.d0497} PDesc={content.d0493}/>
                         
                     </div>
-                    <div className="mt_70 ctr_text">
+                    <div className=" ctr_text">
                         <Link href={content.d0386} data-wow-delay="0.4s"><a className=" about_btn btn_hover wow fadeInUp">{content.d0032}</a></Link>
                     </div>
                     
