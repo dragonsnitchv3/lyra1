@@ -16,7 +16,62 @@ class DigitalMarketing extends React.Component {
         script.src = "//js.hs-scripts.com/7851342.js";
         script.async = true;
     
-        
+         function getCookieValue(cname) {
+         	var name = cname + "=";
+         	var decodedCookie = decodeURIComponent(document.cookie);
+         	var ca = decodedCookie.split(';');
+         	for (var i = 0; i < ca.length; i++) {
+         		var c = ca[i];
+         		while (c.charAt(0) === ' ') {
+         			c = c.substring(1);
+         		}
+         		if (c.indexOf(name) === 0) {
+         			return c.substring(name.length, c.length);
+         		}
+         	}
+         	return null;
+         };
+
+         function disableselect(e) {
+           return false
+         }
+         
+         function reEnable() {
+           return true
+         }
+         
+         document.onselectstart = new Function ("return false")
+         
+         if (window.sidebar) {
+           document.onmousedown = disableselect
+           document.onclick = reEnable
+         }
+
+            document.onkeypress = function (event) {  
+            event = (event || window.event);  
+            if (event.keyCode == 123) {  
+            return false;  
+            }  else if (event.ctrlKey && event.shiftKey && event.keyCode == 73) { // Prevent Ctrl+Shift+I        
+                    return false;
+                }
+            }  
+            document.onmousedown = function (event) {  
+            event = (event || window.event);  
+            if (event.keyCode == 123) {  
+            return false;  
+            }  else if (event.ctrlKey && event.shiftKey && event.keyCode == 73) { // Prevent Ctrl+Shift+I        
+                    return false;
+                }
+            }  
+            document.onkeydown = function (event) {  
+            event = (event || window.event);  
+            if (event.keyCode == 123) {  
+            return false;  
+            }  else if (event.ctrlKey && event.shiftKey && event.keyCode == 73) { // Prevent Ctrl+Shift+I        
+                    return false;
+                }
+            }  
+
           
       }
 
