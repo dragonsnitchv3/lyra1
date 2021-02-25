@@ -1142,7 +1142,20 @@
 
 }
 
+@media (max-width:1079px){
+    .wrapper_padding5 {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .wrapper_padding9 {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
 @media (max-width:991px){
+
     .tech_logo_area img {
         max-width: 70px;
         max-height: 60px;
@@ -1645,6 +1658,7 @@
     }
 
     .hosting_service_item2 {
+        width: 300px;
         padding: 0;
         border-radius: 0px;
         -webkit-transition: all 0.1s linear;
@@ -5743,7 +5757,7 @@
         margin-bottom: 5px;
     }
     .portfolio_gallery .portfolio_item .portfolio_img img,.single_product_item .product_img img{
-        width: 100%;
+        width: 70%;
     }
     .shopping_cart_area .cart_btn.cart_btn_two{
         margin-left: 0;

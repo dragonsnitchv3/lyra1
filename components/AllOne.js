@@ -107,7 +107,7 @@ const AllOne = ({nLang}) => {
                     <div className="prod_desc2 ctr_text mb_70">
                         <h2>{content.d0597a}</h2>
                     </div>
-                    <div className="row ctr_textm">
+                    <div className="row ctr_textm ">
 
                         <WYWG PIcon="icon-frame" PName={content.d0494} PDesc={content.d0490}/>
                         <WYWG PIcon="ti-server" PName={content.d0495} PDesc={content.d0491}/>

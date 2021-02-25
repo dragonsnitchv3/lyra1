@@ -11,7 +11,7 @@ import TechStacks from '../Service/TechStacks'
 import Link from 'next/link';
 import ProgressiveImage from 'react-progressive-image';
 import ServiceItem from '../Service/HostingServiceitem';
-import KF from './Icon/KeyFunctions3'
+import KF from './Icon/KeyFunctions4'
 
 
 

@@ -6,7 +6,7 @@ class HRServiceItems extends Component{
     render(){
         var{Ptitle, Pdescription, Hicon, Phref, Step, Pbull} = this.props;
         return(
-            <div className="col-lg-6 col-12">
+            <div className="col-lg-6 col-md-6 col-12">
                     <Reveal>
                         <div className="hosting_service_item2 ctr_textm mb_30rt">
 

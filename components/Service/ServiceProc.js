@@ -34,14 +34,14 @@ const Process = ({ nLang }) => {
                         </div>
                     </div>
                 </Reveal>
-                <div className="container">
+                <div className="">
 
                     {/* <div className="about_pg2 txt_gap2 ctr_text mb_50 ">
                         <h>{content.d0463}</h>
                     </div> */}
 
                     
-                    <div className="col-lg-12 col-md-5 mb_100 mt-100r ctr_textm2">
+                    <div className=" mb_100 ctr_textm2">
                         <div className="row">
                             {
                                 content.d0453.map((item) => {

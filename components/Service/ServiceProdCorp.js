@@ -215,7 +215,7 @@ class Product2 extends React.Component {
                         <div className="prod_desc2 ctr_text mb_70">
                             <h2>{content.d0597}</h2>
                         </div>
-                        <div className="row">
+                        <div className="row justify-content-center ctr_text">
                             <WYWG2 PIcon="ti-split-v-alt" PName={content.d0498}/>
                             <WYWG2 PIcon="ti-mobile" PName={content.d0499}/>
                             <WYWG2 PIcon="ti-settings" PName={content.d0500}/>

@@ -79,7 +79,7 @@ class Service extends React.Component {
                                     content.d0056a.map((item) => {
                                         return(
                                             // <Package3 Pduration={item.Pduration} Ptitle={item.Ptitle} Pdescription={item.Pdescription} />
-                                            <Product2griditem colClass="col-lg-6 col-sm-6 develop" Pduration={item.Pduration} pImg={item.Pimg} pImgpre={item.Pimgpre} Phref={item.Phref} Ptitle={item.Ptitle} Pdescription={item.Pdescription} PtOne={item.PtOne}/>
+                                            <Product2griditem colClass="col-xl-4 col-lg-6 col-md-6 col-12 develop" Pduration={item.Pduration} pImg={item.Pimg} pImgpre={item.Pimgpre} Phref={item.Phref} Ptitle={item.Ptitle} Pdescription={item.Pdescription} PtOne={item.PtOne}/>
                                         )
                                     })
                                 }

@@ -118,7 +118,7 @@ const Product = ({ nLang }) => {
                     {
                         content.d0562b.map((item) => {
                             return(
-                                <KF3 PIcon={item.PIcon} PName={item.PName} PDesc={item.PDesc}/>  
+                                <KF PIcon={item.PIcon} PName={item.PName} PDesc={item.PDesc}/>  
                             )
                             
                         })
@@ -169,7 +169,7 @@ const Product = ({ nLang }) => {
                         <div className="prod_desc2 ctr_text mb_70">
                             <h2>{content.d0597}</h2>
                         </div>
-                        <div className="row">
+                        <div className="row justify-content-center">
                             <WYWG2 PIcon="ti-split-v-alt" PName={content.d0498}/>
                             <WYWG2 PIcon="ti-mobile" PName={content.d0499}/>
                             <WYWG2 PIcon="ti-settings" PName={content.d0500}/>

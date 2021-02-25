@@ -11,7 +11,7 @@ import TechStacks from '../Service/TechStacks'
 import Link from 'next/link';
 import ProgressiveImage from 'react-progressive-image';
 import ServiceItem from '../Service/HostingServiceitem';
-import KF from './Icon/KeyFunctions3'
+import KF from './Icon/KeyFunctions4'
 
 
 
@@ -209,7 +209,7 @@ const Product = ({ nLang }) => {
                         <div className="prod_desc2 ctr_text mb_70">
                             <h2>{content.d0597}</h2>
                         </div>
-                        <div className="row">
+                        <div className="row justify-content-center">
                             <WYWG2 PIcon="ti-split-v-alt" PName={content.d0498}/>
                             <WYWG2 PIcon="ti-mobile" PName={content.d0499}/>
                             <WYWG2 PIcon="ti-settings" PName={content.d0500}/>

@@ -15,8 +15,10 @@ class DigitalMarketing extends React.Component {
     
         script.src = "//js.hs-scripts.com/7851342.js";
         script.async = true;
+
+        document.body.appendChild(script);
     
-         function getCookieValue(cname) {
+        function getCookieValue(cname) {
          	var name = cname + "=";
          	var decodedCookie = decodeURIComponent(document.cookie);
          	var ca = decodedCookie.split(';');
