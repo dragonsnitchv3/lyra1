@@ -3,7 +3,7 @@ import React from 'react';
 const KF = ({ nLang, PIcon, PName, PDesc }) => {
 
     return(
-        <div className="col-lg-4 col-md-6 mb_50">
+        <div className="col-lg-3 col-md-6 mb_50">
             <div className="hosting_service_item6 ">
                 <div className="mb-30">
                     <div className="icon ctr_text ctr_text2">
