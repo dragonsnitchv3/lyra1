@@ -41,8 +41,8 @@ const Process = ({ nLang }) => {
                     </div> */}
 
                     
-                    <div className=" mb_100 ctr_textm2">
-                        <div className="row">
+                    <div className=" mb_100 ">
+                        <div className="row justify-content-center">
                             {
                                 content.d0453.map((item) => {
                                     return(

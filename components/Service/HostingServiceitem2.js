@@ -6,7 +6,7 @@ class HRServiceItems extends Component{
     render(){
         var{Ptitle, Pdescription, Hicon, Phref, Step, Pbull} = this.props;
         return(
-            <div className="col-lg-6 col-md-6 col-12">
+            <div className="col-xl-6 col-lg-6 col-md-6 col-12 justify-content-center">
                     <Reveal>
                         <div className="hosting_service_item2 ctr_textm mb_30rt">
 
@@ -21,7 +21,14 @@ class HRServiceItems extends Component{
                                     </div>
                                     <a href={Phref}><h4 className="h_head3">{Ptitle}</h4></a>
                                     <p>{Pdescription}</p>
-                                    <div className="row ctr_textm2">
+                                    <div className="row ctr_textm2 disp_mob">
+                                        {Pbull.map((item) => {
+                                            return(
+                                                <Bull Pli={item.Pli}/>
+                                            )
+                                        })}
+                                    </div>
+                                    <div className="row ctr_textm2 justify-content-center disp_dks2">
                                         {Pbull.map((item) => {
                                             return(
                                                 <Bull Pli={item.Pli}/>
