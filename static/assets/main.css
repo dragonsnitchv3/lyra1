@@ -153,6 +153,10 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   white-space: pre-line;
 }
 
+.width_max1 {
+  max-width: 100%;
+}
+
 
 
 @media (min-width: 1250px) {
