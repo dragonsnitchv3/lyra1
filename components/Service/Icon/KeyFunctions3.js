@@ -9,7 +9,10 @@ const WYWG = ({ nLang, PIcon, PName, PDesc }) => {
                     <i className={PIcon}></i>
                 </div>
                 <h1 className="highlight1">{PName}</h1>
-               
+                {/* <div class="width_max1">
+                <p className="ctr_text2">{PDesc}</p>
+                 </div> */}
+                
                 
             </div>
         </div>

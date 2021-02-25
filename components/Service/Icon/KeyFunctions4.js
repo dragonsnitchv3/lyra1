@@ -3,7 +3,7 @@ import React from 'react';
 const WYWG = ({ nLang, PIcon, PName, PDesc }) => {
 
     return(
-        <div className="col-lg-3 col-6">
+        <div className="col-xl-3 col-lg-4 col-6">
             <div className="mb_50 hosting_service_item5b ctr_text">
                 <div className="icon ctr_text ctr_text2 ">
                     <i className={PIcon}></i>
