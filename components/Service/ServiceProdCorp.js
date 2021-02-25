@@ -82,17 +82,18 @@ class Product2 extends React.Component {
                     
                 </Reveal>
 
-                <Reveal>
+                
                 <div className="bk_col5b wrapper_padding7">
                 <div className="triangle-down "></div>
                     <div className="verticle_lineg1_ctr"></div>
 
-                    <div className="sec_pad32">
+                    
+                    
                         <div className="prod_desc2 ctr_text mb_70">
                             <h2>{content.d0661}</h2>
                         </div>
-                        <div className="row mt_70rt justify-content-center">
-                            
+                        <div className="row mt_50r justify-content-center">
+                            {/* <div className="col-lg-1"></div> */}
                             {
                                 content.d0660.map((item) => {
                                     return(
@@ -101,8 +102,10 @@ class Product2 extends React.Component {
                                     
                                 })
                             }
+                            
+                            {/* <div className="col-lg-1"></div> */}
                         </div>
-                    </div>
+                    
 
                     
 
@@ -110,7 +113,7 @@ class Product2 extends React.Component {
                     <div className="triangle-up "></div>
 
                 </div>
-                </Reveal>
+                
 
 
 
