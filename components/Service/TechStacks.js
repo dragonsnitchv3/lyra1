@@ -26,7 +26,7 @@ const TechStacks = ({ nLang, bk_col}) => {
                     {
                         content.d0482.map((item) => {
                             return(
-                                <TechIcon Pimg={item.Pimg} Pdesc={item.Pdesc}/>
+                                <TechIcon pAlt={item.pAlt} Pimg={item.Pimg} Pdesc={item.Pdesc}/>
                             )
                             
                         })
@@ -39,7 +39,7 @@ const TechStacks = ({ nLang, bk_col}) => {
                         {
                             content.d0482.map((item) => {
                                 return(
-                                    <TechIconM Pimg={item.Pimg} Pdesc={item.Pdesc}/>
+                                    <TechIconM pAlt={item.pAlt} Pimg={item.Pimg} Pdesc={item.Pdesc}/>
                                 )
                                 
                             })
@@ -59,7 +59,7 @@ const TechStacks = ({ nLang, bk_col}) => {
                     {
                         content.d0483.map((item) => {
                             return(
-                                <TechIcon Pimg={item.Pimg} Pdesc={item.Pdesc}/>
+                                <TechIcon pAlt={item.pAlt} Pimg={item.Pimg} Pdesc={item.Pdesc}/>
                             )
                             
                         })
@@ -71,7 +71,7 @@ const TechStacks = ({ nLang, bk_col}) => {
                     {
                         content.d0483.map((item) => {
                             return(
-                                <TechIconM Pimg={item.Pimg} Pdesc={item.Pdesc}/>
+                                <TechIconM pAlt={item.pAlt} Pimg={item.Pimg} Pdesc={item.Pdesc}/>
                             )
                             
                         })

@@ -12945,7 +12945,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 .portfolio_gallery .portfolio_item .portfolio_img .hover_content .portfolio-description {
   bottom: 0;
-  padding-left: 50px;
+  padding-left: 30px;
   padding-bottom: 48px;
   width: 100%;
 }
@@ -13013,6 +13013,10 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .verticle_100 {
+  min-height: 100vh;
+}
+
+.verticle_100m {
   min-height: 100vh;
 }
 
@@ -19561,6 +19565,58 @@ height: 120px;
 }
 
 .hosting_service_item5b:hover h1{
+  color: #FF0B6F;
+  font-weight: 600;
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+
+
+
+
+.hosting_service_item5c {
+  width: 300px;
+  border-radius: 0px;
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+
+
+
+.hosting_service_item5c .icon {
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  width: 200px;
+  /* width: 50px; */
+  border: 2px solid #FF0B6F;
+  border-radius: 30%;
+  padding: 50px 50px;
+  margin-bottom: 30px;
+  color: #FF0B6F;
+  font-size: 80px;
+  text-shadow: 0 0 3px red;
+  box-shadow: 0 0 10px #FF0B6F;
+}
+
+
+
+.hosting_service_item5c h1 {
+  color: #ffffff;
+  width: 220px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.hosting_service_item5c:hover h1{
   color: #FF0B6F;
   font-weight: 600;
   -webkit-transition: all 0.3s linear;
@@ -27700,6 +27756,15 @@ a .h_head2:hover {
   min-height: 120px;
 }
 
+.true_centered {
+  position: fixed;
+  top: 45%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+
+
 .wrapper_padding {
   padding-left: 30px;
   padding-right: 30px;
@@ -27718,6 +27783,12 @@ a .h_head2:hover {
 }
 
 .wrapper_padding3 {
+  padding-left: 80px;
+  padding-right: 80px;
+  min-height: 100px;
+}
+
+.wrapper_padding3a {
   padding-left: 80px;
   padding-right: 80px;
   min-height: 100px;
@@ -27759,6 +27830,11 @@ a .h_head2:hover {
 .wrapper_padding9 {
   padding-left: 16%;
   padding-right: 16%;
+}
+
+.wrapper_padding9b {
+  padding-left: 14%;
+  padding-right: 14%;
 }
 
 .wrapper_padding10 {

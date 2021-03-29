@@ -146,10 +146,10 @@ const Product = ({ nLang }) => {
                             <Reveal effect="fadeInUp" duration={1300}><h5>{content.d0468}</h5></Reveal>
                     </div>     
                     <div className="wrapper_padding3">
-                        <TrackingProductItem itemClass="tracking_pr_two" image="wd1.jpg" imagepre="wd1pre.jpg"  TrackingTitle={content.d0469} Trackingd={content.d0633} Trackingd2={content.d0470a} Trackingbtn={content.d0142} nLang={nLang}/>
-                        <TrackingProductItem itemClass="tracking_pr_two" rowclass="flex-row-reverse" image="wd3.jpg" imagepre="wd3pre.jpg"  TrackingTitle={content.d0471}  Trackingd={content.d0472} Trackingd2 ={content.d0473} Trackingbtn={content.d0142} nLang={nLang}/>
-                        <TrackingProductItem itemClass="tracking_pr_two" image="wd4.jpg" imagepre="wd4pre.jpg" TrackingTitle={content.d0474}  Trackingd={content.d0475} Trackingd2={content.d0476} Trackingbtn={content.d0142} nLang={nLang}/>
-                        <TrackingProductItem itemClass="tracking_pr_two" rowclass="flex-row-reverse" image="wd2.jpg" imagepre="wd2pre.jpg" TrackingTitle={content.d0477}  Trackingd={content.d0634} Trackingd2={content.d0647} Trackingbtn={content.d0142} nLang={nLang}/>
+                    <TrackingProductItem itemClass="tracking_pr_two" pAlt="mobile-app-development" image="mobile-app-full-development.jpeg" imagepre="wd1pre.jpg"  TrackingTitle={content.d0696} Trackingd={content.d0697}  Trackingbtn={content.d0142} nLang={nLang}/>
+                        <TrackingProductItem itemClass="tracking_pr_two" pAlt="mobile app development team" rowclass="flex-row-reverse" image="mobile-app-development-team.jpeg" imagepre="wd3pre.jpg"  TrackingTitle={content.d0698}  Trackingd={content.d0699} Trackingbtn={content.d0142} nLang={nLang}/>
+                        <TrackingProductItem itemClass="tracking_pr_two" pAlt="mobile app design" image="mobile-app-design.png" imagepre="wd4pre.jpg" TrackingTitle={content.d0700}  Trackingd={content.d0701} Trackingbtn={content.d0142} nLang={nLang}/>
+                        <TrackingProductItem itemClass="tracking_pr_two" pAlt="mobile app leading technologies" rowclass="flex-row-reverse" image="mobile-app-leading-technologies.jpeg" imagepre="wd2pre.jpg" TrackingTitle={content.d0702}  Trackingd={content.d0703} Trackingbtn={content.d0142} nLang={nLang}/>
                     </div>
                 </section>
 
@@ -200,13 +200,13 @@ const Product = ({ nLang }) => {
                 </Reveal>
 
                 <Reveal>
-                <div className="bk_col5 wrapper_padding9 sec_pad35">
+                <div className="bk_col5 wrapper_padding7">
 
-                    <div className="">
+                    <div className="sec_pad35">
                         <div className="prod_desc2 ctr_text mb_70">
                             <h2>{content.d0597}</h2>
                         </div>
-                        <div className="row">
+                        <div className="row justify-content-center ctr_text2">
                             <WYWG2 PIcon="ti-split-v-alt" PName={content.d0498}/>
                             <WYWG2 PIcon="ti-mobile" PName={content.d0635}/>
                             <WYWG2 PIcon="ti-settings" PName={content.d0500}/>
@@ -265,7 +265,7 @@ const Product = ({ nLang }) => {
                 <Reveal>
                 <div className="bk_col5b wrapper_padding5 pt_s50">
                     <div className="prod_desc2 ctr_text mb_70">
-                        <h2>{content.d0554}</h2>
+                        <h2>{content.d0554f}</h2>
                     </div>
                     <div className="row">
                         <div className="col-lg-6">

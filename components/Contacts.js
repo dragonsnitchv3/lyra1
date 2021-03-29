@@ -3,6 +3,7 @@ import axios from 'axios';
 import textData from './Data/TextData';
 import {connect} from 'react-redux';
 import Fade from 'react-reveal/Fade';
+import Popup from './Service/Popup'
 
 var t1 = textData.english.d0384;
 var t2 = textData.english.d0383;
@@ -17,9 +18,16 @@ class Contacts extends Component {
           email: '',
           phone: '',
           product: '',
-          message: ''
+          message: '',
+          showPopup: false,
         }
       }
+
+      togglePopup() {  
+        this.setState({  
+             showPopup: !this.state.showPopup  
+        });  
+        } 
 
       onNameChange = (event) => {
         this.setState({name: event.target.value})
@@ -71,9 +79,11 @@ class Contacts extends Component {
             }
         }).then((response)=>{
             if (response.data.status === 'success'){
+                this.togglePopup()
                 alert(`${t1}`); 
                 this.resetForm()
             }else if(response.data.status === 'fail'){
+                this.togglePopup() 
                 alert(`${t2}`)
             }
         })
@@ -152,7 +162,7 @@ class Contacts extends Component {
                                         </div>
                                     </div>
                                 </div>
-                                <button type="submit" className="btn_three">{content.d0352}</button>
+                                <button onClick={this.togglePopup.bind(this)} type="submit" className="btn_three">{content.d0352}</button>
                             </form>
                             <div id="success">{content.d0353}</div>
                             <div id="error">{content.d0354}</div>
@@ -186,9 +196,29 @@ class Contacts extends Component {
                     </div>
                     
                 </div>
+
+                <div>
+                        {this.state.showPopup ?  
+                            <div className='popup'>  
+                            <div class="true_centered">
+                                <img src="/img/loadingball.svg"/>
+                            </div>
+                            </div>
+                            
+
+                            
+
+                            : null  
+                        }
+                </div>
             </section>
         )
     }
 }
 
 export default Contacts
+
+
+
+
+

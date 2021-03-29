@@ -103,11 +103,11 @@ const AllOne = ({nLang}) => {
             </div>
             <div className="bk_col5c wrapper_padding8 ctr_textm2">
 
-                <div className=" sec_pad32">
+                <div className="sec_pad32">
                     <div className="prod_desc2 ctr_text mb_70">
                         <h2>{content.d0597a}</h2>
                     </div>
-                    <div className="row ctr_textm ">
+                    <div className="row ctr_textm justify-content-center">
 
                         <WYWG PIcon="icon-frame" PName={content.d0494} PDesc={content.d0490}/>
                         <WYWG PIcon="ti-server" PName={content.d0495} PDesc={content.d0491}/>
@@ -161,7 +161,7 @@ const AllOne = ({nLang}) => {
                                 </div>
 
                                 <div className="col-lg-6 pl_70r">
-                                        <img className="img_size_square_ab" src='/img/main3.jpg' alt=""/>
+                                        <img alt="Lyratics is the leading web & mobile app developer in Malaysia"className="img_size_square_ab" src='/img/main3.jpg' alt=""/>
                                 </div>
                                 
                                 
@@ -183,17 +183,17 @@ const AllOne = ({nLang}) => {
                         </div>
 
                         <div className="row justify-content-center min_height1">
-                            <img className={size} src='./img/country/china.svg'></img>
-                            <img className={size} src='./img/country/malaysia.svg'></img>
-                            <img className={size} src='./img/country/singapore.svg'></img>
-                            <img className={size} src='./img/country/cambodia.svg'></img>
-                            <img className={size} src='./img/country/thailand.svg'></img>
-                            <img className={size} src='./img/country/vietnam.svg'></img>
-                            <img className={size} src='./img/country/philippines.svg'></img>
-                            <img className={size} src='./img/country/hong-kong.svg'></img>
-                            <img className={size} src='./img/country/laos.svg'></img>
-                            <img className={size} src='./img/country/australia.svg'></img>
-                            <img className={size} src='./img/country/brunei.svg'></img>
+                            <img alt="China" className={size} src='./img/country/china.svg'></img>
+                            <img alt="Web & mobile app developer in Malaysia" className={size} src='./img/country/malaysia.svg'></img>
+                            <img alt="Singaopre" className={size} src='./img/country/singapore.svg'></img>
+                            <img alt="Cambodia" className={size} src='./img/country/cambodia.svg'></img>
+                            <img alt="Thailand" className={size} src='./img/country/thailand.svg'></img>
+                            <img alt="Vietnam" className={size} src='./img/country/vietnam.svg'></img>
+                            <img alt="Philippines" className={size} src='./img/country/philippines.svg'></img>
+                            <img alt="Hong Kong" className={size} src='./img/country/hong-kong.svg'></img>
+                            <img alt="Laos" className={size} src='./img/country/laos.svg'></img>
+                            <img alt="Australia" className={size} src='./img/country/australia.svg'></img>
+                            <img alt="Brunei" className={size} src='./img/country/brunei.svg'></img>
                         </div>
 
 

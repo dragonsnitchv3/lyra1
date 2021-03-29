@@ -7,7 +7,8 @@ import AllOne from "../components/AllOne";
 import textData from '../components/Data/TextData';
 import {connect} from 'react-redux';
 import { Helmet } from 'react-helmet'
-import dynamic from 'next/dynamic'
+import dynamic from 'next/dynamic';
+import Head from 'next/head'
 
 class DigitalMarketing extends React.Component {
     componentDidMount() {
@@ -33,6 +34,8 @@ class DigitalMarketing extends React.Component {
          	}
          	return null;
          };
+
+
 
          function disableselect(e) {
            return false
@@ -74,6 +77,8 @@ class DigitalMarketing extends React.Component {
                 }
             }  
 
+
+
           
       }
 
@@ -89,11 +94,11 @@ class DigitalMarketing extends React.Component {
         return(
             <div className="body_wrapper">
                 <DynamicComponentWithNoSSR />
-                <Helmet>
+                <Head>
                     <title>{content.d0439a}</title>
                     <meta name="description" content={content.d0034a} />
                     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-                </Helmet>
+                </Head>
                 <OnepageMenu nLang={cLang} navL=""/>
                 {/* <OnepageMenu slogo="sticky_logo" mClass="menu_four" nClass="w_menu" hbtnClass="btn_get_radious menu_custfive" nLang={cLang} navL=""/> */}
                 {/* <Hamburger /> */}

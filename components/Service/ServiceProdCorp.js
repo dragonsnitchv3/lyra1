@@ -151,14 +151,14 @@ class Product2 extends React.Component {
                 
 
                 <section className="bk_col5b sec_pad32">
-                    <div className="wrapper_padding3 prod_desc2 lf_text max_width">
+                    <div className="wrapper_padding3a prod_desc2 lf_text max_width">
                             <Reveal effect="fadeInUp" duration={1300}><h5>{content.d0468}</h5></Reveal>
                     </div>     
-                    <div className="wrapper_padding3">
-                        <TrackingProductItem itemClass="tracking_pr_two" image="wd1.jpg" imagepre="wd1pre.jpg"  TrackingTitle={content.d0469} Trackingd={content.d0470} Trackingd2={content.d0470a} Trackingbtn={content.d0142} nLang={nLang}/>
-                        <TrackingProductItem itemClass="tracking_pr_two" rowclass="flex-row-reverse" image="wd3.jpg" imagepre="wd3pre.jpg"  TrackingTitle={content.d0471}  Trackingd={content.d0472} Trackingd2 ={content.d0473} Trackingbtn={content.d0142} nLang={nLang}/>
-                        <TrackingProductItem itemClass="tracking_pr_two" image="wd4.jpg" imagepre="wd4pre.jpg" TrackingTitle={content.d0474}  Trackingd={content.d0475} Trackingd2={content.d0476} Trackingbtn={content.d0142} nLang={nLang}/>
-                        <TrackingProductItem itemClass="tracking_pr_two" rowclass="flex-row-reverse" image="wd2.jpg" imagepre="wd2pre.jpg" TrackingTitle={content.d0477}  Trackingd={content.d0478} Trackingd2={content.d0479} Trackingbtn={content.d0142} nLang={nLang}/>
+                    <div className="wrapper_padding3a">
+                        <TrackingProductItem itemClass="tracking_pr_two" pAlt="modern web development" image="modern-web-development.jpeg" imagepre="wd1pre.jpg"  TrackingTitle={content.d0679} Trackingd={content.d0680}  Trackingbtn={content.d0142} nLang={nLang}/>
+                        <TrackingProductItem itemClass="tracking_pr_two" pAlt="360 web customization" rowclass="flex-row-reverse" image="360-web-customization.jpeg" imagepre="wd3pre.jpg"  TrackingTitle={content.d0681}  Trackingd={content.d0682} Trackingd2={content.d0682a} Trackingbtn={content.d0142} nLang={nLang}/>
+                        <TrackingProductItem itemClass="tracking_pr_two" pAlt="web design and performance" image="design-and-performance.jpeg" imagepre="wd4pre.jpg" TrackingTitle={content.d0683}  Trackingd={content.d0684} Trackingd2={content.d0685} Trackingbtn={content.d0142} nLang={nLang}/>
+                        <TrackingProductItem itemClass="tracking_pr_two" pAlt="leading web technologies" rowclass="flex-row-reverse" image="leading-technologies.jpeg" imagepre="wd2pre.jpg" TrackingTitle={content.d0477}  Trackingd={content.d0686} Trackingd2={content.d0687} Trackingbtn={content.d0142} nLang={nLang}/>
                     </div>
                 </section>
 
@@ -209,13 +209,13 @@ class Product2 extends React.Component {
                 </Reveal>
 
                 <Reveal>
-                <div className="bk_col5 wrapper_padding9 sec_pad35">
+                <div className="bk_col5 wrapper_padding7 ">
 
-                    <div className="">
+                    <div className="sec_pad35">
                         <div className="prod_desc2 ctr_text mb_70">
                             <h2>{content.d0597}</h2>
                         </div>
-                        <div className="row justify-content-center ctr_text">
+                        <div className="row justify-content-center ctr_text2">
                             <WYWG2 PIcon="ti-split-v-alt" PName={content.d0498}/>
                             <WYWG2 PIcon="ti-mobile" PName={content.d0499}/>
                             <WYWG2 PIcon="ti-settings" PName={content.d0500}/>
@@ -233,7 +233,7 @@ class Product2 extends React.Component {
                             <div className="prod_desc3">
                                 <h1>{content.d0532}</h1> {/* */}
                                 <p><span className="f_700 t_color f_size_30 lf_text3p1">{content.d0533}</span>{content.d0534}</p>
-                                <p>{content.d0535}<span ><Link href="/Process"><a className="f_500 t_color">{content.d0537}</a></Link></span></p>
+                                <p>{content.d0535}<span ><Link href={content.d0386c}><a className="f_500 t_color">{content.d0537}</a></Link></span></p>
                                 <p>{content.d0536}</p>
                                 <p>{content.d0538}</p>
                             </div>

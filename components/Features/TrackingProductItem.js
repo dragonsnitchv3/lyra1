@@ -7,7 +7,7 @@ import ProgressiveImage from 'react-progressive-image';
 class TrackingProductItem extends Component {
     
     render(){
-        let {nLang, itemClass, rowclass, image, imagepre, TrackingTitle, Trackingd, Trackingd2, Trackingbtn}= this.props;
+        let {nLang, itemClass, rowclass, image, imagepre, TrackingTitle, Trackingd, Trackingd2, Trackingbtn, pAlt}= this.props;
         let content;
 
         nLang === 'en' ?
@@ -19,7 +19,7 @@ class TrackingProductItem extends Component {
                 <div className={`row align-items-center ${rowclass}`}>
                     <div className="col-lg-6 tracking_bg">
                         <ProgressiveImage src={"/img/" + image} placeholder={"/img/" + imagepre}>
-                            {src => <img className="img_size_square_ab" src={src} alt="" />}
+                            {src => <img className="img_size_square_ab" src={src} alt={pAlt} />}
                         </ProgressiveImage>
                         {/* <img className= "software_img" src={"/img/" + image} alt=""/> */}
                     </div>

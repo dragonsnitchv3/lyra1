@@ -35,7 +35,7 @@ class WebPortal extends React.Component {
                     <meta name="description" content={content.d0304} />
                     <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 </Head>
-                <OnepageMenu slogo="sticky_logo" mClass="menu_four" nClass="w_menu" hbtnClass="btn_get_radious menu_custfive" nLang={cLang} navL="Services/WebPortal"/>
+                <OnepageMenu slogo="sticky_logo" mClass="menu_four" nClass="w_menu" hbtnClass="btn_get_radious menu_custfive" nLang={cLang} navL={content.d0385ae}/>
                 {/* <CrmBanner PtitleBTF = {true} PdescriptionTF ={true} Ptitle={content.d0303} Psub ={content.d0304} Pdescription={content.d0305} Limg={require('../../img/home7/portal1.png')} nLang={cLang}/>
                 <HostingActionTwo nLang={cLang}/>
                 <ServiceP ServiceData={ServiceData} Title={content.d0306} WBP={true} Hicon='ti-id-badge' iclass='icon_five' hrno3="hr3_five" hrno4="hr4_five" dataNo={content.d0442} dataNo2={content.d0447} nLang={cLang}/>       */}

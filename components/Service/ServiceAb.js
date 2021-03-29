@@ -44,7 +44,7 @@ const Service = ({ nLang }) => {
                         <div className="center_vert1 col-lg-6 pb_90r">
                                 {/* <img className="img_size_square_ab" src='/img/main.jpg' alt=""/> */}
                                 <ProgressiveImage src="/img/main.jpg" placeholder="/img/mainpre.jpg">
-                                    {src => <img className="img_size_square_ab" src={src} alt="" />}
+                                    {src => <img className="img_size_square_ab" src={src} alt="Premier mobile app developer for businesses in Malaysia" />}
                                 </ProgressiveImage>
                         </div>
 
@@ -60,7 +60,7 @@ const Service = ({ nLang }) => {
                     <div className="row align-items-center mb_15">
                         <div className="col-lg-6 pr_70r pb_90r">
                                 <ProgressiveImage src="/img/wd2.jpg" placeholder="/img/wd2pre.jpg">
-                                    {src => <img className="img_size_square_ab" src={src} alt="" />}
+                                    {src => <img className="img_size_square_ab" src={src} alt="Modern web developer in Malaysia" />}
                                 </ProgressiveImage>
                         </div>
                         <div className="col-lg-6 about_pg2 pl_70r">
@@ -91,7 +91,7 @@ const Service = ({ nLang }) => {
 
                             <div className="col-lg-6 verticle_line pl_70r">
                                     <ProgressiveImage src="/img/office.jpg" placeholder="/img/officepre.jpg">
-                                        {src => <img className="img_size_square_ab" src={src} alt="" />}
+                                        {src => <img className="img_size_square_ab" src={src} alt="Latest web & mobile app development technologies" />}
                                     </ProgressiveImage>
                             </div>
                             

@@ -42,7 +42,7 @@ class DigitalMarketing extends React.Component {
                     <meta name="description" content={content.d0034} />
                     <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 </Head>
-                <OnepageMenu nLang={cLang} navL="Portfolio"/>
+                <OnepageMenu nLang={cLang} navL={content.d0385d}/>
                 {/* <OnepageMenu slogo="sticky_logo" mClass="menu_four" nClass="w_menu" hbtnClass="btn_get_radious menu_custfive" nLang={cLang} navL=""/> */}
                 {/* <Hamburger /> */}
                 <ServicePort nLang={cLang} />

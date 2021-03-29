@@ -3,11 +3,11 @@ import {Link} from 'react-router-dom';
 
 class Portfolio2griditem extends Component{
     render(){
-        var {pImg, ptitle, tOne, tTwo, colClass } = this.props;
+        var {pImg, ptitle, tOne, tTwo, colClass, pAlt } = this.props;
         return(
             <div className={`portfolio_item mb-30 ${colClass} `}>
                 <div className="portfolio_img">
-                    <img src={'/img/portfolio/' + pImg} alt=""/>
+                    <img src={'/img/portfolio/' + pImg} alt={pAlt}/>
                     <div className="hover_content">
                         <a href=".#" className="img_popup leaf"><i className="ti-plus"></i></a>
                         <div className="portfolio-description leaf">

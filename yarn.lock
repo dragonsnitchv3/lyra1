@@ -12458,13 +12458,13 @@ react-no-ssr@^1.1.0:
   dependencies:
     babel-runtime "6.x.x"
 
-react-particles-js@^3.4.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/react-particles-js/-/react-particles-js-3.4.0.tgz#20383bbf2a8b8ca9060fc8482d028b95cbbf273c"
-  integrity sha512-ybsHCm090TljGOr0kk+ONftYQBqeaxZ65tkmEDzMP/6LW6tZVXj9b027LQ3T8nGU9tfSb8wF5bNfH57nEoABWA==
+react-particles-js@^3.2.1:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/react-particles-js/-/react-particles-js-3.4.1.tgz#e0f17ae1ddb07d01ce911448db76cd59726fe666"
+  integrity sha512-c3+vITUMN9RlgbERZYd9Kzvjmf49ENp07+9+NDLvE1Jf9euabrJi/q6gCCcv5foxGHBYjHnGs47Tusmrl0/+GQ==
   dependencies:
     lodash "^4.17.11"
-    tsparticles "^1.18.5"
+    tsparticles "^1.18.10"
 
 react-player@^2.0.1:
   version "2.3.0"
@@ -14711,10 +14711,10 @@ tsparticles@^1.15.1:
     pathseg "^1.2.0"
     tslib "^2.0.0"
 
-tsparticles@^1.18.5:
-  version "1.18.9"
-  resolved "https://registry.yarnpkg.com/tsparticles/-/tsparticles-1.18.9.tgz#fb2ebd2d15dd093b6a3d66db71130266507f777e"
-  integrity sha512-y7jUHlG/MbbJCI3iz0DZD69bi5tJKkocu0ZFyN6aWFtFFV/4MN4UsNwwGRpZ3G3m2H7HTjxYbtwvSo851WfrYA==
+tsparticles@^1.18.10:
+  version "1.24.2"
+  resolved "https://registry.yarnpkg.com/tsparticles/-/tsparticles-1.24.2.tgz#b68ead7ba079c8af4de504f116249e1dcf39d1d5"
+  integrity sha512-ZS2dpmAMhd8cQRWGxoPI/zY82/o2eVGqYClvGCLknrJtxCpcitLnt2lUmCepIgCQMdI/sLjNRc7RGMOg9jD/tg==
   optionalDependencies:
     pathseg "^1.2.0"
 

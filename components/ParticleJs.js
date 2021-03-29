@@ -8,19 +8,23 @@ class ParticlesJs extends React.Component {
         let device;
     
         window.innerWidth > 700 ?
-        (device = 80):
-        (device = 25)
+        (device = 70):
+        (device = 30)
         return (
                 <Particles 
                     // width= "100%"
                     height= {window.innerHeight}
                     params={{ 
-                    retina_detect: false,
+
+                    
                     particles: { 
                         number: { 
                         value: device, 
-                        
                         }, 
+                        move: {
+                            enable: true,
+                            speed: 1.1,
+                        },
                     color: {
                         value: '#ffffff',
                         opacity	: 1

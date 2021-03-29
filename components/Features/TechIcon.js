@@ -2,11 +2,11 @@ import React from 'react';
 
 export default class TechIcon extends React.Component {
     render(){
-        var {Pimg, Pdesc} = this.props
+        var {Pimg, Pdesc, pAlt} = this.props
         return(
                 <div className="ctr_text mb-30 max-width">
                     <div className="tech_logo_area">
-                        <img className="" src={'/img/stack/' + Pimg}></img>
+                        <img alt={pAlt} className="" src={'/img/stack/' + Pimg}></img>
                     </div>
                         
                     
