@@ -41,7 +41,7 @@ class Product2 extends React.Component {
                     <div className="sec_pad32 col-lg-12 ">
                         <div className="row">
                             <div className="col-lg-5 sec_pad33">
-                                <ProgressiveImage src='/img/home7/corp.png' placeholder='/img/home7/corppre.png'>
+                                <ProgressiveImage src='/img/home7/corp.corp.jpeg' placeholder='/img/home7/corppre.png'>
                                     {src => <img className="img_size_square3u" src={src} alt="" />}
                                 </ProgressiveImage>
                             </div>
