@@ -1603,8 +1603,9 @@
     
     .prod_desc2 h2 {
     color: #ffffff;
-    font-size: 30px;
+    font-size: 24px;
     letter-spacing: 5px;
+    line-height: 32px;
     font-weight: 400;
     margin-bottom: 80px;
     }
@@ -4927,6 +4928,8 @@
         letter-spacing: 2px;
         text-align: center;
       }
+
+
       
 
       
@@ -4963,6 +4966,7 @@
         line-height: 23px;
         letter-spacing: 1px;
         text-align: center;
+        width: 160px;
       }
       
       .hosting_service_item5b h1 {
@@ -4977,6 +4981,66 @@
       }
       
       .hosting_service_item5b h2 {
+        color: #ffffff;
+        margin-bottom: 10px;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 26px;
+        letter-spacing: 2px;
+        text-align: center;
+      }
+
+
+
+
+      .hosting_service_item5c .icon {
+        -webkit-transition: all 0.3s linear;
+        -o-transition: all 0.3s linear;
+        transition: all 0.3s linear;
+        width: 120px;
+        /* width: 50px; */
+        border: 2px solid #FF0B6F;
+        border-radius: 30%;
+        padding: 25px ;
+        margin-bottom: 20px;
+        color: #FF0B6F;
+        font-size: 60px;
+        text-shadow: 0 0 3px red;
+        box-shadow: 0 0 10px #FF0B6F;
+        margin: 0 auto;
+      }
+
+      .hosting_service_item5c:hover .icon{
+        -webkit-transition: all 0.3s linear;
+        -o-transition: all 0.3s linear;
+        transition: all 0.3s linear;
+        /* width: 50px; */
+        text-shadow: 0 0 50px red;
+        box-shadow: 0 0 25px #FF0B6F;
+      }
+
+      .hosting_service_item5c p {
+        color: #c0c0c0;
+        font-weight: 200;
+        font-size: 14px;
+        line-height: 23px;
+        letter-spacing: 1px;
+        text-align: center;
+        width: 160px;
+      }
+      
+      .hosting_service_item5c h1 {
+        color: #ffffff;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: 2px;
+        text-align: center;
+      }
+      
+      .hosting_service_item5c h2 {
         color: #ffffff;
         margin-bottom: 10px;
         font-weight: 500;

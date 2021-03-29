@@ -161,7 +161,7 @@ const AllOne = ({nLang}) => {
                                 </div>
 
                                 <div className="col-lg-6 pl_70r">
-                                        <img alt="Lyratics is the leading web & mobile app developer in Malaysia"className="img_size_square_ab" src='/img/main3.jpg' alt=""/>
+                                        <img alt="Lyratics is the leading web & mobile app developer in Malaysia" className="img_size_square_ab" src='/img/main3.jpg'/>
                                 </div>
                                 
                                 
