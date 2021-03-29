@@ -9,7 +9,7 @@ class ParticlesJs extends React.Component {
     
         window.innerWidth > 700 ?
         (device = 70):
-        (device = 30)
+        (device = 20)
         return (
                 <Particles 
                     // width= "100%"
