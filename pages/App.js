@@ -12,10 +12,7 @@ import Head from 'next/head'
 
 class DigitalMarketing extends React.Component {
     componentDidMount() {
-        const script = document.createElement("script");
-    
-        script.src = "//js.hs-scripts.com/7851342.js";
-        script.async = true;
+        
 
         document.body.appendChild(script);
     
