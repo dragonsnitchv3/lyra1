@@ -24,7 +24,7 @@ const Product = ({ nLang }) => {
 
     return(
         <React.Fragment>
-            <section className="bk_col5 ">
+            <section className="">
                 <Reveal>
                 <div className="bk_col5 row wrapper_padding7">
                     <div className="verticle_lineg1"></div>
