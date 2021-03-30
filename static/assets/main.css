@@ -19572,6 +19572,24 @@ height: 120px;
   transition: all 0.3s linear;
 }
 
+.hosting_service_item5b h3 {
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.hosting_service_item5b:hover h3{
+  color: #FF0B6F;
+  font-weight: 600;
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
 
 
 
