@@ -1,6 +1,6 @@
 # *
 User-agent: *
-Allow: /
+Disallow: js.hs-scripts.com/7851342.js
 
 # Host
 Host: https://www.lyratics.com
