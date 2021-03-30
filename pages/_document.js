@@ -14,8 +14,8 @@ class MyDocument extends Document {
         <link rel="shortcut icon" href="/img/ly1.png" />
         <script
           async
-          src="https://www.googletagmanager.com/gtag/js?id=UA-170284473-1"
-        ></script>
+          src="https://www.googletagmanager.com/gtag/js?id=UA-170284473-1"/>
+    
         <script
           dangerouslySetInnerHTML={{
             __html: `
