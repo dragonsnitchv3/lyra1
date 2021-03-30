@@ -116,7 +116,7 @@ const AllOne = ({nLang}) => {
                         
                     </div>
                     <div className=" ctr_text">
-                        <Link href={content.d0386} data-wow-delay="0.4s"><a className=" about_btn btn_hover wow fadeInUp">{content.d0032}</a></Link>
+                        <Link href={content.d0386d} data-wow-delay="0.4s"><a className=" about_btn btn_hover wow fadeInUp">{content.d0706}</a></Link>
                     </div>
                     
                 </div>
