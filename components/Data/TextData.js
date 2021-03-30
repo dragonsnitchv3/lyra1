@@ -3496,7 +3496,7 @@ const textData = {
         d0703: "Our mobile app development technology specialization revolves around the MERN stack which includes React Native, NodeJS, MongoDB & ExpressJS. MERN stack is a world recognized success formula towards high quality mobile application.",
         d0704: "We have a portfolio of distinctive web and mobile app development projects from Malaysia and other countries. Our team of web and mobile app developers are versatile in meeting client's requirements.",
         d0705: "We provide customized ecommerce development services that ranges from marketplace ecommerce development, multivendor ecommerce similar to Shoppee. We also develop payment gateway, marketplace sync, sales analysis dashboard, shipping consignment tracking module etc.",
-        d0706: "Visit Portfolio",
+        d0706: "VISIT PORTFOLIO",
         d070: "",
         d070: "",
         d071: "",
