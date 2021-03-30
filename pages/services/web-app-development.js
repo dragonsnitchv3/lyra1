@@ -30,7 +30,7 @@ class WSWA extends React.Component {
             <div className="body_wrapper2">
                <DynamicComponentWithNoSSR />
                 <Head>
-                    <title>{content.d0481}{content.d0443}</title>
+                    <title>{content.d0481a}{content.d0443}</title>
                     <meta name="description" content={content.d0470b} />
                     <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 </Head>

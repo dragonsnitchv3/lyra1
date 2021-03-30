@@ -2226,7 +2226,7 @@ const textData = {
         d0441: "Lyratics MLM/Direct-Sales Platform",
         d0441a: "Lyratics Warehouse Management System",
         d0442: "Web Portal",
-        d0443: " - Lyratics Technologies",
+        d0443: " - Lyratics",
         d0444: "Discover our",
         d0445: "Development Process",
         d0446: "Standard 8-steps process for all web and mobile app development.",
@@ -2375,7 +2375,8 @@ const textData = {
         d0478: "Our web & mobile app development specialization spans across various tech stacks including React, NodeJS, Python, PHP, Microsoft .NET (C#.NET, VB.NET), Big Data (NoSQL, MongoDB, MSSQL), JavaScript, jQuery, jSON, CSS, Payment Gateway Development, API programming and integration etc.",
         d0479: "Your website will be built using cutting edge technologies and frameworks.",
         d0480: "Web System",
-        d0481: "Web Development",
+        d0481: "Premier Web Developer & Designer In Malaysia",
+        d0481a: "Premier Web App Developer & Designer In Malaysia",
         d0482: [
             {
                 id: '4',
@@ -3120,7 +3121,7 @@ const textData = {
         d0645: "WITH",
         d0646: "Combined with our effective and efficient mobile app solutions delivery, you are receving one of the best end to end solutions service in the industry.",
         d0647: "Your new mobile app will be built using cutting edge technologies and frameworks.",
-        d0648: "Mobile App Development",
+        d0648: "Premier Mobile App Developer & Designer in Malaysia",
         d0649: "MOBILE APP",
         d0650: "We Provide Mobile App Development Service in Malaysia & Internationally",
         d0651: "https://bknv2-8op34hqg6.vercel.app",
@@ -5890,6 +5891,7 @@ const textData = {
         d0479: "您所订制的网站应用程序将会使用优良的国际公认构架与科技。",
         d0480: "网站应用程序",
         d0481: "网站应用程序开发",
+        d0481a: "Best Web App Developer & Designer In Malaysia",
         d0482: [
             {
                 id: '4',
