@@ -94,7 +94,7 @@ class DigitalMarketing extends React.Component {
 
             {
                 "@context": "http://www.schema.org",
-                "@type": "SoftwareCompany",
+                "@type": "SoftwareApp",
                 "name": "Lyratics Technologies",
                 "url": "https://www.lyratics.com/",
                 "logo": "https://dbtt8lz9zizso.cloudfront.net/mail/lyratics.png",
