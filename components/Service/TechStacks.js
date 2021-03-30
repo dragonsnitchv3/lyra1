@@ -16,7 +16,7 @@ const TechStacks = ({ nLang, bk_col}) => {
         <div className={`${bk_col} wrapper_padding7 sec_pad32`}>
             <Reveal>
             <div className="home_desc5 ctr_text2 mt_50r">
-                <h1 className="txt_gap3">{content.d0419}</h1>
+                <h5 className="txt_gap3">{content.d0419}</h5>
                 <p className="">{content.d0421}</p>
                 <h3>{content.d0420}</h3>
             </div>
