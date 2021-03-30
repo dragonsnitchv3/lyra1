@@ -98,6 +98,7 @@ class DigitalMarketing extends React.Component {
                 "name": "Lyratics Technologies",
                 "url": "https://www.lyratics.com/",
                 "logo": "https://dbtt8lz9zizso.cloudfront.net/mail/lyratics.png",
+                "image": "https://dbtt8lz9zizso.cloudfront.net/mail/lyratics.png",
                 "description": "Lyratics Technologies provides web, android & ios mobile app development services in Malaysia and internationally. We are a web and mobile app developer that specializes in developing distinctive web and mobile apps that grow your business.",
                 "address": {
                    "@type": "PostalAddress",
