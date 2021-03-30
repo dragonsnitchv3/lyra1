@@ -24,7 +24,7 @@ const Product = ({ nLang }) => {
 
     return(
         <React.Fragment>
-            <section className="bk_col5 ">
+            <section className="">
                 <Reveal>
                 <div className="bk_col5 row wrapper_padding7">
                     <div className="verticle_lineg1"></div>
@@ -56,7 +56,7 @@ const Product = ({ nLang }) => {
                     <div className="verticle_lineg1_ctr"></div>
                     <div className="wrapper_paddingm1 prod_desc1 ctr_text2 sec_pad34">
                         <p>{content.d0615}</p>
-                        <h1>{content.d0616}</h1>
+                        <h3>{content.d0616}</h3>
                     </div>
                     <div className="verticle_lineg1_ctr disp_mob"></div>
                     <div className="triangle-up disp_mob "></div>
@@ -178,7 +178,7 @@ const Product = ({ nLang }) => {
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="prod_desc3">
-                                <h1>{content.d0528}</h1>
+                                <h4>{content.d0528}</h4>
                                 <p><span className="f_700 t_color f_size_30 lf_text3p1">{content.d0524}</span>{content.d0625}</p>
                                 <p>{content.d0626}</p>
                                 <p>{content.d0627}</p>
@@ -187,7 +187,7 @@ const Product = ({ nLang }) => {
                         </div>
                         <div className="col-lg-6">
                             <div className="prod_desc3 mt_50r">
-                                <h1>{content.d0529}</h1>
+                                <h4>{content.d0529}</h4>
                                 <p className="mb_50"><span className="f_700 t_color f_size_30 lf_text3p1">{content.d0531}</span>{content.d0629}</p>
                                 <li className="process_bullet2">{content.d0630}</li>
                                 <li className="process_bullet2">{content.d0631}</li>
@@ -222,7 +222,7 @@ const Product = ({ nLang }) => {
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="prod_desc3">
-                                <h1>{content.d0532}</h1> {/* */}
+                                <h4>{content.d0532}</h4> {/* */}
                                 <p><span className="f_700 t_color f_size_30 lf_text3p1">{content.d0524}</span>{content.d0636}</p>
                                 <p>{content.d0637}</p>
                                 <p>{content.d0535}<span ><Link href="/Process"><a className="f_500 t_color">{content.d0639}</a></Link></span></p>

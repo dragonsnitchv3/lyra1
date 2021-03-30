@@ -24,7 +24,7 @@ class WSWA extends React.Component {
         const cLang = "en"
         const content = textData.english;
         const DynamicComponentWithNoSSR = dynamic(
-            () => import('../../components/ParticleJs2'),
+            () => import('../../components/ParticleJs'),
             { ssr: false }
         )
         return(

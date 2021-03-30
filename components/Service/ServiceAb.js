@@ -76,7 +76,7 @@ const Service = ({ nLang }) => {
                 <div className="container sec_pad32">
 
                     <div className="about_pg2 txt_gap2 ctr_text mb_50r ">
-                        <h>{content.d0463}</h>
+                        <h1>{content.d0463}</h1>
                     </div>
 
                     <div className="row">

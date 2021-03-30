@@ -58,7 +58,7 @@ const Process = ({ nLang }) => {
                                 <div className="col-lg-6 flex-row-reverse d-flex align-items-center ">
                                     
                                     <div className="about_pg3 pr_50r">
-                                        <h1 className={`wow fadeInUp`}>{content.d0484}</h1>
+                                        <h2 className={`wow fadeInUp`}>{content.d0484}</h2>
                                         <p className="fadeInUp">{content.d0475}</p>
                                         <p className="fadeInUp">{content.d0475a}</p>
                                     </div>

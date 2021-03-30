@@ -41,7 +41,7 @@ class Product2 extends React.Component {
                     <div className="sec_pad32 col-lg-12 ">
                         <div className="row">
                             <div className="col-lg-5 sec_pad33">
-                                <ProgressiveImage src='/img/home7/corp.corp.jpeg' placeholder='/img/home7/corppre.png'>
+                                <ProgressiveImage src='/img/home7/website.png' placeholder='/img/home7/corppre.png'>
                                     {src => <img className="img_size_square3u" src={src} alt="" />}
                                 </ProgressiveImage>
                             </div>
@@ -68,7 +68,7 @@ class Product2 extends React.Component {
                         {/*<p><span className="f_700 t_color f_size_30 lf_text3">{content.d0509}</span>{content.d0510}</p>*/}
                         <p><span className="f_700 t_color f_size_30 lf_text3">{content.d0663}</span>{content.d0662}</p>
                         <p>{content.d0664}</p>
-                        <h1 className="disp_mob">{content.d0665}</h1>
+                        <h3 className="disp_mob">{content.d0665}</h3>
                     </div>
                     <div className="verticle_lineg1_ctr disp_mob"></div>
                     <div className="triangle-up disp_mob "></div>
@@ -187,7 +187,7 @@ class Product2 extends React.Component {
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="prod_desc3">
-                                <h1>{content.d0528}</h1>
+                                <h4>{content.d0528}</h4>
                                 <p><span className="f_700 t_color f_size_30 lf_text3p1">{content.d0524}</span>{content.d0525}</p>
                                 <p>{content.d0526}</p>
                                 <p>{content.d0527}</p>
@@ -195,7 +195,7 @@ class Product2 extends React.Component {
                         </div>
                         <div className="col-lg-6">
                             <div className="prod_desc3 mt_50r">
-                                <h1>{content.d0529}</h1>
+                                <h4>{content.d0529}</h4>
                                 <p className="mb_50"><span className="f_700 t_color f_size_30 lf_text3p1">{content.d0531}</span>{content.d0530}</p>
                                 <li className="process_bullet2">{content.d0598}</li>
                                 <li className="process_bullet2">{content.d0599}</li>
@@ -231,7 +231,7 @@ class Product2 extends React.Component {
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="prod_desc3">
-                                <h1>{content.d0532}</h1> {/* */}
+                                <h4>{content.d0532}</h4> {/* */}
                                 <p><span className="f_700 t_color f_size_30 lf_text3p1">{content.d0533}</span>{content.d0534}</p>
                                 <p>{content.d0535}<span ><Link href={content.d0386c}><a className="f_500 t_color">{content.d0537}</a></Link></span></p>
                                 <p>{content.d0536}</p>

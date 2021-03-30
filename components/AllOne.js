@@ -147,7 +147,7 @@ const AllOne = ({nLang}) => {
 
                     <div className="container">
                         <div className="prod_desc2 ctr_text mb_50r ">
-                            <h3>{content.d0461}</h3>
+                            <h1>{content.d0461}</h1>
                         </div>
 
                         <div className="row">

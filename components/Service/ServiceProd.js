@@ -58,7 +58,7 @@ const Product = ({ nLang }) => {
                         {/*<p><span className="f_700 t_color f_size_30 lf_text3">{content.d0509}</span>{content.d0510}</p>*/}
                         <p><span className="f_700 t_color f_size_30 lf_text3">{content.d0509}</span>{content.d0511}</p>
                         <p>{content.d0512}</p>
-                        <h1 className="disp_mob">{content.d0507}</h1>
+                        <h3 className="disp_mob">{content.d0507}</h3>
                     </div>
                     <div className="verticle_lineg1_ctr disp_mob"></div>
                     <div className="triangle-up disp_mob "></div>
@@ -181,7 +181,7 @@ const Product = ({ nLang }) => {
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="prod_desc3">
-                                <h1>{content.d0528}</h1>
+                                <h4>{content.d0528}</h4>
                                 <p><span className="f_700 t_color f_size_30 lf_text3p1">{content.d0524}</span>{content.d0525}</p>
                                 <p>{content.d0526}</p>
                                 <p>{content.d0527}</p>
@@ -189,7 +189,7 @@ const Product = ({ nLang }) => {
                         </div>
                         <div className="col-lg-6">
                             <div className="prod_desc3 mt_50r">
-                                <h1>{content.d0529}</h1>
+                                <h4>{content.d0529}</h4>
                                 <p className="mb_50"><span className="f_700 t_color f_size_30 lf_text3p1">{content.d0531}</span>{content.d0530}</p>
                                 <li className="process_bullet2">{content.d0598}</li>
                                 <li className="process_bullet2">{content.d0599}</li>
@@ -225,7 +225,7 @@ const Product = ({ nLang }) => {
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="prod_desc3">
-                                <h1>{content.d0532}</h1> {/* */}
+                                <h4>{content.d0532}</h4> {/* */}
                                 <p><span className="f_700 t_color f_size_30 lf_text3p1">{content.d0533}</span>{content.d0534}</p>
                                 <p>{content.d0535}<span ><Link href="/Process"><a className="f_500 t_color">{content.d0537}</a></Link></span></p>
                                 <p>{content.d0536}</p>
