@@ -3430,7 +3430,7 @@ const textData = {
         d0667: "MOST",
         d0668: "corporate websites today are built with the objective of getting the job done at a low cost through agencies using simple CRM drag & drop UI system such as the all familiar, Wordpress.",
         d0669: 'The end product is a simple, looks similar to others and has minimal interface elements.',
-        d0670: "WEB DEVELOPER & DESIGNER",
+        d0670: "WEBSITE DEVELOPER & DESIGNER",
         d0671: "We Provide Web Development & Designing Service in Malaysia & Internationally",
         d0672: "STRATEGY & INSIGHT",
         d0673: "CREATIVE & PRODUCTION",
