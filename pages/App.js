@@ -12,11 +12,28 @@ import Head from 'next/head'
 
 class DigitalMarketing extends React.Component {
     componentDidMount() {
-        
-
-        
+        const script = document.createElement("script");
     
-        
+        script.src = "//js.hs-scripts.com/7851342.js";
+        script.async = true;
+
+        document.body.appendChild(script);
+    
+        function getCookieValue(cname) {
+         	var name = cname + "=";
+         	var decodedCookie = decodeURIComponent(document.cookie);
+         	var ca = decodedCookie.split(';');
+         	for (var i = 0; i < ca.length; i++) {
+         		var c = ca[i];
+         		while (c.charAt(0) === ' ') {
+         			c = c.substring(1);
+         		}
+         		if (c.indexOf(name) === 0) {
+         			return c.substring(name.length, c.length);
+         		}
+         	}
+         	return null;
+         };
 
 
 
