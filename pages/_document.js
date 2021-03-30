@@ -32,7 +32,6 @@ class MyDocument extends Document {
           }}
         />
         <script src="https://cdn.rawgit.com/progers/pathseg/master/pathseg.js"></script>
-        <script type="text/JavaScript" src="../components/js/lock.js"></script>
         </Head>
         <body>
           <Main />
