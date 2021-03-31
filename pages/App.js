@@ -113,6 +113,7 @@ class DigitalMarketing extends React.Component {
                    "latitude": "3.0215469",
                    "longitude": "101.5801311"
                 },
+                "priceRange": "$$",
                 "hasMap": "https://www.google.com/maps/place/Lyratics+Technologies/@3.0215469,101.5801311,15z/data=!4m2!3m1!1s0x0:0xfd4435796d89194?sa=X&ved=2ahUKEwi3ss7OwtfvAhV7yTgGHc0-DwUQ_BIwCnoECBgQBQ",
                  "openingHours": "Mo 09:00-20:00 Tu 09:00-20:00 We 09:00-01:00 Th 09:00-20:00 Fr 09:00-20:00 Sa 09:00-20:00",
                 "telephone": "01161887508"
