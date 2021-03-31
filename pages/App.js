@@ -123,7 +123,7 @@ class DigitalMarketing extends React.Component {
             <div className="body_wrapper">
                 <DynamicComponentWithNoSSR />
                 <Head>
-                    <title>{content.d0439a}</title>
+                    <title>{content.d0439a}{content.d0443}</title>
                     <meta name="description" content={content.d0034a} />
                     <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
