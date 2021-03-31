@@ -49,7 +49,7 @@ const Service = ({ nLang }) => {
                         </div>
 
                         <div className="center_vert1 col-lg-6 about_pg2  ">
-                            <h>{content.d0035}</h>
+                            <h2>{content.d0035}</h2>
                             <p>{content.d0036}</p>
                             <p>{content.d0475}</p>
                         </div>
@@ -64,7 +64,7 @@ const Service = ({ nLang }) => {
                                 </ProgressiveImage>
                         </div>
                         <div className="col-lg-6 about_pg2 pl_70r">
-                            <h>{content.d0037}</h>
+                            <h2>{content.d0037}</h2>
                             <p>{content.d0038}</p>
                         </div>
                         

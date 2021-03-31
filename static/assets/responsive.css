@@ -1849,6 +1849,13 @@
     color: #FF0B6F;
     letter-spacing: 5px;
     }
+
+    .about_pg2 h2 {
+        font-size: 30px;
+        font-weight: 400;
+        color: #FF0B6F;
+        letter-spacing: 5px;
+    }
     
     .about_pg2 p {
     color: #94939B;

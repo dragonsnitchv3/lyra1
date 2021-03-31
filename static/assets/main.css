@@ -28639,6 +28639,13 @@ a .h_head2:hover {
   letter-spacing: 5px;
 }
 
+.about_pg2 h2 {
+  font-size: 28px;
+  font-weight: 300;
+  color: #FF0B6F;
+  letter-spacing: 5px;
+}
+
 .about_pg2 p {
   color: #94939B;
   font-size: 18px;
