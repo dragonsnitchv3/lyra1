@@ -39,22 +39,22 @@ class Product extends React.Component {
                     <div className="row">
                         <div className="vertical-center col-lg-4 hover_sec1 verticle_100m">
                             <div className="prodm_pg3 wrapper_padding12b txt_gap3 ctr_text vertical-center">
-                                <img className="img_size_square_ab4" src="/img/home7/corp1.png" alt="" />
-                                <h1 className="vertical-center wrapper_padding11">{content.d0672}<br></br></h1>
+                                <img className="img_size_square_ab4" src="/img/home7/corp1.png" alt="Web Developer and Designer Company In Malaysia" />
+                                <h4 className="vertical-center wrapper_padding11">{content.d0672}<br></br></h4>
                                 <p className="wrapper_padding12b">{content.d0675}<br></br></p>
                             </div>
                         </div>
                         <div className="col-lg-4 hover_sec1 verticle_100m">
                         <div className="prodm_pg3 wrapper_padding12 txt_gap3 ctr_text vertical-center">
-                            <img className="img_size_square_ab4" src="/img/home7/corp2.png" alt="" />
-                                <h1 className="vertical-center wrapper_padding11">{content.d0673}<br></br></h1>
+                            <img className="img_size_square_ab4" src="/img/home7/corp2.png" alt="Web Development and Design Company In Malaysia" />
+                                <h4 className="vertical-center wrapper_padding11">{content.d0673}<br></br></h4>
                                 <p className="wrapper_padding12b">{content.d0676}<br></br></p>
                             </div>
                         </div>
                         <div className="col-lg-4 hover_sec1 verticle_100m">
                         <div className="prodm_pg3 wrapper_padding12 txt_gap3 ctr_text vertical-center">
-                        <img className="img_size_square_ab4" src="/img/home7/corp3.png" alt="" />
-                                <h1 className="vertical-center wrapper_padding11">{content.d0674}<br></br></h1>
+                        <img className="img_size_square_ab4" src="/img/home7/corp3.png" alt="Website Developer and Designer Company In Malaysia" />
+                                <h4 className="vertical-center wrapper_padding11">{content.d0674}<br></br></h4>
                                 <p className="wrapper_padding12b">{content.d0677}<br></br></p>
                             </div>
                         </div>
@@ -70,7 +70,7 @@ class Product extends React.Component {
                                     {
                                         content.d0678.map((item) => {
                                             return(
-                                                <ServiceItemc Pduration={item.Pduration} Ptitle={item.Ptitle} Pdescription={item.Pdescription} Pimg={item.Pimg} Pimgpre={item.Pimgpre} PtOne={item.PtOne}/>
+                                                <ServiceItemc Pduration={item.Pduration} Ptitle={item.Ptitle} Pdescription={item.Pdescription} Pimg={item.Pimg} Pimgpre={item.Pimgpre} PtOne={item.PtOne} pAlt={item.pAlt}/>
                                             )
                                         })
                                     }

@@ -12959,6 +12959,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   transition: all 0.4s linear;
   color: rgb(0, 0, 0);
   font-weight: 600;
+  letter-spacing: 0.5px;
 }
 
 .portfolio_gallery .portfolio_item .portfolio_img .hover_content .portfolio-description .links {
@@ -19384,6 +19385,16 @@ height: 120px;
   text-transform: uppercase;
 }
 
+.hosting_service_item3 h2 {
+  color: #ffffff;
+  margin-bottom: 0;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
 .hosting_service_item4 {
   width: 200px;
   border-radius: 0px;
@@ -19575,10 +19586,10 @@ height: 120px;
 .hosting_service_item5b h3 {
   color: #ffffff;
   margin-bottom: 10px;
-  font-weight: 500;
-  font-size: 16px;
+  font-weight: 600;
+  font-size: 15px;
   line-height: 28px;
-  letter-spacing: 2px;
+  letter-spacing: 0.5px;
   text-transform: uppercase;
 }
 
@@ -19781,7 +19792,7 @@ height: 120px;
   -webkit-transition: all 0.3s linear;
   -o-transition: all 0.3s linear;
   transition: all 0.3s linear;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
 }
 
 .h_head2 {
@@ -25379,8 +25390,8 @@ a .h_head2:hover {
 
 .prod_desc1 h3 {
   color: #ffffff;
-  font-size: 26px;
-  letter-spacing: 5px;
+  font-size: 24px;
+  letter-spacing: 4px;
   font-weight: 400;
   margin-top: 40px;
 }
@@ -27222,12 +27233,12 @@ a .h_head2:hover {
 
 
 .aga1 {
-  font-weight: 300;
-  font-size: 40px;
+  font-weight: 400;
+  font-size: 36px;
   margin-bottom: 40px;
   line-height: 55px;
   max-width: 800px;
-  letter-spacing: 4px;
+  letter-spacing: 3px;
 }
 
 /*logo_item*/
@@ -28129,11 +28140,11 @@ a .h_head2:hover {
   letter-spacing: 1px;
 }
 
-.home_desc6 h {
+.home_desc6 h2 {
   font-size: 18px;
   font-weight: 600;
   color: #ffffff;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 .home_desc6a p {
@@ -28380,7 +28391,7 @@ a .h_head2:hover {
   color: #FFFFFF;
   font-weight: 300;
   margin-bottom: 15px;
-  letter-spacing: 5px;
+  letter-spacing: 4px;
 }
 
 .home_panel1 p {
@@ -28560,7 +28571,7 @@ a .h_head2:hover {
   color: white;
   font-size: 60px;
   font-weight: 300;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
   line-height: 60px;
 }
 
@@ -28593,7 +28604,7 @@ a .h_head2:hover {
   color: white;
   font-size: 60px;
   font-weight: 300;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
   line-height: 60px;
 }
 
@@ -28643,7 +28654,7 @@ a .h_head2:hover {
   font-size: 28px;
   font-weight: 300;
   color: #FF0B6F;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
 }
 
 .about_pg2 p {
@@ -28766,7 +28777,7 @@ a .h_head2:hover {
 
 .prodm_pg2 h1{
   color: white;
-  font-size: 45px;
+  font-size: 40px;
   font-weight: 400;
   letter-spacing: 3px;
   line-height: 60px;
@@ -28775,7 +28786,7 @@ a .h_head2:hover {
 
 .prodm_pg2 h2{
   color: #FF0B6F;
-  font-size: 45px;
+  font-size: 40px;
   font-weight: 400;
   letter-spacing: 3px;
   line-height: 60px;
@@ -28804,6 +28815,17 @@ a .h_head2:hover {
 }
 
 .prodm_pg3 h1{
+  color: white;
+  font-size: 26px;
+  font-weight: 400;
+  letter-spacing: 4px;
+  line-height: 35px;
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.prodm_pg3 h4{
   color: white;
   font-size: 26px;
   font-weight: 400;
@@ -28877,7 +28899,7 @@ a .h_head2:hover {
   transition: all 0.3s linear;
 }
 
-.hover_sec1:hover h1{
+.hover_sec1:hover h4{
   color: #FF0B6F;
   font-size: 30px;
   line-height: 40px;

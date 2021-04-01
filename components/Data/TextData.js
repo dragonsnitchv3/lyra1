@@ -3446,7 +3446,8 @@ const textData = {
                 Pdescription: "We use unique insights to initiate our ideas, personalize our messages and reach people at the right moment, in the way that feels most natural. This is when real magic happens.",
                 
                 Pimg: "corp1.png",
-                PtOne: "Web System"
+                PtOne: "Web System",
+                pAlt: "Web Developer and Designer Company In Malaysia",
             },
             {
                 id: '6',
@@ -3455,7 +3456,8 @@ const textData = {
                 Pdescription: "We master the blending of strategy, creativity, media and technology. Our experts work closely together to solve our clients’ business problems in compelling, innovative ways.",
                 
                 Pimg: "corp2.png",
-                PtOne: "Web System"
+                PtOne: "Web System",
+                pAlt: "Web Development and Design Company In Malaysia",
             },
             {
                 id: '6',
@@ -3464,7 +3466,8 @@ const textData = {
                 Pdescription: "We are experts at designing for all kinds of digital platforms, harnessing the power of digital media to engage people in unexpected ways – and increase conversations about our clients’ brands.",
                 
                 Pimg: "corp3.png",
-                PtOne: "Web System"
+                PtOne: "Web System",
+                pAlt: "Website Developer and Designer Company In Malaysia",
             },
             
             
@@ -3498,8 +3501,9 @@ const textData = {
         d0704: "We have a portfolio of distinctive web and mobile app development projects from Malaysia and other countries. Our team of web and mobile app developers are versatile in meeting client's requirements.",
         d0705: "We provide customized ecommerce development services that ranges from marketplace ecommerce development, multivendor ecommerce similar to Shoppee. We also develop payment gateway, marketplace sync, sales analysis dashboard, shipping consignment tracking module etc.",
         d0706: "VISIT PORTFOLIO",
-        d070: "",
-        d070: "",
+        d0707: "Web Developer and Designer Company In Malaysia",
+        d0708: "Web Development and Design Company In Malaysia",
+        d0709: "Website Developer and Designer Company In Malaysia",
         d071: "",
         d071: "",
         d071: "",
@@ -6961,7 +6965,8 @@ const textData = {
                 Pdescription: "我们使用专业见解来启发开发概念，根据用途呈现适合的资讯，并以最自然的方式向浏览客表达内容。",
                 
                 Pimg: "corp1.png",
-                PtOne: "Web System"
+                PtOne: "Web System",
+                pAlt: "Web Developer and Designer Company In Malaysia",
             },
             {
                 id: '6',
@@ -6970,7 +6975,8 @@ const textData = {
                 Pdescription: "天琴科技能有效混合策略，创造，内容媒体与科技。我们拥有经验丰富的团队，以创新方式解决客户的业务问题。我们将提供各角度方案，能给您最完善的服务。",
                 
                 Pimg: "corp2.png",
-                PtOne: "Web System"
+                PtOne: "Web System",
+                pAlt: "Web Development and Design Company In Malaysia",
             },
             {
                 id: '6',
@@ -6979,7 +6985,8 @@ const textData = {
                 Pdescription: "天琴科技团队拥有多元化的网站设计与科技掌握资源，能善用数字媒体的范围，吸引浏览者，提高流量。这也能提升与客户沟通的内容质量。",
                 
                 Pimg: "corp3.png",
-                PtOne: "Web System"
+                PtOne: "Web System",
+                pAlt: "Website Developer and Designer Company In Malaysia",
             },
             
             

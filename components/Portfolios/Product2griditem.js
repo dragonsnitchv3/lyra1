@@ -33,7 +33,7 @@ class Portfolio2griditem extends Component{
                 </Link>
                 
                 <div className="home_desc6 mt_15 ctr_text">
-                    <h>{Ptitle}</h>
+                    <h2>{Ptitle}</h2>
                     <p>{Pdescription}</p>
                 </div>
                 

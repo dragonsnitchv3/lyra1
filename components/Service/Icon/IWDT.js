@@ -8,7 +8,7 @@ const WYWG = ({ nLang, PIcon, PName, PDesc }) => {
                 <div className="icon ctr_text2 ">
                     <i className={PIcon}></i>
                 </div>
-                <h1 className="">{PName}</h1>
+                <h2 className="">{PName}</h2>
             </div>
         </div>
     )

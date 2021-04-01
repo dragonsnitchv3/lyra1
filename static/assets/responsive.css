@@ -1543,8 +1543,8 @@
     .prodm_pg2 h1{
         color: white;
         font-size: 35px;
-        font-weight: 400;
-        letter-spacing: 3px;
+        font-weight: 500;
+        letter-spacing: 2px;
         line-height: 50px;
         margin-bottom: 0px;
     }
@@ -1552,9 +1552,9 @@
     .prodm_pg2 h2{
         color: #FF0B6F;
         font-size: 35px;
-        font-weight: 400;
-        letter-spacing: 3px;
-        line-height: 60px;
+        font-weight: 500;
+        letter-spacing: 2px;
+        line-height: 50px;
         text-align: center;
         margin-bottom: 0px;
     }
@@ -1593,9 +1593,9 @@
 
     .prod_desc1 h3 {
         color: #ffffff;
-        font-size: 24px;
+        font-size: 20px;
         line-height: 32px;
-        letter-spacing: 5px;
+        letter-spacing: 2px;
         font-weight: 400;
         margin-top: 40px;
         }
@@ -1851,10 +1851,11 @@
     }
 
     .about_pg2 h2 {
-        font-size: 30px;
+        font-size: 28px;
         font-weight: 400;
         color: #FF0B6F;
-        letter-spacing: 5px;
+        letter-spacing: 3px;
+        line-height: 36px;
     }
     
     .about_pg2 p {
@@ -5037,10 +5038,10 @@
         color: #ffffff;
         margin-bottom: 10px;
         margin-top: 20px;
-        font-weight: 400;
+        font-weight: 600;
         font-size: 15px;
-        line-height: 25px;
-        letter-spacing: 2px;
+        line-height: 21px;
+        letter-spacing: 0.5px;
         text-align: center;
       }
       
@@ -5194,8 +5195,8 @@
         box-shadow: 0px 10px 50px 0px rgba(248, 99, 107, 0.3);
         border-radius: 100px;
         padding: 15px 50px;
-        font: 400 20px "Montserrat";
-        letter-spacing: 5px;
+        font: 300 20px "Montserrat";
+        letter-spacing: 2px;
     }
 
     .home_panel1 {
@@ -5213,8 +5214,8 @@
     .home_panel1 h2 {
         color: #ffffff;
         font-size: 40px;
-        letter-spacing: 5px;
-        font-weight: 400;
+        letter-spacing: 3px;
+        font-weight: 300;
         margin-bottom: 20px;
         line-height: 50px;
     }
