@@ -187,7 +187,7 @@ const Product = ({ nLang }) => {
                         <div className="col-lg-6">
                             <div className="prod_desc3">
                                 <h1>{content.d0532}</h1> {/* */}
-                                <p><span className="f_700 t_color f_size_30 lf_text3p1">{content.d0533}</span>{content.d0573}</p>
+                                <p><span className="f_700 t_color f_size_30 lf_text3p1">{content.d0533}</span>{content.d0566}</p>
                                 <p>{content.d0567}</p>
                                 <p>{content.d0568}</p>
                             </div>
