@@ -2361,7 +2361,7 @@ const textData = {
         d0468: "TAILORED SERVICES",
         d0469: "FULL SERVICE DEVELOPMENT",
         d0470: "Web development is our primary service offering. We have the expertise to assist our clients through the entire development cycle.",
-        d0470a: "Sourcing for best mobile app developer company in Malaysia? We provide mobile app development & design for iOS and Android using technologies like React Native.",
+        d0470a: "Sourcing for best mobile app developer company in Malaysia? We provide mobile app development & design for iOS and Android using React Native technology.",
         d0470b: "One of the leading web application developer in Malaysia. Full-scale web app development services for startups and businesses.",
         d0470c: "Sourcing for web developer and designer in Malaysia? We provide the best website development and design services using modern technologies.",
         d0471: "CONSULTATION",
