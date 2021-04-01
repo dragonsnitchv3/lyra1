@@ -2361,7 +2361,7 @@ const textData = {
         d0468: "TAILORED SERVICES",
         d0469: "FULL SERVICE DEVELOPMENT",
         d0470: "Web development is our primary service offering. We have the expertise to assist our clients through the entire development cycle.",
-        d0470a: "Sourcing for best mobile app developer company in malaysia? We provide mobile app development & design for iOS and Android using technologies like React Native.",
+        d0470a: "Sourcing for best mobile app developer company in Malaysia? We provide mobile app development & design for iOS and Android using technologies like React Native.",
         d0470b: "One of the leading web application developer in Malaysia. Full-scale web app development services for startups and businesses.",
         d0470c: "Sourcing for web developer and designer in Malaysia? We provide the best website development and design services using modern technologies.",
         d0471: "CONSULTATION",
@@ -2375,7 +2375,7 @@ const textData = {
         d0478: "Our web & mobile app development specialization spans across various tech stacks including React, NodeJS, Python, PHP, Microsoft .NET (C#.NET, VB.NET), Big Data (NoSQL, MongoDB, MSSQL), JavaScript, jQuery, jSON, CSS, Payment Gateway Development, API programming and integration etc.",
         d0479: "Your website will be built using cutting edge technologies and frameworks.",
         d0480: "Web System",
-        d0481: "Best Web Development & Design Company In Malaysia",
+        d0481: "Malaysia Web Development & Design Company",
         d0481a: "Web App Development Company In Malaysia",
         d0482: [
             {
@@ -3121,7 +3121,7 @@ const textData = {
         d0645: "WITH",
         d0646: "Combined with our effective and efficient mobile app solutions delivery, you are receving one of the best end to end solutions service in the industry.",
         d0647: "Your new mobile app will be built using cutting edge technologies and frameworks.",
-        d0648: "Mobile App Development & Design Company in Malaysia",
+        d0648: "Mobile App Development Company in Malaysia",
         d0649: "MOBILE APP",
         d0650: "We Provide Mobile App Development Service in Malaysia & Internationally",
         d0651: "https://bknv2-8op34hqg6.vercel.app",
