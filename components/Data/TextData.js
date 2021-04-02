@@ -2221,7 +2221,7 @@ const textData = {
         d0437: "Lyratics E-Commerce Marketplace",
         d0438: "Lyratics Web Portal",
         d0439: "Businesses and organizations are rendering for their own unique web portals for growth and improving their operation online.",
-        d0439a: "Top Web & Mobile App Developer In Malaysia",
+        d0439a: "Malaysia Top Web & Mobile App Developer",
         d0440: "Lyratics Online Booking System",
         d0441: "Lyratics MLM/Direct-Sales Platform",
         d0441a: "Lyratics Warehouse Management System",
