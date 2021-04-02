@@ -34,6 +34,7 @@ class Ecom extends React.Component {
                 <Head>
                     <title>{content.d0008}{content.d0443}</title>
                     <meta name="description" content={content.d0034} />
+                    <meta name="googlebot" content="index,follow"/>
                     <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 </Head>
                 <OnepageMenu slogo="sticky_logo" mClass="menu_four" nClass="w_menu" hbtnClass="btn_get_radious menu_custfive" nLang={cLang} navL={content.d0385ab}/>

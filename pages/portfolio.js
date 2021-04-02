@@ -37,6 +37,7 @@ class DigitalMarketing extends React.Component {
                 <Head>
                     <title>{content.d0439a}</title>
                     <meta name="description" content={content.d0704} />
+                    <meta name="googlebot" content="index,follow"/>
                     <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 </Head>
                 <OnepageMenu nLang={cLang} navL={content.d0386d}/>
