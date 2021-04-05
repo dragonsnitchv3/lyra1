@@ -125,7 +125,7 @@ class DigitalMarketing extends React.Component {
                 <Head>
                     <title>{content.d0439a}{content.d0443}</title>
                     <meta name="description" content={content.d0034a} />
-                    <meta name="googlebot" content="index,follow"/>
+                    <meta name="robots" content="index,follow,noodp,noydir"/>
                     <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
                     <script
