@@ -15,7 +15,7 @@ class HRServiceItems extends Component{
                                         <img src={'/img/home7/' + Pimg} alt={pAlt}/>
                                     
                                 </div>
-                                <div className="col-8 pl_50 lf_text lf_text2 align-items-bottom">
+                                <div className="col-8 pl_25 lf_text lf_text2 align-items-bottom">
                                     <h4 className="h_head">{Ptitle}</h4>
                                     <p>{Pdescription}</p>
                                 </div>

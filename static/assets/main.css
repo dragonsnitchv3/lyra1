@@ -582,8 +582,20 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   padding-left: 20px;
 }
 
+.pl_cust {
+  padding-left: 25px;
+}
+
+.pl_25 {
+  padding-left: 25px;
+}
+
 .pl-30 {
   padding-left: 30px;
+}
+
+.pl-35z {
+  padding-left: 100px;
 }
 
 .pl_40 {
@@ -9478,7 +9490,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .action_area_three .action_content .about_btn:hover {
   color: #ffffff;
   background: #FF0B6F;
-  font: 400 20px "Montserrat";
+  font: 300 20px "Montserrat";
   letter-spacing: 5px;
   -webkit-box-shadow: 0px 10px 50px 0px rgba(248, 99, 107, 0.3);
   box-shadow: 0px 10px 50px 0px rgba(248, 99, 107, 0.3);
@@ -9878,7 +9890,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   box-shadow: 0px 10px 50px 0px rgba(248, 99, 107, 0.3);
   border-radius: 100px;
   padding: 15px 50px;
-  font: 400 20px "Montserrat";
+  font: 300 18px "Montserrat";
   letter-spacing: 2px;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
@@ -9889,7 +9901,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   color: #ffffff;
   background: #FF0B6F;
   letter-spacing: 5px;
-  font: 400 20px "Montserrat";
+  font: 300 18px "Montserrat";
   -webkit-box-shadow: 0px 10px 50px 0px rgba(248, 99, 107, 0.3);
   box-shadow: 0px 10px 50px 0px rgba(248, 99, 107, 0.3);
   -webkit-transition: all 0.3s ease;
@@ -19189,6 +19201,8 @@ input[type="text"] {
   margin-bottom: 20px;
 }
 
+
+
 .hosting_service_item:hover .h_head{
   color: #FF0B6F;
 }
@@ -19227,8 +19241,6 @@ height: 120px;
   
 }
 
-
-
 .hosting_service_item .icon a {
   width: 70px;
   height: 60px;
@@ -19240,6 +19252,59 @@ height: 120px;
   color: #FF0B6F;
   font-size: 50px;
   text-shadow: 0 0 3px red;
+}
+
+.hosting_service_itemz .icon {
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  width: 120px;
+  /* width: 50px; */
+  border: 2px solid #FF0B6F;
+  border-radius: 30%;
+  padding: 25px ;
+  margin-bottom: 20px;
+  color: #FF0B6F;
+  font-size: 60px;
+  text-shadow: 0 0 3px red;
+  box-shadow: 0 0 20px #FF0B6F;
+
+}
+
+.hosting_service_itemz .icon a {
+  width: 70px;
+  height: 60px;
+  line-height: 60px;
+  /* border: 2px solid #FF0B6F; */
+  border-radius: 6px;
+  background: transparent;
+  margin-bottom: 10px;
+  color: #FF0B6F;
+  font-size: 50px;
+  text-shadow: 0 0 3px red;
+}
+
+.hosting_service_itemz {
+  padding: 10px 10px;
+  border-radius: 0px;
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  
+  /* border: 2px solid #FF0B6F; */
+}
+
+.hosting_service_itemz:hover {
+  padding: 30px 30px;
+  border-radius: 50px;
+  -webkit-transition: all 0.1s linear;
+  /* -o-transition: all 0.3s linear;
+  transition: all 0.3s linear; */
+  cursor: pointer;
+  border: 2px solid #FF0B6F;
+  box-shadow: 0 0 10px #FF0B6F;
+  margin-bottom: 20px;
 }
 
 .icon_glow {
@@ -28362,7 +28427,7 @@ a .h_head2:hover {
 }
 
 .tracking_pr_item + .tracking_pr_item {
-  margin-top: 120px;
+  margin-top: 90px;
 }
 
 .tracking_pr_two .tracking_content {

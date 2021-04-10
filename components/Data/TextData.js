@@ -22,7 +22,7 @@ const textData = {
             {
                 
                 btitle : 'SOLUTIONS\n',
-                description : 'Lyratics Technologies provides Mobile App, Web, & Software Development Solutions that speaks extensive of performance, quality and versatility for your business.',
+                description : 'Lyratics Technologies provides Mobile App, Web & Software Development Solutions that speaks extensive of performance, quality and versatility for your business.',
             },
         d0014: 'FREE CONSULTATION',
         d0015: 'WEB SYSTEM PRODUCTS',
@@ -3500,7 +3500,7 @@ const textData = {
         d0703: "Our mobile app development technology specialization revolves around the MERN stack which includes React Native, NodeJS, MongoDB & ExpressJS. MERN stack is a world recognized success formula towards high quality mobile application.",
         d0704: "We have a portfolio of distinctive web and mobile app development projects from Malaysia and other countries. Our team of web and mobile app developers are versatile in meeting client's requirements.",
         d0705: "We provide customized ecommerce development services that ranges from marketplace ecommerce development, multivendor ecommerce similar to Shoppee. We also develop payment gateway, marketplace sync, sales analysis dashboard, shipping consignment tracking module etc.",
-        d0706: "VISIT PORTFOLIO",
+        d0706: "OUR PORTFOLIO",
         d0707: "Web Developer and Designer Company In Malaysia",
         d0708: "Web Development and Design Company In Malaysia",
         d0709: "Website Developer and Designer Company In Malaysia",
