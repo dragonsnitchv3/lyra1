@@ -5319,11 +5319,12 @@
     
     .home_panel1 h2 {
         color: #ffffff;
-        font-size: 40px;
+        font-size: 30px;
         letter-spacing: 3px;
         font-weight: 300;
         margin-bottom: 20px;
         line-height: 50px;
+        text-transform:uppercase;
     }
     
     .home_panel1 p {

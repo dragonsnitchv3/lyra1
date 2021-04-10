@@ -9490,7 +9490,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .action_area_three .action_content .about_btn:hover {
   color: #ffffff;
   background: #FF0B6F;
-  font: 300 20px "Montserrat";
+  font: 00 20px "Montserrat";
   letter-spacing: 5px;
   -webkit-box-shadow: 0px 10px 50px 0px rgba(248, 99, 107, 0.3);
   box-shadow: 0px 10px 50px 0px rgba(248, 99, 107, 0.3);
