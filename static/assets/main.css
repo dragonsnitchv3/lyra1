@@ -29131,6 +29131,16 @@ a .h_head2:hover {
   }
 }
 @media (max-width: 868px) {
+  .flag {
+    /* width: 30px; */
+    height: 65px;
+    margin-left : 4px;
+    margin-right : 4px;
+    transition: all 0.2s ease;
+    /* border: 2px solid white;
+    border-radius: 100px; */
+  }
+
   .znavbar .zmenu-list{
     display: inline-flex;
     margin-bottom: 0px;
