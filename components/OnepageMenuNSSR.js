@@ -123,9 +123,9 @@ class OnepageMenu extends Component {
                     {nLang === 'en'? 
                                 
                                     
-                                <li><a className="" href={`/cn${navL}`}><img className="flag"  src='/img/china.svg' /></a></li>
+                                <li className="li_pad"><a className="" href={`/cn${navL}`}><img className="flag"  src='/img/china.svg' /></a></li>
                                 :  
-                                <li><a className="" href={`/${navL}`}><img className="flag"  src='/img/uk.svg' /></a></li>
+                                <li className="li_pad"><a className="" href={`/${navL}`}><img className="flag"  src='/img/uk.svg' /></a></li>
                                     
                                 
                     }
