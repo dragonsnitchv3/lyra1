@@ -11,6 +11,7 @@ import '../static/assets/coreui-icons-master/css/free.css'
 import '../static/assets/coreui-icons-master/css/brand.css'
 import 'malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css';
 
+
  
 export default function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />

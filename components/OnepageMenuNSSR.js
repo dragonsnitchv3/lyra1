@@ -9,13 +9,70 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 import textData from './Data/TextData'
 
 class OnepageMenu extends Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {}
+ }
+
+    
     componentDidMount() {
-        $(window).on("load",function(){
-            $('.mega_menu_two .scroll').mCustomScrollbar({
-                mouseWheelPixels: 50,
-                scrollInertia: 0
-            })
-        })
+
+    const _this = this;
+    const body = document.querySelector("body");
+    const custom_logo1x = document.querySelector(".custom_logo1x");
+    const custom_logo1 = document.querySelector(".custom_logo1");
+    const znavbar = document.querySelector(".znavbar");
+    const menuBtn = document.querySelector(".menu-btn");
+    const cancelBtn = document.querySelector(".cancel-btn");
+    menuBtn.onclick = ()=>{
+      znavbar.classList.add("show");
+      menuBtn.classList.add("hide");
+
+    }
+    cancelBtn.onclick = ()=>{
+      znavbar.classList.remove("show");
+      menuBtn.classList.remove("hide");
+    }
+    
+
+    window.onscroll = function() {
+      if(_this.props.nLang === "en") {
+        scrollFunction()
+      } else{
+        scrollFunction2()
+      }
+    };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        znavbar.classList.remove("sticky");
+        znavbar.classList.add("sticky2")
+        custom_logo1x.classList.remove("custom_logo1x");
+        custom_logo1x.classList.add("custom_logo1xa");
+      } else {
+        znavbar.classList.remove("sticky2");
+        znavbar.classList.add("sticky")
+        custom_logo1x.classList.remove("custom_logo1xa");
+        custom_logo1x.classList.add("custom_logo1x")
+      }
+    }
+
+    function scrollFunction2() {
+        if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+          znavbar.classList.remove("sticky");
+          znavbar.classList.add("sticky2")
+          custom_logo1.classList.remove("custom_logo1");
+          custom_logo1.classList.add("custom_logo1a");
+        } else {
+          znavbar.classList.remove("sticky2");
+          znavbar.classList.add("sticky")
+          custom_logo1.classList.remove("custom_logo1a");
+          custom_logo1.classList.add("custom_logo1")
+        }
+      }
+
+        
     }
 
 
@@ -27,75 +84,59 @@ class OnepageMenu extends Component {
         nLang === 'en' ?
         (content = textData.english):
         (content = textData.chinese)
+
+        function triggerBL() {
+            var element = document.getElementById("backgroundBL");
+            element.className.add("navbar_fixed");
+            console.log("triggered")
+        }
+
         return (
-            <Sticky top={0} innerZ={9999} activeClass="navbar_fixed"> {/*.navbar_fixed .header_area */}
-                <header className="header_area">
-                <nav className={`navbar navbar-expand-lg menu_onez ${mClass}`}>
-                    <div className={`container ${cClass}`}>
-                        {
+            
+<nav id="znavbar" class="znavbar sticky">
+                <div class="zcontent">
+                
+                {
                             nLang === 'en' ?
                             <Link href={content.d0386e}>
-                                <a className={`navbar-brand ${slogo}`}>
-                                    <img className="custom_logo1x" src="/img/lyrad.png" alt=""/>
-                                    <img className="custom_logo1xa" src="/img/lyrad.png" alt="logo"/>
+                                <a >
+                                <img className="custom_logo1x" src="/img/lyrad.png" alt=""/>
                                 </a>    
                             </Link>
                             :
                             <Link  href={content.d0386e}>
-                                <a className={`navbar-brand ${slogo}`}>
+                                <a >
                                 <img className="custom_logo1" src="/img/lyracn2.png" alt=""/>
-                                <img className="custom_logo1a" src="/img/lyracn2.png" alt="logo"/>
                                 </a>
                             </Link>
                         }
-                        
-                        {/* <img className={'flag'} onClick={() => this.props.en()} src={require("../img/united-kingdom2.png")}/> */}
-                        {/* <img className={'flag'} onClick={() => this.props.cn()} src={require("../img/china2.png")}/>  */}
-                        <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span className="menu_toggle">
-                                <span className="hamburger">
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                </span>
-                                <span className="hamburger-cross">
-                                    <span></span>
-                                    <span></span>
-                                </span>
-                            </span>
-                        </button>
-
-                        
-
-                        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul className={`mrg_left1 navbar-nav menu ml-auto ${nClass}`}>
-                                
-                                
-                                <li className="nav-item"><Link exact title="About Us"  href={content.d0386a}><a className="nav-link">{content.d0002}</a></Link></li> {/*.w_menu .nav-item .nav-link*/}
-                                <li className="nav-item"><Link exact title="Products" href={content.d0386b}><a className="nav-link">{content.d0003}</a></Link></li>
-                                <li className="nav-item"><Link exact title="Portfolio" href={content.d0657a}><a className="nav-link">{content.d0657}</a></Link></li>
-                                <li className="nav-item"><Link exact title="Process" href={content.d0386c}><a className="nav-link">{content.d0004}</a></Link></li>
-                                <li className="nav-item"><Link title="Pricing" href={content.d0386}><a className="nav-link">{content.d0006}</a></Link></li>
-                            </ul>
-                           
-                            {nLang === 'en'? 
-                                
-                                    
-                                        <a className="pl_40" href={`/cn${navL}`}><img className="flag"  src='/img/china.svg' /></a>
-                                    
-                                
-                                :
-                                    
-                                        <a className="pl_40" href={`/${navL}`}><img className="flag"  src='/img/uk.svg' /></a>
-                                    
-                                
-                            }
-
-                        </div>
+                <ul class="zmenu-list">
+                    <div class="zicon cancel-btn">
+                    <i class="ti-close"></i>
                     </div>
-                </nav>
-                </header>
-            </Sticky>
+                                <li className=""><Link exact title="About Us"  href={content.d0386a}><a className="">{content.d0002}</a></Link></li> {/*.w_menu .nav-item .*/}
+                                <li className=""><Link exact title="Products" href={content.d0386b}><a className="">{content.d0003}</a></Link></li>
+                                <li className=""><Link exact title="Portfolio" href={content.d0657a}><a className="">{content.d0657}</a></Link></li>
+                                <li className=""><Link exact title="Process" href={content.d0386c}><a className="">{content.d0004}</a></Link></li>
+                                <li className=""><Link title="Pricing" href={content.d0386}><a className="">{content.d0006}</a></Link></li>
+                    
+                    {nLang === 'en'? 
+                                
+                                    
+                                <li><a className="" href={`/cn${navL}`}><img className="flag"  src='/img/china.svg' /></a></li>
+                                :  
+                                <li><a className="" href={`/${navL}`}><img className="flag"  src='/img/uk.svg' /></a></li>
+                                    
+                                
+                    }
+                </ul>
+                <div class="zicon menu-btn">
+                    <i class="ti-menu"></i>
+                </div>
+                </div>
+            </nav>
+            
+            
         );
     }
 }

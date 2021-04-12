@@ -19219,7 +19219,7 @@ height: 120px;
   -o-transition: all 0.3s linear;
   transition: all 0.3s linear;
   /* text-shadow: 0 0 30px red; */
-  text-shadow: 0 0 30px red;
+  text-shadow: 0 0 3px red;
   box-shadow: 0 0 30px #FF0B6F;
 }
 
@@ -27047,9 +27047,20 @@ a .h_head2:hover {
 
 .flag {
   /* width: 30px; */
-  height: 35px;
+  height: 36px;
   margin-left : 4px;
   margin-right : 4px;
+  transition: all 0.2s ease;
+  /* border: 2px solid white;
+  border-radius: 100px; */
+}
+
+.flag:hover {
+  /* width: 30px; */
+  height: 46px;
+  margin-left : 4px;
+  margin-right : 4px;
+  transition: all 0.2s ease;
   /* border: 2px solid white;
   border-radius: 100px; */
 }
@@ -27100,7 +27111,7 @@ a .h_head2:hover {
 .custom_logo1 {
   /* width: 40%;
   height: 20%; */
-  padding-top: 3px;
+  vertical-align: middle;
   width: 128px;
   height: 54px;
 }
@@ -27108,23 +27119,29 @@ a .h_head2:hover {
 .custom_logo1x {
   /* width: 40%;
   height: 20%; */
-  padding-top: 3px;
+  vertical-align: middle;
   max-width: 168px;
   /* height: 43px; */
+  -webkit-transition: all 0.1s linear;
+	-o-transition: all 0.1s linear;
+    transition: all 0.1s linear;
 }
 
 .custom_logo1xa {
   /* width: 40%;
   height: 20%; */
-  padding-top: 3px;
+  vertical-align: middle;
   max-width: 152px;
   /* height: 38px; */
+  -webkit-transition: all 0.1s linear;
+	-o-transition: all 0.1s linear;
+    transition: all 0.1s linear;
 }
 
 .custom_logo1xab {
   /* width: 40%;
   height: 20%; */
-  padding-top: 3px;
+  
   /* max-width: 102px; */
   max-height: 38px;
 }
@@ -27132,7 +27149,7 @@ a .h_head2:hover {
 .custom_logo1a {
   /* width: 40%;
   height: 20%; */
-  padding-top: 3px;
+  vertical-align: middle;
   width: 112px;
   height: 48px;
 }
@@ -29016,5 +29033,205 @@ a .h_head2:hover {
 }
 
 
+
+/* custom scroll bar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+::selection{
+  background: rgb(0,123,255,0.3);
+}
+.zcontent{
+  max-width: 1250px;
+  margin: auto;
+  padding: 0 1px;
+}
+.znavbar{
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  padding: 25px ;
+  transition: all 0.3s ease;
+
+}
+.znavbar.sticky{
+  background: rgba(255, 0, 0, 0);
+  padding: 14px 0;
+  box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
+  vertical-align: middle;
+}
+.znavbar.sticky2 {
+	background: #000000e3;
+	padding: 10px 0;
+	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
+  vertical-align: middle;
+  
+}
+.znavbar .zcontent{
+  display: flex;
+  vertical-align: middle;
+  justify-content: space-between;
+}
+.znavbar .zlogo a{
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  -webkit-transition: all 0.1s linear;
+	-o-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+
+.znavbar .zlogo2 a{
+	color: #fff;
+	font-size: 20px;
+	font-weight: 600;
+	text-decoration: none;
+	-webkit-transition: all 0.1s linear;
+    -o-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+  }
+
+.znavbar .zmenu-list{
+  margin-bottom: 0px;
+  display:table-row;
+  vertical-align: middle;
+}
+
+.zicon{
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+}
+.zmenu-list .cancel-btn{
+  position: absolute;
+  right: 30px;
+  top: 20px;
+}
+@media (max-width: 1230px) {
+  .zcontent{
+    padding: 0 60px;
+  }
+}
+@media (max-width: 1100px) {
+  .zcontent{
+    padding: 0 40px;
+  }
+}
+@media (max-width: 900px) {
+  .zcontent{
+    padding: 0 30px;
+  }
+}
+@media (max-width: 868px) {
+  .znavbar .zmenu-list{
+    display: inline-flex;
+    margin-bottom: 0px;
+    backdrop-filter: blur(50px) ;
+    -webkit-backdrop-filter: blur(50px) ;
+  }
+  .zmenu-list li{
+    list-style: none;
+  }
+  .zmenu-list li a{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 35px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+
+  body.disabled{
+    overflow: hidden;
+  }
+  .zicon{
+    display: block;
+  }
+  .zicon.hide{
+    display: none;
+  }
+  .znavbar .zmenu-list{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    right: -150%;
+    top: 0px;
+    display: block;
+    padding: 40px 0;
+    text-align: center;
+    background: #222;
+    transition: all 0.3s ease;
+  }
+  .znavbar.show .zmenu-list{
+    right: 0%;
+    background-color: #00000000;
+  }
+  .znavbar .zmenu-list li{
+    margin-top: 45px;
+    padding-right: 30px;
+    text-align: right;
+  }
+  .znavbar .zmenu-list li a{
+    font-size: 23px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    vertical-align: middle;
+    
+  }
+  .znavbar.show .zmenu-list li a{
+    margin-left: 0px;
+  }
+  
+}
+@media (max-width: 380px) {
+  .znavbar .zlogo a{
+    font-size: 27px;
+  }
+  
+}
+
+@media (min-width: 869px) {
+.znavbar .zmenu-list{
+  margin-bottom: 0px;
+  display:table-row;
+  vertical-align: middle;
+}
+.zmenu-list li{
+  list-style: none;
+  display: table-cell;
+  vertical-align: middle;
+  
+}
+.zmenu-list li a{
+  display:table-cell;
+  vertical-align: middle;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  padding-left: 33px;
+  transition: all 0.3s ease;
+}
+
+.zmenu-list li a:hover{
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 35px;
+  font-weight: 500;
+  padding-left: 33px;
+  transition: all 0.3s ease;
+
+}
+
+}
 
 

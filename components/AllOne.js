@@ -25,7 +25,7 @@ const AllOne = ({nLang}) => {
         
         <div className="body_wrapper bk_col5 ">
             <Reveal duration={1} effectOut="fadeOutLeft">
-            <div className=" bk_col5 sec_pad32">
+            <div className="bk_col5 sec_pad32">
                 {/* <Fade bottom cascade>
                     <div className="home_desc3 ctr_text hosting_title ">
                         <h>{content.d0423}</h>

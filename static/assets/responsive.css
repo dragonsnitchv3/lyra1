@@ -893,10 +893,7 @@
         
     }
 
-    .hosting_service_itemz {
-        padding: 17px 20px;
-        
-    }
+    
 
     .h_features_img img{
         max-width: 100%;
@@ -1252,6 +1249,29 @@
 }
 
 @media (max-width:992px){
+
+    .menu_onez {
+        padding:0px;
+        /* margin-top: -20px; */
+        margin-bottom: 0px;
+    }
+
+    .navbar_fixed .header_area {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #ff0000ec;
+        -webkit-box-shadow: 0px 4px 6px 0px rgba(12, 0, 46, 0.06);
+        box-shadow: 0px 4px 6px 0px rgba(12, 0, 46, 0.06);
+        margin-top: 0px;
+      }
+
+    .hosting_service_itemz {
+        padding: 17px 20px;
+        
+    }
+
     .hosting_service_itemz .icon {
         /* border: 2px solid #FF0B6F; */
         width: 120px;
@@ -1276,8 +1296,91 @@
         letter-spacing: 1px;
     }
 
+    .hosting_service_itemz .icon {
+        /* border: 2px solid #FF0B6F; */
+        width: 120px;
+        /* width: 50px; */
+        border: 2px solid #FF0B6F;
+        border-radius: 30%;
+        padding: 25px ;
+        /* margin-bottom: 20px; */
+        color: #FF0B6F;
+        font-size: 60px;
+        text-shadow: 0 0 5px red;
+        margin: 0 auto;
+
+    }
+
+    .hosting_service_itemz p {
+        color: #c0c0c0;
+        margin-bottom: 0;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 1px;
+      }
+
+
+
+      .hosting_service_item_corp {
+        padding: 17px 20px;
+        
+    }
+
+    .hosting_service_item_corp .icon {
+        /* border: 2px solid #FF0B6F; */
+        width: 120px;
+        /* width: 50px; */
+        border: 2px solid #FF0B6F;
+        border-radius: 30%;
+        padding: 25px ;
+        /* margin-bottom: 20px; */
+        color: #FF0B6F;
+        font-size: 60px;
+        text-shadow: 0 0 5px red;
+        margin: 0 auto;
+
+    }
+
+    .hosting_service_item_corp p {
+        color: #c0c0c0;
+        margin-bottom: 0;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 1px;
+    }
+
+    .hosting_service_item_corp .icon {
+        /* border: 2px solid #FF0B6F; */
+        width: 120px;
+        /* width: 50px; */
+        border: 2px solid #FF0B6F;
+        border-radius: 30%;
+        padding: 25px ;
+        /* margin-bottom: 20px; */
+        color: #FF0B6F;
+        font-size: 60px;
+        text-shadow: 0 0 5px red;
+        margin: 0 auto;
+
+    }
+
+    .hosting_service_item_corp p {
+        color: #c0c0c0;
+        margin-bottom: 0;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 1px;
+      }
+
     .pl_cust {
         padding-left: 70px;
+      }
+
+    .pl_cust2 {
+        padding-left: 0px;
       }
 
       .about_btn {
@@ -2330,6 +2433,7 @@
     .menu > .nav-item{
         padding-top: 10px;
         padding-bottom: 10px;
+        text-align: right;
     }
     .menu{
         padding: 10px 20px;
@@ -2342,13 +2446,13 @@
     }
     .navbar-collapse,.menu_four .navbar-collapse{
         max-height: 400px;
-        overflow-y: scroll;
         margin-left: 0px;
         margin-right: 0px;
         background: transparent;
     }
     .menu > .nav-item{
         margin-right: 0;
+        text-align: right;
     }
     .header_area .navbar-brand,.menu_toggle{
         transition: all 0.2s linear;
@@ -3251,6 +3355,10 @@
 
     .pl_cust {
         padding-left: 45px;
+    }
+
+    .pl_cust2 {
+        padding-left: 75px;
     }
 
 
@@ -4186,7 +4294,6 @@
     .custom_logo1 {
     /* width: 40%;
     height: 20%; */
-    padding-top: 3px;
     width: 95px;
     height: 41px;
     }
@@ -4194,7 +4301,6 @@
     .custom_logo1a {
         /* width: 40%;
         height: 20%; */
-        padding-top: 3px;
         width: 86px;
         height: 39px;
     }
@@ -4202,7 +4308,7 @@
     .custom_logo1x {
         /* width: 40%;
         height: 20%; */
-        padding-top: 3px;
+        
         max-width: 120px;
         
     }
@@ -4210,7 +4316,7 @@
     .custom_logo1xa {
         /* width: 40%;
         height: 20%; */
-        margin-top: 5px;
+        
         margin-bottom: 5px;
         max-width: 112px;
     }
@@ -4932,29 +5038,7 @@
 
     }
 
-    .hosting_service_itemz .icon {
-        /* border: 2px solid #FF0B6F; */
-        width: 120px;
-        /* width: 50px; */
-        border: 2px solid #FF0B6F;
-        border-radius: 30%;
-        padding: 25px ;
-        /* margin-bottom: 20px; */
-        color: #FF0B6F;
-        font-size: 60px;
-        text-shadow: 0 0 5px red;
-        margin: 0 auto;
-
-    }
-
-    .hosting_service_itemz p {
-        color: #c0c0c0;
-        margin-bottom: 0;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 20px;
-        letter-spacing: 1px;
-      }
+    
 
     .hosting_service_item4 {
         margin: 0 auto;
@@ -6720,7 +6804,7 @@
 @media (max-width:480px){
 
     .pl_cust {
-        padding-left: 35px;
+        padding-left: 42px;
     }
     
     .feedback_area_three{

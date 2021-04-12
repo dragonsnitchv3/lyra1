@@ -12,6 +12,7 @@ class MyDocument extends Document {
         <Head>
         <meta charset="utf-8" />
         <link rel="shortcut icon" href="/img/ly1.png" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
         <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=UA-170284473-1"/>
