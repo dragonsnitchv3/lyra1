@@ -29133,7 +29133,7 @@ a .h_head2:hover {
 @media (max-width: 868px) {
   .flag {
     /* width: 30px; */
-    height: 65px;
+    height: 50px;
     margin-left : 4px;
     margin-right : 4px;
     transition: all 0.2s ease;
@@ -29202,7 +29202,7 @@ a .h_head2:hover {
   }
 
   .li_pad {
-    margin-top: 20px !important;
+    margin-top: 30px !important;
   }
   
 }
