@@ -1,0 +1,28 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-lyrassr1-dev-144209-authRole",
+      "UnauthRoleArn": "arn:aws:iam::379933082656:role/amplify-lyrassr1-dev-144209-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::379933082656:role/amplify-lyrassr1-dev-144209-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-lyrassr1-dev-144209-deployment",
+      "UnauthRoleName": "amplify-lyrassr1-dev-144209-unauthRole",
+      "StackName": "amplify-lyrassr1-dev-144209",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:379933082656:stack/amplify-lyrassr1-dev-144209/ab495090-dfb7-11eb-be7e-06e612b9775e",
+      "AmplifyAppId": "d1v0lo3p1khg44"
+    }
+  },
+  "lyrassr": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-lyrassr1-lyrassr-144732-authRole",
+      "UnauthRoleArn": "arn:aws:iam::379933082656:role/amplify-lyrassr1-lyrassr-144732-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::379933082656:role/amplify-lyrassr1-lyrassr-144732-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-lyrassr1-lyrassr-144732-deployment",
+      "UnauthRoleName": "amplify-lyrassr1-lyrassr-144732-unauthRole",
+      "StackName": "amplify-lyrassr1-lyrassr-144732",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:379933082656:stack/amplify-lyrassr1-lyrassr-144732/647c5b20-dfb8-11eb-83d4-0a276ca6f304",
+      "AmplifyAppId": "d3l1n1opfeg4wj"
+    }
+  }
+}

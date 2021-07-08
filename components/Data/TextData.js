@@ -3078,6 +3078,42 @@ const textData = {
             
             
         ],
+        d0604a: [
+            {
+                PIcon:"ti-shopping-cart-full",
+                PName:"E-COMMERCE",
+            },
+            {
+                PIcon:"ti-panel",
+                PName:"BUSINESS PRODUCTIVITY",
+            },
+            {
+                PIcon:"ti-gift",
+                PName:"RETAIL & ENTERTAINMENT",
+            },
+            {
+                PIcon:"ti-home",
+                PName:"REAL ESTATE",
+            },
+            {
+                PIcon:"icon-plane",
+                PName:"TRAVEL & TRANSPORTATION",
+            },
+            {
+                PIcon:"ti-bell",
+                PName:"ON-DEMAND SERVICES",
+            },
+            {
+                PIcon:"ti-heart",
+                PName:"HEALTH",
+            },
+            {
+                PIcon:"ti-settings",
+                PName:"CUSTOM DEVELOPMENTS",
+            },
+            
+            
+        ],
         d0605: "END TO END ",
         d0606: "Website architecture design",
         d0607: "UX/UI design",
@@ -6573,8 +6609,44 @@ const textData = {
         d0603: "天琴科技是一所国际化的科技项目开发公司，我们能够为您基于各国业务（东南亚与中国大陆），提供优质的科技开发服务。",
         d0604: [
             {
-                PIcon:"ti-facebook",
-                PName:"社交网络",
+                PIcon:"ti-briefcase",
+                PName:"官方网站",
+            },
+            {
+                PIcon:"ti-panel",
+                PName:"运营自动化",
+            },
+            {
+                PIcon:"ti-gift",
+                PName:"销售&娱乐",
+            },
+            {
+                PIcon:"ti-home",
+                PName:"房地产",
+            },
+            {
+                PIcon:"icon-plane",
+                PName:"旅游与交通",
+            },
+            {
+                PIcon:"ti-bell",
+                PName:"服务业",
+            },
+            {
+                PIcon:"ti-heart",
+                PName:"医疗",
+            },
+            {
+                PIcon:"ti-settings",
+                PName:"手机应用程序订制",
+            },
+            
+            
+        ],
+        d0604a: [
+            {
+                PIcon:"ti-shopping-cart-full",
+                PName:"电商",
             },
             {
                 PIcon:"ti-panel",

@@ -168,20 +168,20 @@ const Product = ({ nLang }) => {
                 
 
 
-                <div className="bk_col5b wrapper_padding9 sec_pad35">
-                    <Reveal>
-                    <div className="">
+                <div className="bk_col5b wrapper_padding7">
+
+                    <div className="sec_pad35">
                         <div className="prod_desc2 ctr_text mb_70">
                             <h2>{content.d0597}</h2>
                         </div>
-                        <div className="row justify-content-center">
+                        <div className="row justify-content-center ctr_text2">
                             <WYWG2 PIcon="ti-split-v-alt" PName={content.d0498}/>
                             <WYWG2 PIcon="ti-mobile" PName={content.d0499}/>
                             <WYWG2 PIcon="ti-settings" PName={content.d0500}/>
                             <WYWG2 PIcon="icon-check" PName={content.d0501}/>
                         </div>
                     </div>
-                    </Reveal>
+
                 </div>
 
                 <Reveal>

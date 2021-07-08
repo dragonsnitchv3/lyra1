@@ -132,21 +132,20 @@ const Product = ({ nLang }) => {
                 </Reveal>
 
                 <Reveal>
-                <div className="bk_col5 wrapper_padding7 sec_pad35">
-                    <div className="row">
-                        <div className="col-lg-4">
-                            <div className="prod_desc2 width1 ctr_text">
-                                <h2>{content.d0519}</h2>
-                            </div>
+                <div className="bk_col5 wrapper_padding7">
+
+                    <div className="sec_pad35">
+                        <div className="prod_desc2 ctr_text mb_70">
+                            <h2>{content.d0597}</h2>
                         </div>
-                        <div className="col-lg-8">
-                            <div className="prod_desc2">
-                                <p><span className="f_700 t_color f_size_30 lf_text3">{content.d0520}</span>{content.d0521}</p>
-                                <p>{content.d0522}</p>
-                                <p>{content.d0523}</p>
-                            </div>
+                        <div className="row justify-content-center ctr_text2">
+                            <WYWG2 PIcon="ti-split-v-alt" PName={content.d0498}/>
+                            <WYWG2 PIcon="ti-mobile" PName={content.d0499}/>
+                            <WYWG2 PIcon="ti-settings" PName={content.d0500}/>
+                            <WYWG2 PIcon="icon-check" PName={content.d0501}/>
                         </div>
-                    </div>  
+                    </div>
+
                 </div>
                 </Reveal>
             {/* <section className="tracking_product_area sec_pad32">
@@ -166,13 +165,13 @@ const Product = ({ nLang }) => {
                 <Reveal>
                 <div className="bk_col5b wrapper_padding9 sec_pad35">
 
-                    <div className="">
+                    <div className="sec_pad35">
                         <div className="prod_desc2 ctr_text mb_70">
                             <h2>{content.d0597}</h2>
                         </div>
-                        <div className="row justify-content-center">
+                        <div className="row justify-content-center ctr_text2">
                             <WYWG2 PIcon="ti-split-v-alt" PName={content.d0498}/>
-                            <WYWG2 PIcon="ti-mobile" PName={content.d0499}/>
+                            <WYWG2 PIcon="ti-mobile" PName={content.d0635}/>
                             <WYWG2 PIcon="ti-settings" PName={content.d0500}/>
                             <WYWG2 PIcon="icon-check" PName={content.d0501}/>
                         </div>

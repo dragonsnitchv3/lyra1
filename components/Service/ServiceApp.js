@@ -95,7 +95,7 @@ const Product = ({ nLang }) => {
                         <div className="row mt_70rt justify-content-center">
                             
                             {
-                                content.d0604.map((item) => {
+                                content.d0604a.map((item) => {
                                     return(
                                         <KF PIcon={item.PIcon} PName={item.PName} PDesc={item.PDesc}/>  
                                     )
