@@ -4979,6 +4979,18 @@
         cursor: pointer;
         text-align: center;
     }
+    .hosting_service_item_corp:hover {
+        padding: 25px 10px;
+        border-radius: 0px;
+        -webkit-transition: all 0.3s linear;
+        -o-transition: all 0.3s linear;
+        transition: all 0.3s linear;
+        cursor: pointer;
+        text-align: center;
+        background-color: white;
+    }
+
+    
 
     .hosting_service_item_corp img{
         width: 120px;
